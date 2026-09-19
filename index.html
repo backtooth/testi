@@ -18,12 +18,46 @@
       main { padding: 2rem; }
       h1 { font-size: clamp(2.5rem, 8vw, 5rem); margin: 0 0 1rem; }
       p { font-size: 1.2rem; }
+      .counter { margin-top: 2rem; }
+      output { display: block; font-size: 4rem; font-weight: 700; margin: 1rem; }
+      button {
+        padding: 0.8rem 1.3rem;
+        margin: 0.3rem;
+        border: 2px solid #3157d5;
+        border-radius: 0.7rem;
+        background: #3157d5;
+        color: white;
+        font: inherit;
+        cursor: pointer;
+      }
+      button:hover { background: #2442a3; }
+      button:focus-visible { outline: 3px solid #18243b; outline-offset: 3px; }
+      #reset { background: transparent; color: #3157d5; }
     </style>
   </head>
   <body>
     <main>
       <h1>Hello World!</h1>
       <p>Ensimmäinen testisovellus toimii.</p>
+      <section class="counter" aria-labelledby="counter-title">
+        <h2 id="counter-title">Kuinka monta klikkausta?</h2>
+        <p>Kokeile painiketta ja kasvata laskuria!</p>
+        <output id="count" aria-live="polite" aria-label="Klikkausten määrä">0</output>
+        <button id="increment" type="button">Klikkaa +1</button>
+        <button id="reset" type="button">Nollaa</button>
+      </section>
     </main>
+    <script>
+      let count = 0;
+      const output = document.getElementById('count');
+      document.getElementById('increment').addEventListener('click', () => {
+        count += 1;
+        output.textContent = count;
+      });
+      document.getElementById('reset').addEventListener('click', () => {
+        count = 0;
+        output.textContent = count;
+      });
+    </script>
   </body>
 </html>
