@@ -1,10 +1,10 @@
 (function (root) {
   'use strict';
   const cards = {
-    infantry: { name: 'Jalkaväki', text: '1 sotilas · 7 HP · 2 isku · nopeus 1', hp: 7, damage: 2, speed: 1, count: 1 },
-    shield: { name: 'Kilpimiehet', text: '1 suojattu sotilas · 16 HP · 3 isku · nopeus 1', hp: 16, damage: 3, speed: 1, count: 1 },
-    ram: { name: 'Muurinmurtaja', text: '1 pässi · 19 HP · 5 isku · nopeus 1', hp: 19, damage: 5, speed: 1, count: 1 },
-    scout: { name: 'Rynnäkköjoukot', text: '1 nopea sotilas · 6 HP · 2 isku · nopeus 2', hp: 6, damage: 2, speed: 2, count: 1 },
+    infantry: { name: 'Jalkaväki', text: '1 sotilas · 7 HP · 2 isku', hp: 7, damage: 2, speed: 1, count: 1 },
+    shield: { name: 'Kilpimiehet', text: '1 suojattu sotilas · 16 HP · 3 isku', hp: 16, damage: 3, speed: 1, count: 1 },
+    ram: { name: 'Muurinmurtaja', text: '1 pässi · 19 HP · 5 isku', hp: 19, damage: 5, speed: 1, count: 1 },
+    scout: { name: 'Rynnäkköjoukot', text: '1 rynnäkkösotilas · 6 HP · 2 isku', hp: 6, damage: 2, speed: 2, count: 1 },
     moat: { name: 'Kaiva vallihauta', text: 'Valitun linjan ylitys viivästyy yhden vuoron. Ei portille.' },
     upgrade: { name: 'Paranna tornia', text: 'Valittu kulmatorni tekee +1 vahinkoa joka vuoro.' },
     reinforce: { name: 'Vahvista muuria', text: 'Valittu muuri tai portti: +5 nykyistä ja enimmäiskestävyyttä.' },
@@ -32,7 +32,7 @@
   }
   const towerNames={0:'Luode',4:'Koillinen',20:'Lounas',24:'Kaakko'};
   function assign(s,corner,troopId){
-    if(s.winner||!['defend','aim'].includes(s.phase)||!Object.hasOwn(s.towers,corner))return false;
+    if(s.winner||s.phase!=='aim'||!Object.hasOwn(s.towers,corner))return false;
     if(troopId===null){delete s.assignments[corner];return true;}
     const t=s.troops.find(t=>t.id===troopId&&t.hp>0);
     if(!t||!covers(Number(corner),t.side,t.lane))return false;
@@ -40,6 +40,7 @@
   }
   function confirmDefense(s){if(s.winner||s.phase!=='aim')return false;s.phase='battle';return true;}
   function planDefense(s){
+    if(s.winner||s.phase!=='aim')return false;
     s.assignments={};const predicted=new Map(s.troops.map(t=>[t.id,t.hp]));
     for(const [corner,power] of Object.entries(s.towers)){
       const targets=s.troops.filter(t=>predicted.get(t.id)>0&&covers(Number(corner),t.side,t.lane)).sort((a,b)=>b.pos-a.pos||b.damage-a.damage||a.id-b.id);
@@ -50,7 +51,7 @@
   function valid(s, card, target) {
     if (!target || !sides.includes(target.side) || !Number.isInteger(target.lane) || target.lane < 1 || target.lane > 5) return false;
     if (card === 'upgrade') return Object.hasOwn(s.towers, target.corner);
-    if (card === 'moat') return tile(target.side,target.lane)!==22 && !s.moats.includes(laneKey(target.side,target.lane));
+    if (card === 'moat') return (target.depth===undefined||target.depth===2)&&tile(target.side,target.lane)!==22 && !s.moats.includes(laneKey(target.side,target.lane));
     return !!cards[card];
   }
   function play(s, role, index, target, fallback = false) {
@@ -59,7 +60,6 @@
     if (!valid(s, fallback ? 'reinforce' : card, target)) return false;
     const id=tile(target.side,target.lane), wall=s.walls[id], label=sideNames[target.side]+' '+target.lane;
     if (role === 'attack') {
-      s.assignments={};s.lastAttack=[];s.lastShots=[];
       const spec=cards[card];
       for(let i=0;i<spec.count;i++){s.lastAttack.push(s.nextId);s.troops.push({id:s.nextId++,type:card,side:target.side,lane:target.lane,pos:0,hp:spec.hp,max:spec.hp,damage:spec.damage,speed:spec.speed,crossed:false});}
     } else if(fallback) { wall.hp++;wall.max++; }
@@ -69,7 +69,14 @@
     else if(card==='repair'){if(wall.hp===wall.max){wall.hp+=2;wall.max+=2;}else wall.hp=Math.min(wall.max,wall.hp+8);}
     log(s,(role==='attack'?'Hyökkääjä: ':'Puolustaja: ')+(fallback?'Hätälinnoitus':cards[card].name)+' → '+(card==='upgrade'&&!fallback?'kulmatorni':label));
     s.hands[role].splice(index,1);s.used[role]++;
-    s.phase=role==='attack'?'defend':'aim';return true;
+    if(!s.hands[role].length){if(role==='attack')s.phase='aim';else nextRound(s);}
+    return true;
+  }
+  function nextRound(s){
+    s.assignments={};s.lastAttack=[];s.round++;
+    for(const role of ['attack','defend'])s.hands[role].push(...s.decks[role].splice(0,3));
+    s.phase=s.hands.attack.length?'attack':'aim';
+    if(!s.hands.attack.length&&!s.hands.defend.length&&!s.troops.length){s.winner='defend';s.phase='over';log(s,'Kaikki hyökkääjät on torjuttu. Puolustaja voitti!');}
   }
   function battle(s) {
     if(s.winner||s.phase!=='battle')return false;
@@ -81,13 +88,13 @@
     const dead=s.troops.filter(t=>t.hp<=0).length;
     s.troops=s.troops.filter(t=>t.hp>0);if(dead)log(s,'Tornit tuhosivat '+dead+' joukkoa.');
     for(const t of s.troops){
-      if(t.pos<3){const next=Math.min(3,t.pos+t.speed);if(next===3&&!t.crossed&&s.moats.includes(laneKey(t.side,t.lane))){t.pos=2;t.crossed=true;log(s,'Vallihauta pysäytti joukon: '+sideNames[t.side]+' '+t.lane+'.');continue;}t.pos=next;}
-      if(t.pos===3){const w=s.walls[tile(t.side,t.lane)];w.hp=Math.max(0,w.hp-t.damage);log(s,sideNames[t.side]+' '+t.lane+': '+t.damage+' vahinkoa '+(tile(t.side,t.lane)===22?'porttiin.':'muuriin.'));if(w.hp===0){s.winner='attack';s.phase='over';log(s,'Puolustus murtui. Hyökkääjä voitti!');return true;}}
+      if(t.pos<2){t.pos=2;if(!t.crossed&&s.moats.includes(laneKey(t.side,t.lane))){t.crossed=true;t.waiting=true;log(s,'Vallihauta pysäytti joukon: '+sideNames[t.side]+' '+t.lane+'.');continue;}}
+      t.waiting=false;
+      const w=s.walls[tile(t.side,t.lane)];w.hp=Math.max(0,w.hp-t.damage);log(s,sideNames[t.side]+' '+t.lane+': '+t.damage+' vahinkoa '+(tile(t.side,t.lane)===22?'porttiin.':'muuriin.'));if(w.hp===0){s.winner='attack';s.phase='over';log(s,'Puolustus murtui. Hyökkääjä voitti!');return true;}
     }
     s.assignments={};s.lastAttack=[];
-    if(s.used.attack===12&&s.used.defend===12){s.phase='aim';if(!s.troops.length){s.winner='defend';s.phase='over';log(s,'Kaikki hyökkääjät on torjuttu. Puolustaja voitti!');}}
-    else {for(const role of ['attack','defend'])if(s.decks[role].length)s.hands[role].push(s.decks[role].shift());s.phase='attack';}
-    s.round++;return true;
+    if(s.hands.defend.length)s.phase='defend';else nextRound(s);
+    return true;
   }
   function ai(s, role) {
     const candidates=[];
@@ -105,13 +112,13 @@
       options.forEach(t=>{if(!valid(s,card,t))return;const wall=s.walls[tile(t.side,t.lane)],danger=threat(t);let score=0;
         if(card==='repair')score=Math.min(8,wall.max-wall.hp)*3+danger*.1;
         if(card==='reinforce')score=4+danger*.55;
-        if(card==='moat')score=3+s.troops.filter(u=>u.side===t.side&&u.lane===t.lane&&u.pos<3&&!u.crossed).length*5;
+        if(card==='moat')score=3+s.troops.filter(u=>u.side===t.side&&u.lane===t.lane&&u.pos<2&&!u.crossed).length*5;
         if(card==='upgrade')score=5+s.troops.filter(u=>covers(t.corner,u.side,u.lane)).length*3;
         if(!best||score>best.score)best={score,index,target:t};
       });
     }));
     const played=best?play(s,role,best.index,best.target):play(s,role,0,candidates[0],true);
-    return played&&planDefense(s);
+    return played;
   }
   const api={cards,sides,sideNames,towerNames,tile,laneKey,create,covers,assign,confirmDefense,planDefense,valid,play,battle,ai};
   if(typeof module!=='undefined')module.exports=api;else root.Siege=api;
