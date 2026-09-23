@@ -6,7 +6,7 @@ function cast(s,card,t=target){s.phase='defend';s.hands.defend=[card,'repair'];a
 function fight(s){s.phase='battle';assert(E.battle(s));}
 {
  const s=game();assert.equal(s.water.length,0);assert.equal(s.walls[0].hp,10);fight(s);assert.equal(s.walls[1].hp,13,'Dry chasm does not stop attack');
- assert(!E.valid(s,'oil',{...target,lane:1}));assert(E.valid(s,'fire',{...target,lane:1}));assert(!E.valid(s,'oil',{...target,depth:1}));assert(!E.valid(s,'fire',{...target,depth:1}));assert(!E.valid(s,'water',{side:'S',lane:3,depth:2}));
+ assert(E.valid(s,'oil',{...target,lane:1}));assert(E.valid(s,'fire',{...target,lane:1}));assert(!E.valid(s,'oil',{...target,depth:1}));assert(!E.valid(s,'fire',{...target,depth:1}));assert(!E.valid(s,'water',{side:'S',lane:3,depth:2}));
 }
 {
  const s=game();cast(s,'oil');assert(s.troops[0].oily);assert.equal(s.troops[0].skip,1);s.troops.push(unit(2));fight(s);assert.equal(s.walls[1].hp,13);assert(!s.troops[1].oily,'Later arrivals do not inherit dry oil');assert.equal(s.troops[0].skip,0);assert(s.troops[0].oily);
@@ -25,3 +25,5 @@ function fight(s){s.phase='battle';assert(E.battle(s));}
  const s=game();s.troops[0].burning=true;s.troops[0].hp=2;fight(s);assert.equal(s.troops.length,0);assert.equal(s.walls[1].hp,16);
 }
 console.log('PASS: chasm, 10 HP towers, oil legality/cohort/skip, fire AoE/DoT, water cleanse/skip, black water, burning water arrivals/expiry, burn death.');
+
+{const s=game();s.troops[0].lane=1;cast(s,'oil',{...target,lane:1});assert(s.troops[0].oily);assert.equal(s.troops[0].skip,1);s.walls[0].hp=0;assert(!E.valid(s,'oil',{...target,lane:1}));}

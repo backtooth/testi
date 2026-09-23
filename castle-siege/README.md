@@ -41,7 +41,7 @@ Kentän X-akseli kasvaa vasemmalta oikealle ja Y-akseli ylhäältä alas; molemm
 
 ## Öljy, tuli ja vesi
 
-Öljy toimii vain ehjän muurin tai portin viereisessä ruudussa, ei tornin vieressä. Kuivassa ruudussa vain nykyiset joukot öljyyntyvät ja menettävät seuraavan toimintonsa. Öljyisyys säilyy. Tuli toimii ehjän muurin, portin tai tornin vieressä: kaikki ruudun joukot saavat 3 vahinkoa, ja öljyiset joukot syttyvät palamaan. Palo tekee 2 vahinkoa jokaisen taistelun alussa, kunnes yksikkö kuolee tai vesi sammuttaa sen.
+Öljy toimii ehjän muurin, tornin tai portin viereisessä ruudussa. Kuivassa ruudussa vain nykyiset joukot öljyyntyvät ja menettävät seuraavan toimintonsa. Öljyisyys säilyy. Tuli toimii ehjän muurin, portin tai tornin vieressä: kaikki ruudun joukot saavat 3 vahinkoa, ja öljyiset joukot syttyvät palamaan. Palo tekee 2 vahinkoa jokaisen taistelun alussa, kunnes yksikkö kuolee tai vesi sammuttaa sen.
 
 Vedessä öljy mustaa pinnan ilman välitöntä vaikutusta joukkoihin. Tuli sytyttää öljyveden seuraavan taisteluvaiheen loppuun asti. Nykyiset ja saapuvat joukot syttyvät palamaan; saapuvat saavat 2 palovahinkoa heti. Ruudun palon päättyminen ei sammuta joukkoja. Vesi-kortti puhdistaa ja sammuttaa myös ruudun. Tornien alkukestävyys on 10 HP.
 

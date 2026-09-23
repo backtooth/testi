@@ -6,7 +6,7 @@
     ram: { name: 'Muurinmurtaja', text: '1 pässi · 19 HP · 5 isku', hp: 19, damage: 5, speed: 1, count: 1 },
     scout: { name: 'Rynnäkköjoukot', text: '1 rynnäkkösotilas · 6 HP · 2 isku', hp: 6, damage: 2, speed: 2, count: 1 },
     moat: { name: 'Laajenna rotkoa', text: 'Laajentaa kuivaa rotkoa yhden ruudun ulospäin. Kuiva rotko ei hidasta.' },
-    oil: {name:'Öljy',text:'Muurin tai portin viereen. Ruudun nykyiset joukot menettävät seuraavan vuoronsa ja jäävät öljyisiksi. Vedessä: musta pinta.'},
+    oil: {name:'Öljy',text:'Muurin, tornin tai portin viereen. Ruudun nykyiset joukot menettävät seuraavan vuoronsa ja jäävät öljyisiksi. Vedessä: musta pinta.'},
     fire: {name:'Tuli',text:'Rakenteen viereen: 3 vahinkoa kaikille ruudun joukoille. Öljyinen yksikkö palaa: 2 vahinkoa joka taistelussa.'},
     water: {name:'Vesi',text:'Täyttää yhden rotkoruudun. Nykyiset joukot menettävät seuraavan vuoronsa; öljy ja palo poistuvat. Uudet saapujat pysähtyvät.'},
     upgrade: { name: 'Paranna tornia', text: 'Valittu kulmatorni tekee +1 vahinkoa joka vuoro.' },
@@ -58,7 +58,7 @@
   function valid(s, card, target) {
     if (!target || !sides.includes(target.side) || !Number.isInteger(target.lane) || target.lane < 1 || target.lane > 5) return false;
     const depth=target.depth??2,id=tile(target.side,target.lane);
-    if(card==='oil')return depth===2&&!Object.hasOwn(towerNames,id)&&s.walls[id].hp>0;
+    if(card==='oil')return depth===2&&s.walls[id].hp>0;
     if(card==='fire')return depth===2&&s.walls[id].hp>0;
     if(card==='water')return chasm(s,target.side,target.lane,depth);
     if (card === 'upgrade') return Object.hasOwn(s.towers, target.corner);
