@@ -1,7 +1,7 @@
 const assert=require('node:assert/strict');
 const E=require('./engine.js');
 const target={side:'N',lane:2,corner:0,depth:2};
-function base(){const s=E.create('attack',()=>.5);s.towers={0:0,4:0,20:0,24:0};return s;}
+function base(){const s=E.create('attack',()=>.5);s.towers={0:0,4:0,20:0,24:0};s.moats=[];return s;}
 function unit(extra={}){return {id:1,type:'shield',side:'N',lane:2,pos:0,hp:16,max:16,damage:3,crossed:false,...extra};}
 for(const corner of [0,4,20,24]){let count=0;for(const side of E.sides)for(let lane=1;lane<=5;lane++)if(E.covers(corner,side,lane))count++;assert.equal(count,8);}
 assert(!E.covers(0,'N',5));assert(!E.covers(4,'N',1));assert(!E.covers(20,'W',1));assert(!E.covers(24,'S',1));
@@ -20,7 +20,7 @@ assert(!E.covers(0,'N',5));assert(!E.covers(4,'N',1));assert(!E.covers(20,'W',1)
 }
 {
  const s=base();s.troops=[unit({pos:2})];s.moats=['N2'];s.phase='battle';E.battle(s);assert.equal(s.walls[1].hp,13,'New moat does not stop an existing attacker');
- assert(!E.valid(s,'moat',{side:'S',lane:3,depth:2}));assert(!E.valid(s,'moat',{side:'E',lane:2,depth:0}));assert(!E.valid(s,'moat',{side:'E',lane:2,depth:1}));assert(E.valid(s,'moat',{side:'E',lane:2,depth:2}));
+ assert(!E.valid(s,'moat',{side:'S',lane:3,depth:2}));assert(!E.valid(s,'moat',{side:'E',lane:2,depth:0}));assert(E.valid(s,'moat',{side:'E',lane:2,depth:1}));assert(E.valid(s,'moat',{side:'E',lane:2,depth:2}));
 }
 {
  const s=base();s.towers[0]=9;s.troops=[unit({id:1}),unit({id:2})];s.phase='aim';assert(E.assign(s,0,1));assert(E.assign(s,0,2));E.confirmDefense(s);assert(!E.assign(s,0,1));E.battle(s);assert.equal(s.troops[0].hp,16);assert.equal(s.troops[1].hp,7);assert.equal(s.lastShots.length,1);assert.deepEqual(s.assignments,{});
@@ -33,6 +33,22 @@ assert(!E.covers(0,'N',5));assert(!E.covers(4,'N',1));assert(!E.covers(20,'W',1)
 }
 {
  const s=base();s.troops=[unit({side:'S',lane:3,damage:12})];s.phase='battle';E.battle(s);assert.equal(s.winner,'attack');assert(!E.play(s,'defend',0,target,true));
+}
+{
+ const s=E.create('attack');assert.equal(s.moats.length,19);assert(!s.moats.includes('S3'));assert.equal(s.widened.length,0);
+ s.phase='defend';s.hands.defend=['moat','repair'];assert(E.play(s,'defend',0,target));assert(s.widened.includes('N2'));assert(!E.valid(s,'moat',target));
+}
+{
+ const s=base();s.moats=['N2'];s.widened=['N2'];s.troops=[unit()];s.phase='battle';E.battle(s);assert.equal(s.troops[0].pos,1);assert.equal(s.walls[1].hp,16);
+ s.phase='battle';E.battle(s);assert.equal(s.troops[0].pos,2);assert.equal(s.walls[1].hp,16);
+ s.phase='battle';E.battle(s);assert.equal(s.walls[1].hp,13);
+}
+{
+ const s=base();s.troops=[unit({lane:1,pos:2,damage:16})];s.phase='battle';E.battle(s);assert.equal(s.winner,null);assert.equal(s.walls[0].hp,0);assert(!Object.hasOwn(s.towers,0));assert(!E.valid(s,'upgrade',{...target,corner:0}));assert(!E.valid(s,'repair',{...target,lane:1}));
+ s.used={attack:12,defend:12};s.hands={attack:[],defend:[]};s.decks={attack:[],defend:[]};s.phase='battle';E.battle(s);assert.equal(s.winner,'defend');
+}
+{
+ const s=base();s.troops=[unit({damage:16})];s.phase='battle';E.battle(s);assert.equal(s.winner,'attack');
 }
 const wins={attack:0,defend:0};
 for(let seed=1;seed<=200;seed++){
