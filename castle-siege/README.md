@@ -46,3 +46,7 @@ Kentän X-akseli kasvaa vasemmalta oikealle ja Y-akseli ylhäältä alas; molemm
 Vedessä öljy mustaa pinnan ilman välitöntä vaikutusta joukkoihin. Tuli sytyttää öljyveden seuraavan taisteluvaiheen loppuun asti. Nykyiset ja saapuvat joukot syttyvät palamaan; saapuvat saavat 2 palovahinkoa heti. Ruudun palon päättyminen ei sammuta joukkoja. Vesi-kortti puhdistaa ja sammuttaa myös ruudun. Tornien alkukestävyys on 10 HP.
 
 Puolustajan 12 korttia: 2 öljyä, 2 tulta, 2 vettä, 1 rotkon laajennus, 1 tornin parannus, 2 vahvistusta ja 2 korjausta. Pikseligrafiikka ja ruutukonsoli näyttävät kuivan rotkon, veden, mustan öljyveden, liekit sekä yksiköiden öljy-, palo- ja odotustilat.
+
+## Torjunnan valinta ruutukonsolista
+
+Valitse ensin ruutu pelikentältä, yksikkölistasta tai ruutukonsolin lähikuvasta. Konsoli näyttää vain ruutuun yltävät tornit ja niiden nykyiset kohteet. Valitse torni ja sitten yksi valitun ruudun hyökkääjistä. Uusi valinta korvaa tornin aiemman kohteen. Eri torneille voi määrätä omat kohteet; torjunnat ja niiden viivat säilyvät näkyvissä.

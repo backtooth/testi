@@ -1,11 +1,13 @@
 (() => {
  'use strict';
  const E=window.Siege,$=id=>document.getElementById(id);
- let activeCell={x:5,y:7};
+ let activeCell={x:5,y:7},defenseTower=null,defenseCellKey='';
+ $('inspect-neighbors').after($('defense-panel'));
+ $('tile-scene').onclick=event=>{if(!s)return;const r=event.currentTarget.getBoundingClientRect();const x=activeCell.x+Math.floor((event.clientX-r.left)/r.width*3)-1,y=activeCell.y+Math.floor((event.clientY-r.top)/r.height*3)-1;if(x<0||x>10||y<0||y>10)return;activeCell={x,y};const lane=laneAt(x,y);target={...target,...(lane||{depth:-1})};render();};
  let s=null,selected=0,viewTower=null,target={side:'S',lane:3,corner:0,depth:2};
  const colors={0:'#e8bd70',4:'#80d5e5',20:'#c5a5ef',24:'#9ed692'};
  function aiHand(role){let guard=0;while(!s.winner&&s.phase===role&&guard++<3)if(!E.ai(s,role))break;}
- function start(role){s=E.create(role);activeCell={x:5,y:7};selected=0;viewTower=null;target={side:'S',lane:3,corner:0,depth:2};$('start').hidden=true;$('game').hidden=false;if(role==='defend')aiHand('attack');render();}
+ function start(role){s=E.create(role);activeCell={x:5,y:7};selected=0;viewTower=null;defenseTower=null;defenseCellKey='';target={side:'S',lane:3,corner:0,depth:2};$('start').hidden=true;$('game').hidden=false;if(role==='defend')aiHand('attack');render();}
  document.querySelectorAll('[data-role]').forEach(b=>{b.onclick=()=>start(b.dataset.role);const icon=b.querySelector('span');icon.replaceChildren(PixelSiege.icon(b.dataset.role==='attack'?'ram':'upgrade'));});
  $('new-game').onclick=()=>{if(s&&!s.winner&&!confirm('Keskeytetäänkö nykyinen piiritys?'))return;s=null;$('game').hidden=true;$('start').hidden=false;};
  ['side','lane','corner'].forEach(id=>$(id).onchange=()=>{target[id]=id==='side'?$(id).value:Number($(id).value);target.depth=2;if(id==='corner'){viewTower=target.corner;activeCell={x:target.corner%5+3,y:Math.floor(target.corner/5)+3};}else{const p=position({side:target.side,lane:target.lane,pos:target.depth});activeCell={x:p.x-1,y:p.y-1};}render();});
@@ -21,11 +23,18 @@
  function defenseUI(){
   const editable=s.role==='defend'&&s.phase==='aim'&&!s.winner;
   $('defense-panel').hidden=!editable;const host=$('assignments');host.replaceChildren();
-  for(const corner of Object.keys(s.towers)){const name=E.towerNames[corner];
-   const label=document.createElement('label');label.className='tower-order';label.style.borderLeftColor=colors[corner];label.textContent=name+' (X'+(Number(corner)%5+4)+', Y'+(Math.floor(Number(corner)/5)+4)+') · '+s.towers[corner]+' vahinkoa';const sight=document.createElement('small');sight.textContent={0:'Näkyvyys: pohjoinen 1–4, länsi 1–4',4:'Näkyvyys: pohjoinen 2–5, itä 1–4',20:'Näkyvyys: etelä 1–4, länsi 2–5',24:'Näkyvyys: etelä 2–5, itä 2–5'}[corner];label.appendChild(sight);const select=document.createElement('select');select.id='assign-'+corner;select.setAttribute('aria-label',name+' torjuntakohde');
-   const empty=document.createElement('option');empty.value='';empty.textContent='Ei torjuntakohdetta';select.appendChild(empty);
-   s.troops.filter(t=>E.covers(Number(corner),t.side,t.lane)).forEach(t=>{const option=document.createElement('option');option.value=t.id;option.textContent='#'+t.id+' ['+coordinate(t)+'] '+E.sideNames[t.side]+' '+t.lane+' · '+E.cards[t.type].name+' ('+t.hp+'/'+t.max+' HP'+(E.status(t)?' · '+E.status(t):'')+')';select.appendChild(option);});
-   select.value=s.assignments[corner]??'';select.onchange=()=>{viewTower=Number(corner);E.assign(s,viewTower,select.value?Number(select.value):null);const t=s.troops.find(t=>t.id===Number(select.value));if(t)activeCell=PixelSiege.unitPos(t);render();};label.appendChild(select);host.appendChild(label);
+  const cellKey=activeCell.x+','+activeCell.y;
+  if(cellKey!==defenseCellKey){defenseTower=null;defenseCellKey=cellKey;}
+  const units=s.troops.filter(t=>{const p=PixelSiege.unitPos(t);return p.x===activeCell.x&&p.y===activeCell.y;});
+  const lane=laneAt(activeCell.x,activeCell.y);
+  const eligible=lane?Object.keys(s.towers).map(Number).filter(c=>E.covers(c,lane.side,lane.lane)):[];
+  if(!eligible.includes(defenseTower))defenseTower=null;
+  const prompt=document.createElement('p');prompt.textContent='1. Ruutu X'+(activeCell.x+1)+', Y'+(activeCell.y+1)+' · '+units.length+' hyökkääjää';host.appendChild(prompt);
+  const note=document.createElement('p');note.className='hint';note.textContent=!lane?'Valitse hyökkäysruutu kentältä tai lähikuvasta.':!eligible.length?'Yksikään jäljellä oleva torni ei yllä tähän ruutuun.':!units.length?'Tähän ruutuun yltävät tornit näkyvät alla. Ruudussa ei ole torjuttavia hyökkääjiä.':'2. Valitse ruutua puolustava torni.';host.appendChild(note);
+  eligible.forEach(c=>{const b=document.createElement('button');b.type='button';b.className='tower-order';b.dataset.defenseTower=c;b.style.borderLeftColor=colors[c];b.setAttribute('aria-pressed',String(defenseTower===c));const assigned=s.troops.find(t=>t.id===s.assignments[c]);b.textContent=E.towerNames[c]+' · X'+(c%5+4)+', Y'+(Math.floor(c/5)+4)+' · '+s.towers[c]+' vahinkoa'+(assigned?' · Nykyinen kohde #'+assigned.id+' ['+coordinate(assigned)+']':' · Vapaa');b.disabled=!units.length;b.onclick=()=>{defenseTower=c;viewTower=c;render();};host.appendChild(b);});
+  if(defenseTower!==null&&units.length){const label=document.createElement('p');label.textContent='3. Valitse '+E.towerNames[defenseTower]+'-tornin kohde tästä ruudusta:';host.appendChild(label);
+   units.forEach(t=>{const b=document.createElement('button');b.type='button';b.className='troop-row';b.dataset.defenseUnit=t.id;b.setAttribute('aria-pressed',String(s.assignments[defenseTower]===t.id));b.textContent='#'+t.id+' · '+E.cards[t.type].name+' · '+t.hp+'/'+t.max+' HP'+(E.status(t)?' · '+E.status(t):'')+(s.assignments[defenseTower]===t.id?' · VALITTU':'');b.onclick=()=>{E.assign(s,defenseTower,t.id);render();};host.appendChild(b);});
+   const clear=document.createElement('button');clear.type='button';clear.textContent='Poista tämän tornin torjuntakohde';clear.onclick=()=>{E.assign(s,defenseTower,null);render();};host.appendChild(clear);
   }
   const summary=$('defense-summary');summary.replaceChildren();
   const orders=Object.entries(s.assignments).map(([c,id])=>{const t=s.troops.find(t=>t.id===id);return t?{corner:c,troopId:id,side:t.side,lane:t.lane}:null;}).filter(Boolean);
@@ -83,11 +92,11 @@
   $('resolve').hidden=!!s.winner||s.phase!=='battle';$('resolve').textContent='Ratkaise taistelu';
   $('ai-response').hidden=!!s.winner||s.role!=='attack'||!['defend','aim'].includes(s.phase);$('ai-response').textContent=s.phase==='aim'?'Näytä tietokoneen torjuntavalinnat':'Puolustaja pelaa kolme korttia';
   $('confirm-defense').hidden=!!s.winner||s.role!=='defend'||s.phase!=='aim';
-  if(s.phase==='aim'&&s.role==='defend')$('help').textContent='Valitse enintään yksi hyökkääjä jokaiselle tornille. Korttisi pelataan vasta taistelun jälkeen.';
+  if(s.phase==='aim'&&s.role==='defend')$('help').textContent='Valitse ruutu, sitten ruutukonsolista torni ja lopuksi ruudussa oleva hyökkääjä. Jokaisella tornilla on yksi kohde. Kortit pelataan taistelun jälkeen.';
   $('result').hidden=!s.winner;$('result').textContent=s.winner?(s.winner===s.role?'Voitit! ':'Hävisit. ')+(s.winner==='attack'?'Linnan puolustus murtui.':'Linna kesti piirityksen.') :'';
   const list=$('log');list.replaceChildren();s.logs.slice(0,12).forEach(message=>{const li=document.createElement('li');li.textContent=message;list.appendChild(li);});
   const roster=$('troops');roster.replaceChildren();const heading=document.createElement('strong');heading.textContent='Hyökkääjät kentällä ('+s.troops.length+')';roster.appendChild(heading);
-  s.troops.forEach(t=>{const b=document.createElement('button');b.className='troop-row';b.type='button';const canAssign=s.role==='defend'&&s.phase==='aim'&&viewTower!==null&&E.covers(viewTower,t.side,t.lane);b.textContent='#'+t.id+' ['+coordinate(t)+'] '+E.cards[t.type].name+' · '+t.hp+'/'+t.max+' HP · '+E.sideNames[t.side]+' '+t.lane+' · '+(s.walls[E.tile(t.side,t.lane)].hp===0?'tornin raunioilla':t.waiting?'vallihaudassa':t.pos===2?'kohteen edessä':'saapumassa')+(E.status(t)?' · '+E.status(t):'')+(canAssign?' · Valitse kohteeksi':'');b.onclick=()=>{activeCell=PixelSiege.unitPos(t);target={...target,side:t.side,lane:t.lane,depth:t.pos};if(canAssign)E.assign(s,viewTower,t.id);render();};roster.appendChild(b);});
+  s.troops.forEach(t=>{const b=document.createElement('button');b.className='troop-row';b.type='button';b.textContent='#'+t.id+' ['+coordinate(t)+'] '+E.cards[t.type].name+' · '+t.hp+'/'+t.max+' HP · '+E.sideNames[t.side]+' '+t.lane+' · '+(s.walls[E.tile(t.side,t.lane)].hp===0?'tornin raunioilla':t.waiting?'vallihaudassa':t.pos===2?'kohteen edessä':'saapumassa')+(E.status(t)?' · '+E.status(t):'');b.onclick=()=>{activeCell=PixelSiege.unitPos(t);target={...target,side:t.side,lane:t.lane,depth:t.pos};render();};roster.appendChild(b);});
   axes();map();defenseUI();PixelSiege.inspect(s,activeCell);
  }
 })();
