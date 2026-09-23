@@ -29,3 +29,8 @@ Hyökkääjien listassa näkyvät yksilöllinen tunnus ja nykyinen/enimmäiskest
 ## Julkaisu
 
 GitHub Pages julkaisee main-haaran juuren. Pelin tiedostot ovat `index.html`, `style.css`, `engine.js` ja `game.js`. Kaikki resurssipolut ovat suhteellisia.
+
+## Koordinaatit
+
+Kentän X-akseli kasvaa vasemmalta oikealle ja Y-akseli ylhäältä alas; molemmissa arvot 1–11. Hyökkääjän tunnuksen yhteydessä näkyy nykyinen sijainti muodossa X4, Y1. Sijainti näkyy hyökkäysilmoituksessa, torjuntavalikoissa ja yksikkölistassa sekä päivittyy liikkeen jälkeen. Tornien valikoissa näkyy myös tornin oma sijainti.
+
