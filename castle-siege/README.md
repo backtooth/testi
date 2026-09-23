@@ -34,3 +34,7 @@ GitHub Pages julkaisee main-haaran juuren. Pelin tiedostot ovat `index.html`, `s
 
 Kentän X-akseli kasvaa vasemmalta oikealle ja Y-akseli ylhäältä alas; molemmissa arvot 1–11. Hyökkääjän tunnuksen yhteydessä näkyy nykyinen sijainti muodossa X4, Y1. Sijainti näkyy hyökkäysilmoituksessa, torjuntavalikoissa ja yksikkölistassa sekä päivittyy liikkeen jälkeen. Tornien valikoissa näkyy myös tornin oma sijainti.
 
+
+## 16-bittinen ulkoasu ja ruutukonsoli
+
+`pixel.js` piirtää paikalliset pikselispritet, maaston, muurit, portin, tornit, rauniot ja joukot suoraan pelitilasta. Ulkoisia kuvia tai verkkopalveluja ei tarvita. Klikkaamalla mitä tahansa ruutua ruutukonsoli näyttää sen ja ympäröivät ruudut. Aktiivinen ruutu on kehystetty kullalla. Yksiköiden HP:t, HP-palkit, iskuvoima ja vedessä odottaminen näkyvät konsolissa, samoin rakenteiden kestävyys, tornin tulivoima ja vallihaudan leveys. Yksikön valinta listasta tai tornin kohdevalikosta vaihtaa lähikuvan yksikön nykyiseen ruutuun.
