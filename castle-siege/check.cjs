@@ -14,7 +14,7 @@ assert(!E.covers(0,'N',5));assert(!E.covers(4,'N',1));assert(!E.covers(20,'W',1)
  assert.equal(s.round,2);assert.equal(s.hands.attack.length,3);assert.equal(s.hands.defend.length,3);assert.equal(s.used.defend,3);
 }
 {
- const s=base();s.troops=[unit()];s.moats=['N2'];s.phase='battle';E.battle(s);assert.equal(s.troops[0].pos,2);assert.equal(s.troops[0].waiting,true);assert.equal(s.walls[1].hp,16);
+ const s=base();s.troops=[unit()];s.moats=['N2'];s.water=['N2:2'];s.phase='battle';E.battle(s);assert.equal(s.troops[0].pos,2);assert.equal(s.troops[0].waiting,true);assert.equal(s.walls[1].hp,16);
  s.phase='battle';E.battle(s);assert.equal(s.walls[1].hp,13);assert.equal(s.troops[0].waiting,false);
  s.phase='battle';E.battle(s);assert.equal(s.walls[1].hp,10);assert.equal(s.troops[0].pos,2);
 }
@@ -39,7 +39,7 @@ assert(!E.covers(0,'N',5));assert(!E.covers(4,'N',1));assert(!E.covers(20,'W',1)
  s.phase='defend';s.hands.defend=['moat','repair'];assert(E.play(s,'defend',0,target));assert(s.widened.includes('N2'));assert(!E.valid(s,'moat',target));
 }
 {
- const s=base();s.moats=['N2'];s.widened=['N2'];s.troops=[unit()];s.phase='battle';E.battle(s);assert.equal(s.troops[0].pos,1);assert.equal(s.walls[1].hp,16);
+ const s=base();s.moats=['N2'];s.widened=['N2'];s.water=['N2:1','N2:2'];s.troops=[unit()];s.phase='battle';E.battle(s);assert.equal(s.troops[0].pos,1);assert.equal(s.walls[1].hp,16);
  s.phase='battle';E.battle(s);assert.equal(s.troops[0].pos,2);assert.equal(s.walls[1].hp,16);
  s.phase='battle';E.battle(s);assert.equal(s.walls[1].hp,13);
 }
