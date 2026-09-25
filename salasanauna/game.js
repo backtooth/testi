@@ -12,13 +12,14 @@
   ];
   const keys = {}, player={x:480,y:420,r:11,speed:178};
   const touchTarget={x:0,y:0,active:false};
+  const joystickMove={x:0,y:0,active:false};
   let mapPointer=null;
   let running=false, ended=false, startTime=0, elapsed=0, target=-1, previousTarget=-1, last=0, score=0, bankRemainder=0, visited=new Set(), audio=null;
 
   function reset(){
     running=false; ended=false; elapsed=0; score=0; bankRemainder=0; visited=new Set();
     do { target=Math.floor(Math.random()*houses.length); } while(target===previousTarget);
-    previousTarget=target; player.x=480; player.y=420; touchTarget.active=false;
+    previousTarget=target; player.x=480; player.y=420; touchTarget.active=false;joystickMove.active=false;
     $('#score').textContent='0'; $('#clock').textContent='17:59:00'; draw();
   }
   function start(){
@@ -72,7 +73,8 @@
   function update(dt){
     elapsed=(performance.now()-startTime)/1000; if(elapsed>duration+margin&&!ended)return finish(false,'MYÖHÄSTYIT','Kello löi jo yli sallitun marginaalin. Oikea sauna ehti jäähtyä.','🌙');
     let dx=(keys.ArrowRight||keys.d?1:0)-(keys.ArrowLeft||keys.a?1:0),dy=(keys.ArrowDown||keys.s?1:0)-(keys.ArrowUp||keys.w?1:0);
-    if(touchTarget.active){
+    if(joystickMove.active){dx=joystickMove.x;dy=joystickMove.y;}
+    else if(touchTarget.active){
       const tx=touchTarget.x-player.x,ty=touchTarget.y-player.y,td=Math.hypot(tx,ty);
       if(td<8)touchTarget.active=false;else{dx=tx/td;dy=ty/td;}
     }
@@ -122,6 +124,24 @@
   canvas.addEventListener('touchmove',e=>{const t=e.touches[0];if(t)setMapTarget(t.clientX,t.clientY);e.preventDefault();},{passive:false});
   canvas.addEventListener('touchend',e=>{stopMapMovement();e.preventDefault();},{passive:false});
   canvas.addEventListener('touchcancel',stopMapMovement,{passive:false});
+  const joystick=$('#joystick'),joystickKnob=$('#joystickKnob');
+  let stickPointer=null;
+  function steerJoystick(clientX,clientY){
+    const r=joystick.getBoundingClientRect(),cx=r.left+r.width/2,cy=r.top+r.height/2,max=r.width*.31;
+    let dx=clientX-cx,dy=clientY-cy,d=Math.hypot(dx,dy);
+    if(d>max){dx=dx/d*max;dy=dy/d*max;d=max;}
+    joystickKnob.style.transform=`translate(${dx}px,${dy}px)`;
+    joystickMove.x=dx/max;joystickMove.y=dy/max;joystickMove.active=d>3;touchTarget.active=false;
+  }
+  function stopJoystick(){stickPointer=null;joystickMove.active=false;joystickMove.x=0;joystickMove.y=0;joystickKnob.style.transform='translate(0,0)';}
+  joystick.addEventListener('pointerdown',e=>{stickPointer=e.pointerId;steerJoystick(e.clientX,e.clientY);e.preventDefault();});
+  addEventListener('pointermove',e=>{if(e.pointerId===stickPointer)steerJoystick(e.clientX,e.clientY);});
+  addEventListener('pointerup',e=>{if(e.pointerId===stickPointer)stopJoystick();});
+  addEventListener('pointercancel',e=>{if(e.pointerId===stickPointer)stopJoystick();});
+  joystick.addEventListener('touchstart',e=>{const t=e.touches[0];if(t)steerJoystick(t.clientX,t.clientY);e.preventDefault();},{passive:false});
+  joystick.addEventListener('touchmove',e=>{const t=e.touches[0];if(t)steerJoystick(t.clientX,t.clientY);e.preventDefault();},{passive:false});
+  joystick.addEventListener('touchend',e=>{stopJoystick();e.preventDefault();},{passive:false});
+  joystick.addEventListener('touchcancel',stopJoystick,{passive:false});
   $('[data-action="knock"]').addEventListener('click',knock);$('[data-action="enter"]').addEventListener('click',enter);
   $('#startBtn').addEventListener('click',start);$('#againBtn').addEventListener('click',start);reset();
 })();
