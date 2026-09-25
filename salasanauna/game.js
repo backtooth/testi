@@ -3,12 +3,12 @@
   const canvas = document.querySelector('#game');
   const ctx = canvas.getContext('2d');
   const $ = s => document.querySelector(s);
-  const W = 960, H = 640, duration = 120, margin = 2;
+  const W = 960, H = 640, duration = 60, margin = 2;
   const shop = {x:390,y:245,w:180,h:150};
   const houses = [
-    {x:74,y:58,w:126,h:92,n:'Koivula'}, {x:300,y:42,w:126,h:92,n:'Mäkelä'}, {x:756,y:62,w:126,h:92,n:'Rantala'},
-    {x:66,y:274,w:126,h:92,n:'Kuusela'}, {x:768,y:274,w:126,h:92,n:'Virtala'},
-    {x:70,y:494,w:126,h:92,n:'Kivistö'}, {x:304,y:500,w:126,h:92,n:'Peltola'}, {x:756,y:492,w:126,h:92,n:'Harjula'}
+    {x:74,y:58,w:126,h:92,n:'Frank'}, {x:300,y:42,w:126,h:92,n:'Jouko&Sami'}, {x:756,y:62,w:126,h:92,n:'Antti'},
+    {x:66,y:274,w:126,h:92,n:'Nico'}, {x:768,y:274,w:126,h:92,n:'Atte'},
+    {x:70,y:494,w:126,h:92,n:'Tomppa'}, {x:304,y:500,w:126,h:92,n:'Jere'}, {x:756,y:492,w:126,h:92,n:'Jamppa'}
   ];
   const keys = {}, player={x:480,y:420,r:11,speed:178};
   let running=false, ended=false, startTime=0, elapsed=0, target=0, last=0, score=0, bankRemainder=0, visited=new Set(), toastTimer=0, audio=null;
@@ -17,7 +17,7 @@
   function reset(){
     running=false; ended=false; elapsed=0; score=0; bankRemainder=0; visited=new Set(); constraints=[];
     target=Math.floor(Math.random()*houses.length); player.x=480; player.y=420;
-    $('#score').textContent='0'; $('#clock').textContent='17:58:00'; $('#clueCount').textContent='0/8';
+    $('#score').textContent='0'; $('#clock').textContent='17:59:00'; $('#clueCount').textContent='0/8';
     $('#clueList').innerHTML='<p>Ei vihjeitä. Koputa talon ovella.</p>'; draw();
   }
   function start(){
@@ -75,7 +75,7 @@
     let dx=(keys.ArrowRight||keys.d?1:0)-(keys.ArrowLeft||keys.a?1:0),dy=(keys.ArrowDown||keys.s?1:0)-(keys.ArrowUp||keys.w?1:0);
     if(dx||dy){const l=Math.hypot(dx,dy);move(dx/l*player.speed*dt,dy/l*player.speed*dt);}
     if(nearRect(shop,24)&&visited.size>0){bankRemainder+=dt;while(bankRemainder>=1){bankRemainder--;score++;$('#score').textContent=score;beep(310,.025);}}
-    const total=Math.min(120+margin,elapsed), sec=Math.floor(total), absolute=17*3600+58*60+sec;
+    const total=Math.min(duration+margin,elapsed), sec=Math.floor(total), absolute=17*3600+59*60+sec;
     const hh=Math.floor(absolute/3600),mm=Math.floor((absolute%3600)/60),ss=absolute%60;
     $('#clock').textContent=`${String(hh).padStart(2,'0')}:${String(mm).padStart(2,'0')}:${String(ss).padStart(2,'0')}`;
   }
