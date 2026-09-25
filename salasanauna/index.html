@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#111611" />
+  <title>Salasauna</title>
+  <meta name="description" content="Löydä perjantain salasauna, hamstraa juomat ja saavu täsmälleen kuudelta." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main id="app">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark">♨</span><span>SALASAUNA</span></div>
+      <div class="hud">
+        <div class="hud-item"><small>AIKA</small><strong id="clock">17:58:00</strong></div>
+        <div class="hud-item bottles"><small>PULLOT</small><strong>🍺 <span id="score">0</span></strong></div>
+      </div>
+    </header>
+
+    <section class="game-shell">
+      <canvas id="game" width="960" height="640" aria-label="Salasaunan pelialue"></canvas>
+      <div id="toast" class="toast hidden"></div>
+      <aside id="notebook" class="notebook">
+        <button id="notebookToggle" aria-expanded="false">VIHJEET <span id="clueCount">0/8</span></button>
+        <div id="clueList" class="clue-list"><p>Ei vihjeitä. Koputa talon ovella.</p></div>
+      </aside>
+      <div class="controls" aria-label="Kosketusohjaimet">
+        <div class="dpad">
+          <button data-key="ArrowUp">▲</button>
+          <button data-key="ArrowLeft">◀</button>
+          <button data-key="ArrowDown">▼</button>
+          <button data-key="ArrowRight">▶</button>
+        </div>
+        <div class="actions">
+          <button data-action="knock"><b>Q</b>KOPUTA</button>
+          <button data-action="enter"><b>E</b>ASTU SISÄÄN</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="modal" class="modal open">
+    <div class="modal-card">
+      <div class="steam">♨</div>
+      <p class="eyebrow">PERJANTAI-ILLAN HÄMÄRÄTEHTÄVÄ</p>
+      <h1>SALASAUNA</h1>
+      <p class="lead">Kahdeksan taloa. Yksi sauna. Kaksi minuuttia.</p>
+      <div class="rules">
+        <p><span>1</span>Koputa ovilla ja yhdistä asukkaiden vihjeet.</p>
+        <p><span>2</span>Palaa kaupalle: jokainen odotettu sekunti on yksi pullo.</p>
+        <p><span>3</span>Astu oikeaan taloon klo 18.00 <em>± 2 sekuntia</em>.</p>
+      </div>
+      <div class="key-row"><kbd>WASD</kbd> liiku <kbd>Q</kbd> koputa <kbd>E</kbd> astu sisään</div>
+      <button id="startBtn" class="primary">ALOITA PERJANTAI</button>
+      <p class="fineprint">Äänet päällä suositellaan. Kierros kestää enintään 2 minuuttia.</p>
+    </div>
+  </div>
+
+  <div id="result" class="modal">
+    <div class="modal-card result-card">
+      <div id="resultIcon" class="result-icon">🍺</div>
+      <p id="resultLabel" class="eyebrow"></p>
+      <h2 id="resultTitle"></h2>
+      <p id="resultText" class="lead"></p>
+      <div id="finalScore" class="final-score"></div>
+      <button id="againBtn" class="primary">UUSI PERJANTAI</button>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
