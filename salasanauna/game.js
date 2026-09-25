@@ -11,6 +11,7 @@
     {x:70,y:494,w:126,h:92,n:'Tomppa',at:'Tompalla'}, {x:304,y:500,w:126,h:92,n:'Jere',at:'Jerellä'}, {x:756,y:492,w:126,h:92,n:'Jamppa',at:'Jampalla'}
   ];
   const keys = {}, player={x:480,y:420,r:11,speed:178};
+  const touchMove={x:0,y:0};
   let running=false, ended=false, startTime=0, elapsed=0, target=-1, previousTarget=-1, last=0, score=0, bankRemainder=0, visited=new Set(), toastTimer=0, audio=null;
 
   function reset(){
@@ -70,7 +71,8 @@
   function update(dt){
     elapsed=(performance.now()-startTime)/1000; if(elapsed>duration+margin&&!ended)return finish(false,'MYÖHÄSTYIT','Kello löi jo yli sallitun marginaalin. Oikea sauna ehti jäähtyä.','🌙');
     let dx=(keys.ArrowRight||keys.d?1:0)-(keys.ArrowLeft||keys.a?1:0),dy=(keys.ArrowDown||keys.s?1:0)-(keys.ArrowUp||keys.w?1:0);
-    if(dx||dy){const l=Math.hypot(dx,dy);move(dx/l*player.speed*dt,dy/l*player.speed*dt);}
+    if(touchMove.x||touchMove.y){dx=touchMove.x;dy=touchMove.y;}
+    if(dx||dy){const l=Math.max(1,Math.hypot(dx,dy));move(dx/l*player.speed*dt,dy/l*player.speed*dt);}
     if(nearRect(shop,24)&&visited.size>0){bankRemainder+=dt;while(bankRemainder>=1){bankRemainder--;score++;$('#score').textContent=score;beep(310,.025);}}
     const total=Math.min(duration+margin,elapsed), sec=Math.floor(total), absolute=17*3600+59*60+sec;
     const hh=Math.floor(absolute/3600),mm=Math.floor((absolute%3600)/60),ss=absolute%60;
@@ -99,7 +101,16 @@
   function door(x,y,c){ctx.fillStyle=c;ctx.fillRect(x,y,22,28);ctx.fillStyle='#dbc566';ctx.fillRect(x+16,y+14,3,3);}
   function loop(now){if(!running)return;const dt=Math.min(.04,(now-last)/1000);last=now;update(dt);draw();if(running)requestAnimationFrame(loop);}
   addEventListener('keydown',e=>{keys[e.key]=true;if(['ArrowUp','ArrowDown','ArrowLeft','ArrowRight',' '].includes(e.key))e.preventDefault();if(e.key.toLowerCase()==='q')knock();if(e.key.toLowerCase()==='e')enter();});addEventListener('keyup',e=>keys[e.key]=false);
-  document.querySelectorAll('[data-key]').forEach(b=>{const k=b.dataset.key;for(const ev of ['pointerdown','pointerenter'])b.addEventListener(ev,e=>{if(ev==='pointerdown'||e.buttons)keys[k]=true});for(const ev of ['pointerup','pointerleave','pointercancel'])b.addEventListener(ev,()=>keys[k]=false);});
+  const joystick=$('#joystick'), knob=$('#joystickKnob');
+  function steer(e){
+    const r=joystick.getBoundingClientRect(),cx=r.left+r.width/2,cy=r.top+r.height/2,max=r.width*.32;
+    let dx=e.clientX-cx,dy=e.clientY-cy,d=Math.hypot(dx,dy);if(d>max){dx=dx/d*max;dy=dy/d*max;d=max;}
+    knob.style.transform=`translate(${dx}px,${dy}px)`;touchMove.x=dx/max;touchMove.y=dy/max;
+  }
+  joystick.addEventListener('pointerdown',e=>{joystick.setPointerCapture(e.pointerId);steer(e);e.preventDefault();});
+  joystick.addEventListener('pointermove',e=>{if(joystick.hasPointerCapture(e.pointerId))steer(e);});
+  function releaseStick(e){if(e&&joystick.hasPointerCapture(e.pointerId))joystick.releasePointerCapture(e.pointerId);touchMove.x=0;touchMove.y=0;knob.style.transform='translate(0,0)';}
+  joystick.addEventListener('pointerup',releaseStick);joystick.addEventListener('pointercancel',releaseStick);
   $('[data-action="knock"]').addEventListener('click',knock);$('[data-action="enter"]').addEventListener('click',enter);
   $('#startBtn').addEventListener('click',start);$('#againBtn').addEventListener('click',start);reset();
 })();
