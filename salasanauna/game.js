@@ -11,13 +11,14 @@
     {x:70,y:494,w:126,h:92,n:'Tomppa',at:'Tompalla'}, {x:304,y:500,w:126,h:92,n:'Jere',at:'Jerellä'}, {x:756,y:492,w:126,h:92,n:'Jamppa',at:'Jampalla'}
   ];
   const keys = {}, player={x:480,y:420,r:11,speed:178};
-  const touchMove={x:0,y:0};
+  const touchTarget={x:0,y:0,active:false};
+  let mapPointer=null;
   let running=false, ended=false, startTime=0, elapsed=0, target=-1, previousTarget=-1, last=0, score=0, bankRemainder=0, visited=new Set(), toastTimer=0, audio=null;
 
   function reset(){
     running=false; ended=false; elapsed=0; score=0; bankRemainder=0; visited=new Set();
     do { target=Math.floor(Math.random()*houses.length); } while(target===previousTarget);
-    previousTarget=target; player.x=480; player.y=420;
+    previousTarget=target; player.x=480; player.y=420; touchTarget.active=false;
     $('#score').textContent='0'; $('#clock').textContent='17:59:00'; draw();
   }
   function start(){
@@ -71,7 +72,10 @@
   function update(dt){
     elapsed=(performance.now()-startTime)/1000; if(elapsed>duration+margin&&!ended)return finish(false,'MYÖHÄSTYIT','Kello löi jo yli sallitun marginaalin. Oikea sauna ehti jäähtyä.','🌙');
     let dx=(keys.ArrowRight||keys.d?1:0)-(keys.ArrowLeft||keys.a?1:0),dy=(keys.ArrowDown||keys.s?1:0)-(keys.ArrowUp||keys.w?1:0);
-    if(touchMove.x||touchMove.y){dx=touchMove.x;dy=touchMove.y;}
+    if(touchTarget.active){
+      const tx=touchTarget.x-player.x,ty=touchTarget.y-player.y,td=Math.hypot(tx,ty);
+      if(td<8)touchTarget.active=false;else{dx=tx/td;dy=ty/td;}
+    }
     if(dx||dy){const l=Math.max(1,Math.hypot(dx,dy));move(dx/l*player.speed*dt,dy/l*player.speed*dt);}
     if(nearRect(shop,24)&&visited.size>0){bankRemainder+=dt;while(bankRemainder>=1){bankRemainder--;score++;$('#score').textContent=score;beep(310,.025);}}
     const total=Math.min(duration+margin,elapsed), sec=Math.floor(total), absolute=17*3600+59*60+sec;
@@ -101,17 +105,20 @@
   function door(x,y,c){ctx.fillStyle=c;ctx.fillRect(x,y,22,28);ctx.fillStyle='#dbc566';ctx.fillRect(x+16,y+14,3,3);}
   function loop(now){if(!running)return;const dt=Math.min(.04,(now-last)/1000);last=now;update(dt);draw();if(running)requestAnimationFrame(loop);}
   addEventListener('keydown',e=>{keys[e.key]=true;if(['ArrowUp','ArrowDown','ArrowLeft','ArrowRight',' '].includes(e.key))e.preventDefault();if(e.key.toLowerCase()==='q')knock();if(e.key.toLowerCase()==='e')enter();});addEventListener('keyup',e=>keys[e.key]=false);
-  function steerToMapPoint(e){
+  function mapPoint(clientX,clientY){
     const r=canvas.getBoundingClientRect(),scale=Math.min(r.width/W,r.height/H);
-    const mapX=(e.clientX-r.left-(r.width-W*scale)/2)/scale;
-    const mapY=(e.clientY-r.top-(r.height-H*scale)/2)/scale;
-    const dx=mapX-player.x,dy=mapY-player.y,d=Math.hypot(dx,dy);
-    if(d<8){touchMove.x=0;touchMove.y=0;}else{touchMove.x=dx/d;touchMove.y=dy/d;}
+    return {x:(clientX-r.left-(r.width-W*scale)/2)/scale,y:(clientY-r.top-(r.height-H*scale)/2)/scale};
   }
-  canvas.addEventListener('pointerdown',e=>{if(e.pointerType==='touch'||e.pointerType==='pen'){canvas.setPointerCapture(e.pointerId);steerToMapPoint(e);e.preventDefault();}});
-  canvas.addEventListener('pointermove',e=>{if(canvas.hasPointerCapture(e.pointerId))steerToMapPoint(e);});
-  function releaseMapTouch(e){if(canvas.hasPointerCapture(e.pointerId))canvas.releasePointerCapture(e.pointerId);touchMove.x=0;touchMove.y=0;}
-  canvas.addEventListener('pointerup',releaseMapTouch);canvas.addEventListener('pointercancel',releaseMapTouch);
+  function setMapTarget(clientX,clientY){
+    const p=mapPoint(clientX,clientY);
+    if(p.x>=0&&p.x<=W&&p.y>=0&&p.y<=H){touchTarget.x=p.x;touchTarget.y=p.y;touchTarget.active=true;}
+  }
+  canvas.addEventListener('pointerdown',e=>{mapPointer=e.pointerId;setMapTarget(e.clientX,e.clientY);e.preventDefault();});
+  canvas.addEventListener('pointermove',e=>{if(e.pointerId===mapPointer){setMapTarget(e.clientX,e.clientY);e.preventDefault();}});
+  addEventListener('pointerup',e=>{if(e.pointerId===mapPointer)mapPointer=null;});
+  addEventListener('pointercancel',e=>{if(e.pointerId===mapPointer)mapPointer=null;});
+  canvas.addEventListener('touchstart',e=>{const t=e.touches[0];if(t)setMapTarget(t.clientX,t.clientY);e.preventDefault();},{passive:false});
+  canvas.addEventListener('touchmove',e=>{const t=e.touches[0];if(t)setMapTarget(t.clientX,t.clientY);e.preventDefault();},{passive:false});
   $('[data-action="knock"]').addEventListener('click',knock);$('[data-action="enter"]').addEventListener('click',enter);
   $('#startBtn').addEventListener('click',start);$('#againBtn').addEventListener('click',start);reset();
 })();
