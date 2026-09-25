@@ -51,8 +51,7 @@
     if(i<0){showToast(nearRect(shop,28)?'Kauppias: ”Palaa tänne vihjeiden jälkeen hamstraamaan kaljoja.”':'Mene lähemmäs talon ovea.');return;}
     if(visited.has(i)){showToast(`${houses[i].n}: ”Sanoin jo kaiken. Tai ainakin kaiken hyödyllisen.”`);return;}
     visited.add(i); const hint=directionHint(); beep(620,.06); setTimeout(()=>beep(820,.07),70);
-    const speakers=['Naapurin Reino','Marjatta verhon takaa','Epäilyttävän iloinen isäntä','Pyyhe päässä seisova vieras','Pihagrillin vartija'];
-    const line=`${speakers[i%speakers.length]}: ”${hint.text}”`;
+    const line=`Talon isäntä ${houses[i].n} raottaa oveaan: ”${hint.text}”`;
     showToast(line,6000);
   }
   function enter(){
