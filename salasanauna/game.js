@@ -6,9 +6,9 @@
   const W = 960, H = 640, duration = 60, margin = 2;
   const shop = {x:390,y:245,w:180,h:150};
   const houses = [
-    {x:74,y:58,w:126,h:92,n:'Frank'}, {x:300,y:42,w:126,h:92,n:'Jouko&Sami'}, {x:756,y:62,w:126,h:92,n:'Antti'},
-    {x:66,y:274,w:126,h:92,n:'Nico'}, {x:768,y:274,w:126,h:92,n:'Atte'},
-    {x:70,y:494,w:126,h:92,n:'Tomppa'}, {x:304,y:500,w:126,h:92,n:'Jere'}, {x:756,y:492,w:126,h:92,n:'Jamppa'}
+    {x:74,y:58,w:126,h:92,n:'Frank',at:'Frankilla'}, {x:300,y:42,w:126,h:92,n:'Jouko&Sami',at:'Joukolla & Samilla'}, {x:756,y:62,w:126,h:92,n:'Antti',at:'Antilla'},
+    {x:66,y:274,w:126,h:92,n:'Nico',at:'Nicolla'}, {x:768,y:274,w:126,h:92,n:'Atte',at:'Atella'},
+    {x:70,y:494,w:126,h:92,n:'Tomppa',at:'Tompalla'}, {x:304,y:500,w:126,h:92,n:'Jere',at:'Jerellä'}, {x:756,y:492,w:126,h:92,n:'Jamppa',at:'Jampalla'}
   ];
   const keys = {}, player={x:480,y:420,r:11,speed:178};
   let running=false, ended=false, startTime=0, elapsed=0, target=0, last=0, score=0, bankRemainder=0, visited=new Set(), toastTimer=0, audio=null;
@@ -34,20 +34,22 @@
   function directionHint(){
     const t=houses[target], tc={x:t.x+t.w/2,y:t.y+t.h/2};
     const choices=[];
-    if(tc.x<430) choices.push({text:'Saunatalo on kaupan länsipuolella.',ok:i=>houses[i].x+houses[i].w/2<430});
-    else if(tc.x>530) choices.push({text:'Saunatalo on kaupan itäpuolella.',ok:i=>houses[i].x+houses[i].w/2>530});
-    else choices.push({text:'Saunatalo on pohjois–etelä-keskilinjalla.',ok:i=>{let x=houses[i].x+houses[i].w/2;return x>=430&&x<=530}});
-    if(tc.y<215) choices.push({text:'Löylyt ovat kartan pohjoisreunalla.',ok:i=>houses[i].y<200});
-    else if(tc.y>430) choices.push({text:'Löylyt ovat kartan eteläreunalla.',ok:i=>houses[i].y>430});
-    else choices.push({text:'Sauna on samalla korkeudella kuin kauppa.',ok:i=>houses[i].y>200&&houses[i].y<430});
-    const parity=target%2; choices.push({text:`Nimikyltin kirjainten määrä on ${houses[target].n.length%2?'pariton':'parillinen'}.`,ok:i=>houses[i].n.length%2===houses[target].n.length%2});
-    choices.push({text:`Saunatalon nimi alkaa kirjaimella, joka on aakkosissa ${houses[target].n[0]<'P'?'ennen P:tä':'P:n kohdalla tai sen jälkeen'}.`,ok:i=>(houses[i].n[0]<'P')===(houses[target].n[0]<'P')});
-    choices.push({text:`Sauna ei ole ${houses.filter((_,i)=>i!==target)[(target+visited.size*3)%7].n}ssa.`,ok:i=>i!==houses.findIndex(h=>h.n===houses.filter((_,j)=>j!==target)[(target+visited.size*3)%7].n)});
+    if(tc.x<430) choices.push({text:'Kun tulin saunalta, kauppa jäi oikealle. Tai sitten kävelin takaperin. Joka tapauksessa sauna on kaupan länsipuolella.',ok:i=>houses[i].x+houses[i].w/2<430});
+    else if(tc.x>530) choices.push({text:'Kauppa jäi saunareissulla vasemmalle, vaikka näinkin niitä hetken kaksi. Sauna on siis idässä — ellei toinen kauppa ollut hallusinaatio.',ok:i=>houses[i].x+houses[i].w/2>530});
+    else choices.push({text:'Horjuin saunalta suoraan kaupan keskilinjalle ilman sivuaskelia. Se on minulle tilastollinen ihme: sauna on pohjois–etelä-keskilinjalla.',ok:i=>{let x=houses[i].x+houses[i].w/2;return x>=430&&x<=530}});
+    if(tc.y<215) choices.push({text:'Löylyhöyry kulki etelään ja minä sen mukana kuin lämmin, marinoitu ilmapallo. Etsi saunaa kartan pohjoisreunalta.',ok:i=>houses[i].y<200});
+    else if(tc.y>430) choices.push({text:'Kotimatka tuntui ylämäeltä, vaikka kartta on litteä. Sauna on eteläreunalla; promillemittarin mukaan ehkä myös kaakossa ja tiistaina.',ok:i=>houses[i].y>430});
+    else choices.push({text:'Sauna ja kauppa ovat samalla korkeudella. Tiedän, koska yritin kävellä niiden välissä suoraan ja päädyin vain kerran ojaan.',ok:i=>houses[i].y>200&&houses[i].y<430});
+    const plainLength=s=>s.replace(/[^A-Za-zÅÄÖåäö]/g,'').length;
+    choices.push({text:`Laskin saunaisännän nimen kirjaimet korkkeina pöydälle. Niitä oli ${plainLength(houses[target].n)%2?'pariton':'parillinen'} määrä — laskin kolmesti ja sain kahdesti saman tuloksen.`,ok:i=>plainLength(houses[i].n)%2===plainLength(houses[target].n)%2});
+    choices.push({text:`Nimi alkaa kirjaimella, joka on aakkosissa ${houses[target].n[0]<'P'?'ennen P:tä':'P:n kohdalla tai sen jälkeen'}. Vihje kuulostaa selvältä, toisin kuin sen antaja.`,ok:i=>(houses[i].n[0]<'P')===(houses[target].n[0]<'P')});
+    const decoy=houses.filter((_,i)=>i!==target)[(target+visited.size*3)%7];
+    choices.push({text:`${decoy.at} ei ainakaan saunota. Hän joi saunakaljat jo eteisessä ja väittää kiuasta akvaarioksi.`,ok:i=>i!==houses.indexOf(decoy)});
     return choices[visited.size%choices.length];
   }
   function knock(){
     if(!running||ended)return; const i=currentHouse();
-    if(i<0){showToast(nearRect(shop,28)?'Kauppias: ”Palaa tänne vihjeiden jälkeen hamstraamaan pulloja.”':'Mene lähemmäs talon ovea.');return;}
+    if(i<0){showToast(nearRect(shop,28)?'Kauppias: ”Palaa tänne vihjeiden jälkeen hamstraamaan kaljoja.”':'Mene lähemmäs talon ovea.');return;}
     if(visited.has(i)){showToast(`${houses[i].n}: ”Sanoin jo kaiken. Tai ainakin kaiken hyödyllisen.”`);return;}
     visited.add(i); const hint=directionHint(); constraints.push(hint); beep(620,.06); setTimeout(()=>beep(820,.07),70);
     const speakers=['Naapurin Reino','Marjatta verhon takaa','Epäilyttävän iloinen isäntä','Pyyhe päässä seisova vieras','Pihagrillin vartija'];
@@ -60,14 +62,14 @@
   function enter(){
     if(!running||ended)return; const i=currentHouse(); if(i<0){showToast('Mene aivan talon oven eteen.');return;}
     const delta=elapsed-duration;
-    if(i!==target) return finish(false,'VÄÄRÄ OVI',`${houses[i].n}ssa oli vain kiusallinen perheillallinen. Oikea sauna oli ${houses[target].n}ssa.`,'🚪');
+    if(i!==target) return finish(false,'VÄÄRÄ OVI',`${houses[i].at} oli vain kiusallinen perheillallinen. Oikea sauna oli ${houses[target].at}.`,'🚪');
     if(Math.abs(delta)<=margin) return finish(true,'TÄYDELLINEN AJOITUS',`Saavuit ${formatDelta(delta)}. Kiuas oli kuumana ja paikka oli oikea.`,'♨️');
     if(delta<0) return finish(false,'LIIAN AIKAISIN',`Saavuit ${formatDelta(delta)}. Isäntä ei ollut vielä ehtinyt piilottaa tavallista saunaa salasaunaksi.`,'⏱️');
     finish(false,'MYÖHÄSTYIT',`Saavuit ${formatDelta(delta)}. Löylyt menivät jo, ja viimeinen makkara myös.`,'🌭');
   }
   function formatDelta(d){if(Math.abs(d)<.05)return 'täsmälleen klo 18.00';return `${Math.abs(d).toFixed(1)} sekuntia ${d<0?'etuajassa':'myöhässä'}`;}
   function finish(win,title,text,icon){
-    ended=true;running=false; $('#resultIcon').textContent=icon;$('#resultLabel').textContent=win?'SALASAUNA LÖYTYI':'PERJANTAI PERUTTU';$('#resultTitle').textContent=title;$('#resultText').textContent=text;$('#finalScore').textContent=win?`🍺 ${score} PULLOA`:`KERÄSIT ${score} PULLOA`;
+    ended=true;running=false; $('#resultIcon').textContent=icon;$('#resultLabel').textContent=win?'SALASAUNA LÖYTYI':'PERJANTAI PERUTTU';$('#resultTitle').textContent=title;$('#resultText').textContent=text;$('#finalScore').textContent=win?`🍺 ${score} KALJAA`:`KERÄSIT ${score} KALJAA`;
     $('#result').classList.add('open');beep(win?523:120,.2,win?'square':'sawtooth');if(win){setTimeout(()=>beep(659,.2),130);setTimeout(()=>beep(784,.3),260);}
   }
   function update(dt){
@@ -90,13 +92,13 @@
     ctx.fillStyle='#b7a982';ctx.fillRect(0,210,W,56);ctx.fillRect(0,410,W,50);ctx.fillRect(445,0,70,H);
     ctx.globalAlpha=.18;ctx.fillStyle='#161d18';for(let x=0;x<W;x+=34)for(let y=0;y<H;y+=30){ctx.beginPath();ctx.arc(x+(y%60),y,2,0,7);ctx.fill();}ctx.globalAlpha=1;
     // shop
-    building(shop,'#c35835','#e7dcae');ctx.fillStyle='#171c18';ctx.font='700 20px Oswald';ctx.textAlign='center';ctx.fillText('KAUPPA',480,292);ctx.font='11px DM Mono';ctx.fillText('PULLOT +1 / SEKUNTI',480,314);door(468,363,'#294b3b');
+    building(shop,'#c35835','#e7dcae');ctx.fillStyle='#171c18';ctx.font='700 20px Oswald';ctx.textAlign='center';ctx.fillText('KAUPPA',480,292);ctx.font='11px DM Mono';ctx.fillText('KALJAT +1 / SEKUNTI',480,314);door(468,363,'#294b3b');
     houses.forEach((h,i)=>{building(h,['#d49a57','#8f6670','#6d8c75','#c07b57'][i%4],'#e9dfc4');ctx.fillStyle='#172019';ctx.font='600 15px Oswald';ctx.textAlign='center';ctx.fillText(h.n.toUpperCase(),h.x+h.w/2,h.y+31);door(h.x+h.w/2-11,h.y+h.h-28,'#382a20');if(visited.has(i)){ctx.fillStyle='#d9ef74';ctx.beginPath();ctx.arc(h.x+h.w-11,h.y+11,7,0,7);ctx.fill();}});
     // player shadow/body
     ctx.fillStyle='#0005';ctx.beginPath();ctx.ellipse(player.x,player.y+10,13,6,0,0,7);ctx.fill();ctx.fillStyle='#f16e3a';ctx.beginPath();ctx.arc(player.x,player.y,11,0,7);ctx.fill();ctx.fillStyle='#f1ead8';ctx.fillRect(player.x-5,player.y-7,10,7);ctx.fillStyle='#161b17';ctx.fillRect(player.x-6,player.y-11,12,4);
     // interaction prompt
     const i=currentHouse();if(i>=0){ctx.fillStyle='#101510e8';ctx.fillRect(player.x-64,player.y-48,128,27);ctx.fillStyle='#f1ead8';ctx.font='10px DM Mono';ctx.textAlign='center';ctx.fillText('Q KOPUTA  •  E SISÄÄN',player.x,player.y-31);}
-    else if(nearRect(shop,24)&&visited.size){ctx.fillStyle='#d9ef74';ctx.font='600 13px DM Mono';ctx.textAlign='center';ctx.fillText('🍺 PULLOJA KERTYY',480,422);}
+    else if(nearRect(shop,24)&&visited.size){ctx.fillStyle='#d9ef74';ctx.font='600 13px DM Mono';ctx.textAlign='center';ctx.fillText('🍺 KALJOJA KERTYY',480,422);}
   }
   function building(r,wall,roof){ctx.fillStyle='#0004';ctx.fillRect(r.x+7,r.y+8,r.w,r.h);ctx.fillStyle=wall;ctx.fillRect(r.x,r.y+16,r.w,r.h-16);ctx.fillStyle=roof;ctx.beginPath();ctx.moveTo(r.x-8,r.y+19);ctx.lineTo(r.x+r.w/2,r.y-9);ctx.lineTo(r.x+r.w+8,r.y+19);ctx.closePath();ctx.fill();ctx.strokeStyle='#262c27';ctx.lineWidth=3;ctx.stroke();}
   function door(x,y,c){ctx.fillStyle=c;ctx.fillRect(x,y,22,28);ctx.fillStyle='#dbc566';ctx.fillRect(x+16,y+14,3,3);}

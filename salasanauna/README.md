@@ -1,6 +1,6 @@
 # Salasauna
 
-Minuutin selainpeli: etsi vihjeiden avulla perjantain salasauna, kerää kaupalla pulloja ja saavu oikeaan taloon täsmälleen klo 18.00.
+Minuutin selainpeli: etsi vihjeiden avulla perjantain salasauna, kerää kaupalla kaljoja ja saavu oikeaan taloon täsmälleen klo 18.00.
 
 ## Pelaaminen
 
