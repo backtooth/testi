@@ -11,14 +11,13 @@
     {x:70,y:494,w:126,h:92,n:'Tomppa',at:'Tompalla'}, {x:304,y:500,w:126,h:92,n:'Jere',at:'Jerellä'}, {x:756,y:492,w:126,h:92,n:'Jamppa',at:'Jampalla'}
   ];
   const keys = {}, player={x:480,y:420,r:11,speed:178};
-  let running=false, ended=false, startTime=0, elapsed=0, target=0, last=0, score=0, bankRemainder=0, visited=new Set(), toastTimer=0, audio=null;
-  let constraints=[];
+  let running=false, ended=false, startTime=0, elapsed=0, target=-1, previousTarget=-1, last=0, score=0, bankRemainder=0, visited=new Set(), toastTimer=0, audio=null;
 
   function reset(){
-    running=false; ended=false; elapsed=0; score=0; bankRemainder=0; visited=new Set(); constraints=[];
-    target=Math.floor(Math.random()*houses.length); player.x=480; player.y=420;
-    $('#score').textContent='0'; $('#clock').textContent='17:59:00'; $('#clueCount').textContent='0/8';
-    $('#clueList').innerHTML='<p>Ei vihjeitä. Koputa talon ovella.</p>'; draw();
+    running=false; ended=false; elapsed=0; score=0; bankRemainder=0; visited=new Set();
+    do { target=Math.floor(Math.random()*houses.length); } while(target===previousTarget);
+    previousTarget=target; player.x=480; player.y=420;
+    $('#score').textContent='0'; $('#clock').textContent='17:59:00'; draw();
   }
   function start(){
     reset(); running=true; startTime=performance.now(); last=startTime; $('#modal').classList.remove('open'); $('#result').classList.remove('open');
@@ -32,32 +31,28 @@
   function nearRect(r,range=30){const cx=Math.max(r.x,Math.min(player.x,r.x+r.w)),cy=Math.max(r.y,Math.min(player.y,r.y+r.h));return Math.hypot(player.x-cx,player.y-cy)<range;}
   function currentHouse(){return houses.findIndex(h=>nearRect(h,35));}
   function directionHint(){
-    const t=houses[target], tc={x:t.x+t.w/2,y:t.y+t.h/2};
-    const choices=[];
-    if(tc.x<430) choices.push({text:'Kun tulin saunalta, kauppa jäi oikealle. Tai sitten kävelin takaperin. Joka tapauksessa sauna on kaupan länsipuolella.',ok:i=>houses[i].x+houses[i].w/2<430});
-    else if(tc.x>530) choices.push({text:'Kauppa jäi saunareissulla vasemmalle, vaikka näinkin niitä hetken kaksi. Sauna on siis idässä — ellei toinen kauppa ollut hallusinaatio.',ok:i=>houses[i].x+houses[i].w/2>530});
-    else choices.push({text:'Horjuin saunalta suoraan kaupan keskilinjalle ilman sivuaskelia. Se on minulle tilastollinen ihme: sauna on pohjois–etelä-keskilinjalla.',ok:i=>{let x=houses[i].x+houses[i].w/2;return x>=430&&x<=530}});
-    if(tc.y<215) choices.push({text:'Löylyhöyry kulki etelään ja minä sen mukana kuin lämmin, marinoitu ilmapallo. Etsi saunaa kartan pohjoisreunalta.',ok:i=>houses[i].y<200});
-    else if(tc.y>430) choices.push({text:'Kotimatka tuntui ylämäeltä, vaikka kartta on litteä. Sauna on eteläreunalla; promillemittarin mukaan ehkä myös kaakossa ja tiistaina.',ok:i=>houses[i].y>430});
-    else choices.push({text:'Sauna ja kauppa ovat samalla korkeudella. Tiedän, koska yritin kävellä niiden välissä suoraan ja päädyin vain kerran ojaan.',ok:i=>houses[i].y>200&&houses[i].y<430});
-    const plainLength=s=>s.replace(/[^A-Za-zÅÄÖåäö]/g,'').length;
-    choices.push({text:`Laskin saunaisännän nimen kirjaimet korkkeina pöydälle. Niitä oli ${plainLength(houses[target].n)%2?'pariton':'parillinen'} määrä — laskin kolmesti ja sain kahdesti saman tuloksen.`,ok:i=>plainLength(houses[i].n)%2===plainLength(houses[target].n)%2});
-    choices.push({text:`Nimi alkaa kirjaimella, joka on aakkosissa ${houses[target].n[0]<'P'?'ennen P:tä':'P:n kohdalla tai sen jälkeen'}. Vihje kuulostaa selvältä, toisin kuin sen antaja.`,ok:i=>(houses[i].n[0]<'P')===(houses[target].n[0]<'P')});
-    const decoy=houses.filter((_,i)=>i!==target)[(target+visited.size*3)%7];
-    choices.push({text:`${decoy.at} ei ainakaan saunota. Hän joi saunakaljat jo eteisessä ja väittää kiuasta akvaarioksi.`,ok:i=>i!==houses.indexOf(decoy)});
-    return choices[visited.size%choices.length];
+    const wrong=houses.map((_,i)=>i).filter(i=>i!==target);
+    const start=(target+visited.size*2)%wrong.length;
+    const a=houses[wrong[start]], b=houses[wrong[(start+1)%wrong.length]];
+    const jokes=[
+      'Toinen lämmitti mikroa ja toinen itseään. Kumpikaan ei osunut kiuaskiveen.',
+      'Niiden pihassa höyryää vain oksennus ja epäilyttävä ämpäri. Älä kysy kumpi on kumpi.',
+      'Molemmat ovat jo siinä kunnossa, että löylykauha on kuulemma heidän uusi veroilmoituksensa.',
+      'Näin heidän kantavan kaljakoria sisään, mutta se palasi tyhjänä ennen kuin ovi ehti mennä kiinni.',
+      'Toiselta puuttuu kiuas ja toiselta housut. Salasaunaan tarvitaan kuulemma ainakin toinen.',
+      'He yrittivät sytyttää kertakäyttögrillin suihkussa. Tuomaristo hylkäsi suorituksen ja palokunta loput.',
+      'Siellä kuuluu kyllä sihinää, mutta se on vain isäntä avaamassa kuudetta kaljaa otsallaan.'
+    ];
+    return {text:`Salasauna ei ainakaan ole tänään ${a.at} tai ${b.at}. ${jokes[(visited.size+target)%jokes.length]}`};
   }
   function knock(){
     if(!running||ended)return; const i=currentHouse();
     if(i<0){showToast(nearRect(shop,28)?'Kauppias: ”Palaa tänne vihjeiden jälkeen hamstraamaan kaljoja.”':'Mene lähemmäs talon ovea.');return;}
     if(visited.has(i)){showToast(`${houses[i].n}: ”Sanoin jo kaiken. Tai ainakin kaiken hyödyllisen.”`);return;}
-    visited.add(i); const hint=directionHint(); constraints.push(hint); beep(620,.06); setTimeout(()=>beep(820,.07),70);
+    visited.add(i); const hint=directionHint(); beep(620,.06); setTimeout(()=>beep(820,.07),70);
     const speakers=['Naapurin Reino','Marjatta verhon takaa','Epäilyttävän iloinen isäntä','Pyyhe päässä seisova vieras','Pihagrillin vartija'];
     const line=`${speakers[i%speakers.length]}: ”${hint.text}”`;
-    showToast(line,5000); updateClues(line);
-  }
-  function updateClues(line){
-    const list=$('#clueList'); if(visited.size===1)list.innerHTML=''; const p=document.createElement('p');p.textContent=line;list.prepend(p);$('#clueCount').textContent=`${visited.size}/8`;
+    showToast(line,6000);
   }
   function enter(){
     if(!running||ended)return; const i=currentHouse(); if(i<0){showToast('Mene aivan talon oven eteen.');return;}
@@ -93,7 +88,7 @@
     ctx.globalAlpha=.18;ctx.fillStyle='#161d18';for(let x=0;x<W;x+=34)for(let y=0;y<H;y+=30){ctx.beginPath();ctx.arc(x+(y%60),y,2,0,7);ctx.fill();}ctx.globalAlpha=1;
     // shop
     building(shop,'#c35835','#e7dcae');ctx.fillStyle='#171c18';ctx.font='700 20px Oswald';ctx.textAlign='center';ctx.fillText('KAUPPA',480,292);ctx.font='11px DM Mono';ctx.fillText('KALJAT +1 / SEKUNTI',480,314);door(468,363,'#294b3b');
-    houses.forEach((h,i)=>{building(h,['#d49a57','#8f6670','#6d8c75','#c07b57'][i%4],'#e9dfc4');ctx.fillStyle='#172019';ctx.font='600 15px Oswald';ctx.textAlign='center';ctx.fillText(h.n.toUpperCase(),h.x+h.w/2,h.y+31);door(h.x+h.w/2-11,h.y+h.h-28,'#382a20');if(visited.has(i)){ctx.fillStyle='#d9ef74';ctx.beginPath();ctx.arc(h.x+h.w-11,h.y+11,7,0,7);ctx.fill();}});
+    houses.forEach((h,i)=>{building(h,['#d49a57','#8f6670','#6d8c75','#c07b57'][i%4],'#e9dfc4');ctx.fillStyle='#172019';ctx.font=`700 ${h.n.length>8?17:20}px Oswald`;ctx.textAlign='center';ctx.fillText(h.n.toUpperCase(),h.x+h.w/2,h.y+34);door(h.x+h.w/2-11,h.y+h.h-28,'#382a20');if(visited.has(i)){ctx.fillStyle='#d9ef74';ctx.beginPath();ctx.arc(h.x+h.w-11,h.y+11,7,0,7);ctx.fill();}});
     // player shadow/body
     ctx.fillStyle='#0005';ctx.beginPath();ctx.ellipse(player.x,player.y+10,13,6,0,0,7);ctx.fill();ctx.fillStyle='#f16e3a';ctx.beginPath();ctx.arc(player.x,player.y,11,0,7);ctx.fill();ctx.fillStyle='#f1ead8';ctx.fillRect(player.x-5,player.y-7,10,7);ctx.fillStyle='#161b17';ctx.fillRect(player.x-6,player.y-11,12,4);
     // interaction prompt
@@ -106,6 +101,5 @@
   addEventListener('keydown',e=>{keys[e.key]=true;if(['ArrowUp','ArrowDown','ArrowLeft','ArrowRight',' '].includes(e.key))e.preventDefault();if(e.key.toLowerCase()==='q')knock();if(e.key.toLowerCase()==='e')enter();});addEventListener('keyup',e=>keys[e.key]=false);
   document.querySelectorAll('[data-key]').forEach(b=>{const k=b.dataset.key;for(const ev of ['pointerdown','pointerenter'])b.addEventListener(ev,e=>{if(ev==='pointerdown'||e.buttons)keys[k]=true});for(const ev of ['pointerup','pointerleave','pointercancel'])b.addEventListener(ev,()=>keys[k]=false);});
   $('[data-action="knock"]').addEventListener('click',knock);$('[data-action="enter"]').addEventListener('click',enter);
-  $('#notebookToggle').addEventListener('click',()=>{const n=$('#notebook'),open=n.classList.toggle('open');$('#notebookToggle').setAttribute('aria-expanded',open)});
   $('#startBtn').addEventListener('click',start);$('#againBtn').addEventListener('click',start);reset();
 })();
