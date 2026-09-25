@@ -13,7 +13,7 @@
   const keys = {}, player={x:480,y:420,r:11,speed:178};
   const touchTarget={x:0,y:0,active:false};
   let mapPointer=null;
-  let running=false, ended=false, startTime=0, elapsed=0, target=-1, previousTarget=-1, last=0, score=0, bankRemainder=0, visited=new Set(), toastTimer=0, audio=null;
+  let running=false, ended=false, startTime=0, elapsed=0, target=-1, previousTarget=-1, last=0, score=0, bankRemainder=0, visited=new Set(), audio=null;
 
   function reset(){
     running=false; ended=false; elapsed=0; score=0; bankRemainder=0; visited=new Set();
@@ -24,12 +24,12 @@
   function start(){
     reset(); running=true; startTime=performance.now(); last=startTime; $('#modal').classList.remove('open'); $('#result').classList.remove('open');
     audio = audio || new (window.AudioContext||window.webkitAudioContext)(); beep(220,.07); requestAnimationFrame(loop);
-    showToast(matchMedia('(pointer:coarse)').matches?'Paina karttaa siitä suunnasta, johon haluat liikkua. Etsi sauna, mutta älä astu sisään ennen kuutta.':'Kello käy! Etsi sauna, mutta älä astu sisään ennen kuutta.');
+    showToast(matchMedia('(pointer:coarse)').matches?'Pidä sormi kartalla liikkumissuunnassa. Hahmo pysähtyy, kun nostat sormen.':'Kello käy! Etsi sauna, mutta älä astu sisään ennen kuutta.');
   }
   function beep(freq=440,len=.08,type='square'){
     if(!audio)return; const o=audio.createOscillator(),g=audio.createGain(); o.type=type;o.frequency.value=freq;g.gain.setValueAtTime(.045,audio.currentTime);g.gain.exponentialRampToValueAtTime(.001,audio.currentTime+len);o.connect(g).connect(audio.destination);o.start();o.stop(audio.currentTime+len);
   }
-  function showToast(text, ms=3400){ const t=$('#toast');t.textContent=text;t.classList.remove('hidden');clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.add('hidden'),ms); }
+  function showToast(text){const t=$('#toast');t.textContent=text;t.classList.remove('hidden');}
   function nearRect(r,range=30){const cx=Math.max(r.x,Math.min(player.x,r.x+r.w)),cy=Math.max(r.y,Math.min(player.y,r.y+r.h));return Math.hypot(player.x-cx,player.y-cy)<range;}
   function currentHouse(){return houses.findIndex(h=>nearRect(h,35));}
   function directionHint(){
@@ -93,7 +93,7 @@
     ctx.fillStyle='#b7a982';ctx.fillRect(0,210,W,56);ctx.fillRect(0,410,W,50);ctx.fillRect(445,0,70,H);
     ctx.globalAlpha=.18;ctx.fillStyle='#161d18';for(let x=0;x<W;x+=34)for(let y=0;y<H;y+=30){ctx.beginPath();ctx.arc(x+(y%60),y,2,0,7);ctx.fill();}ctx.globalAlpha=1;
     // shop
-    building(shop,'#c35835','#e7dcae');ctx.fillStyle='#171c18';ctx.font='700 20px Oswald';ctx.textAlign='center';ctx.fillText('KAUPPA',480,292);ctx.font='11px DM Mono';ctx.fillText('KALJAT +1 / SEKUNTI',480,314);door(468,363,'#294b3b');
+    building(shop,'#c35835','#e7dcae');ctx.fillStyle='#171c18';ctx.font='700 20px Oswald';ctx.textAlign='center';ctx.fillText('KAUPPA',480,292);ctx.font='700 16px Oswald';ctx.fillText('KALJAT +1 / SEKUNTI',480,316);door(468,363,'#294b3b');
     houses.forEach((h,i)=>{building(h,['#d49a57','#8f6670','#6d8c75','#c07b57'][i%4],'#e9dfc4');ctx.fillStyle='#172019';ctx.font=`700 ${h.n.length>8?17:20}px Oswald`;ctx.textAlign='center';ctx.fillText(h.n.toUpperCase(),h.x+h.w/2,h.y+34);door(h.x+h.w/2-11,h.y+h.h-28,'#382a20');if(visited.has(i)){ctx.fillStyle='#d9ef74';ctx.beginPath();ctx.arc(h.x+h.w-11,h.y+11,7,0,7);ctx.fill();}});
     // player shadow/body
     ctx.fillStyle='#0005';ctx.beginPath();ctx.ellipse(player.x,player.y+10,13,6,0,0,7);ctx.fill();ctx.fillStyle='#f16e3a';ctx.beginPath();ctx.arc(player.x,player.y,11,0,7);ctx.fill();ctx.fillStyle='#f1ead8';ctx.fillRect(player.x-5,player.y-7,10,7);ctx.fillStyle='#161b17';ctx.fillRect(player.x-6,player.y-11,12,4);
@@ -115,10 +115,13 @@
   }
   canvas.addEventListener('pointerdown',e=>{mapPointer=e.pointerId;setMapTarget(e.clientX,e.clientY);e.preventDefault();});
   canvas.addEventListener('pointermove',e=>{if(e.pointerId===mapPointer){setMapTarget(e.clientX,e.clientY);e.preventDefault();}});
-  addEventListener('pointerup',e=>{if(e.pointerId===mapPointer)mapPointer=null;});
-  addEventListener('pointercancel',e=>{if(e.pointerId===mapPointer)mapPointer=null;});
+  function stopMapMovement(){mapPointer=null;touchTarget.active=false;}
+  addEventListener('pointerup',e=>{if(e.pointerId===mapPointer)stopMapMovement();});
+  addEventListener('pointercancel',e=>{if(e.pointerId===mapPointer)stopMapMovement();});
   canvas.addEventListener('touchstart',e=>{const t=e.touches[0];if(t)setMapTarget(t.clientX,t.clientY);e.preventDefault();},{passive:false});
   canvas.addEventListener('touchmove',e=>{const t=e.touches[0];if(t)setMapTarget(t.clientX,t.clientY);e.preventDefault();},{passive:false});
+  canvas.addEventListener('touchend',e=>{stopMapMovement();e.preventDefault();},{passive:false});
+  canvas.addEventListener('touchcancel',stopMapMovement,{passive:false});
   $('[data-action="knock"]').addEventListener('click',knock);$('[data-action="enter"]').addEventListener('click',enter);
   $('#startBtn').addEventListener('click',start);$('#againBtn').addEventListener('click',start);reset();
 })();
