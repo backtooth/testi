@@ -23,7 +23,7 @@
   function start(){
     reset(); running=true; startTime=performance.now(); last=startTime; $('#modal').classList.remove('open'); $('#result').classList.remove('open');
     audio = audio || new (window.AudioContext||window.webkitAudioContext)(); beep(220,.07); requestAnimationFrame(loop);
-    showToast('Kello käy! Etsi sauna, mutta älä astu sisään ennen kuutta.');
+    showToast(matchMedia('(pointer:coarse)').matches?'Paina karttaa siitä suunnasta, johon haluat liikkua. Etsi sauna, mutta älä astu sisään ennen kuutta.':'Kello käy! Etsi sauna, mutta älä astu sisään ennen kuutta.');
   }
   function beep(freq=440,len=.08,type='square'){
     if(!audio)return; const o=audio.createOscillator(),g=audio.createGain(); o.type=type;o.frequency.value=freq;g.gain.setValueAtTime(.045,audio.currentTime);g.gain.exponentialRampToValueAtTime(.001,audio.currentTime+len);o.connect(g).connect(audio.destination);o.start();o.stop(audio.currentTime+len);
@@ -101,16 +101,17 @@
   function door(x,y,c){ctx.fillStyle=c;ctx.fillRect(x,y,22,28);ctx.fillStyle='#dbc566';ctx.fillRect(x+16,y+14,3,3);}
   function loop(now){if(!running)return;const dt=Math.min(.04,(now-last)/1000);last=now;update(dt);draw();if(running)requestAnimationFrame(loop);}
   addEventListener('keydown',e=>{keys[e.key]=true;if(['ArrowUp','ArrowDown','ArrowLeft','ArrowRight',' '].includes(e.key))e.preventDefault();if(e.key.toLowerCase()==='q')knock();if(e.key.toLowerCase()==='e')enter();});addEventListener('keyup',e=>keys[e.key]=false);
-  const joystick=$('#joystick'), knob=$('#joystickKnob');
-  function steer(e){
-    const r=joystick.getBoundingClientRect(),cx=r.left+r.width/2,cy=r.top+r.height/2,max=r.width*.32;
-    let dx=e.clientX-cx,dy=e.clientY-cy,d=Math.hypot(dx,dy);if(d>max){dx=dx/d*max;dy=dy/d*max;d=max;}
-    knob.style.transform=`translate(${dx}px,${dy}px)`;touchMove.x=dx/max;touchMove.y=dy/max;
+  function steerToMapPoint(e){
+    const r=canvas.getBoundingClientRect(),scale=Math.min(r.width/W,r.height/H);
+    const mapX=(e.clientX-r.left-(r.width-W*scale)/2)/scale;
+    const mapY=(e.clientY-r.top-(r.height-H*scale)/2)/scale;
+    const dx=mapX-player.x,dy=mapY-player.y,d=Math.hypot(dx,dy);
+    if(d<8){touchMove.x=0;touchMove.y=0;}else{touchMove.x=dx/d;touchMove.y=dy/d;}
   }
-  joystick.addEventListener('pointerdown',e=>{joystick.setPointerCapture(e.pointerId);steer(e);e.preventDefault();});
-  joystick.addEventListener('pointermove',e=>{if(joystick.hasPointerCapture(e.pointerId))steer(e);});
-  function releaseStick(e){if(e&&joystick.hasPointerCapture(e.pointerId))joystick.releasePointerCapture(e.pointerId);touchMove.x=0;touchMove.y=0;knob.style.transform='translate(0,0)';}
-  joystick.addEventListener('pointerup',releaseStick);joystick.addEventListener('pointercancel',releaseStick);
+  canvas.addEventListener('pointerdown',e=>{if(e.pointerType==='touch'||e.pointerType==='pen'){canvas.setPointerCapture(e.pointerId);steerToMapPoint(e);e.preventDefault();}});
+  canvas.addEventListener('pointermove',e=>{if(canvas.hasPointerCapture(e.pointerId))steerToMapPoint(e);});
+  function releaseMapTouch(e){if(canvas.hasPointerCapture(e.pointerId))canvas.releasePointerCapture(e.pointerId);touchMove.x=0;touchMove.y=0;}
+  canvas.addEventListener('pointerup',releaseMapTouch);canvas.addEventListener('pointercancel',releaseMapTouch);
   $('[data-action="knock"]').addEventListener('click',knock);$('[data-action="enter"]').addEventListener('click',enter);
   $('#startBtn').addEventListener('click',start);$('#againBtn').addEventListener('click',start);reset();
 })();
