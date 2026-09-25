@@ -35,15 +35,16 @@
     const start=(target+visited.size*2)%wrong.length;
     const a=houses[wrong[start]], b=houses[wrong[(start+1)%wrong.length]];
     const jokes=[
-      'Toinen lämmitti mikroa ja toinen itseään. Kumpikaan ei osunut kiuaskiveen.',
-      'Niiden pihassa höyryää vain oksennus ja epäilyttävä ämpäri. Älä kysy kumpi on kumpi.',
-      'Molemmat ovat jo siinä kunnossa, että löylykauha on kuulemma heidän uusi veroilmoituksensa.',
-      'Näin heidän kantavan kaljakoria sisään, mutta se palasi tyhjänä ennen kuin ovi ehti mennä kiinni.',
-      'Toiselta puuttuu kiuas ja toiselta housut. Salasaunaan tarvitaan kuulemma ainakin toinen.',
-      'He yrittivät sytyttää kertakäyttögrillin suihkussa. Tuomaristo hylkäsi suorituksen ja palokunta loput.',
-      'Siellä kuuluu kyllä sihinää, mutta se on vain isäntä avaamassa kuudetta kaljaa otsallaan.'
+      (x,y)=>`${x.n} lämmittää kotonaan mikroa kiukaan sijasta. ${y.n} taas istuu omassa suihkussaan uimalasit päässä ja odottaa löylyä.`,
+      (x,y)=>`${x.n} ilmoitti oman löylykauhansa kadonneeksi, vaikka se oli hänen kädessään. ${y.n} etsii kotonaan kiuasta jääkaapista.`,
+      (x,y)=>`${x.n} joi kotinsa saunakaljat jo eteisessä ja julisti tiistain alkaneeksi. ${y.n} yrittää avata omalla pihallaan kuudetta kaljaa otsallaan.`,
+      (x,y)=>`${x.n} väittää oman vessansa olevan savusauna, koska siellä näkyy huonosti. ${y.n} puhuttelee kotonaan leivänpaahdinta saunatontuksi.`,
+      (x,y)=>`${x.n} kadotti omassa kodissaan sekä kiukaan että housut. ${y.n} löysi kotoaan vain lämpimän ämpärin ja kylmän makkaran.`,
+      (x,y)=>`${x.n} yritti sytyttää kotonaan kertakäyttögrillin suihkussa. ${y.n} lämmittää omaa kylpyhuonettaan föönillä ja kutsuu sitä puukiukaaksi.`,
+      (x,y)=>`${x.n} kuulee kotonaan sihinää vain kaljatölkistä. ${y.n} näkee omalla pihallaan kaksi kuuta eikä kumpikaan lämmitä saunaa.`
     ];
-    return {text:`Salasauna ei ainakaan ole tänään ${a.at} tai ${b.at}. ${jokes[(visited.size+target)%jokes.length]}`};
+    const joke=jokes[(visited.size+target)%jokes.length](a,b);
+    return {text:`Salasauna ei ainakaan ole tänään ${a.at} tai ${b.at}. ${joke}`};
   }
   function knock(){
     if(!running||ended)return; const i=currentHouse();
