@@ -96,7 +96,7 @@
     ctx.globalAlpha=.22;ctx.fillStyle='#d99a3c';for(let x=0;x<W;x+=34)for(let y=0;y<H;y+=30){ctx.beginPath();ctx.arc(x+(y%60),y,2,0,7);ctx.fill();}ctx.globalAlpha=1;
     // shop
     building(shop,'#f05a47','#ffe08a');ctx.fillStyle='#18352a';ctx.font='700 20px Oswald';ctx.textAlign='center';ctx.fillText('KAUPPA',480,292);ctx.font='700 16px Oswald';ctx.fillText('KALJAT +1 / SEKUNTI',480,316);door(468,363,'#247a68');
-    houses.forEach((h,i)=>{building(h,['#ff8a4c','#b879d8','#35a993','#f0657c'][i%4],'#fff0b5');ctx.fillStyle='#17372c';ctx.font=`700 ${h.n.length>8?17:20}px Oswald`;ctx.textAlign='center';ctx.fillText(h.n.toUpperCase(),h.x+h.w/2,h.y+43);door(h.x+h.w/2-11,h.y+h.h-28,'#65402e');if(visited.has(i)){ctx.fillStyle='#eaff6b';ctx.beginPath();ctx.arc(h.x+h.w-11,h.y+11,7,0,7);ctx.fill();}});
+    houses.forEach((h,i)=>{building(h,['#ff8a4c','#b879d8','#35a993','#f0657c'][i%4],'#fff0b5');ctx.fillStyle='#17372c';ctx.font=`700 ${h.n.length>8?17:20}px Oswald`;ctx.textAlign='center';ctx.fillText(h.n.toUpperCase(),h.x+h.w/2,h.y+55);door(h.x+h.w/2-11,h.y+h.h-28,'#65402e');if(visited.has(i)){ctx.fillStyle='#eaff6b';ctx.beginPath();ctx.arc(h.x+h.w-11,h.y+11,7,0,7);ctx.fill();}});
     // player shadow/body
     ctx.fillStyle='#0005';ctx.beginPath();ctx.ellipse(player.x,player.y+10,13,6,0,0,7);ctx.fill();ctx.fillStyle='#ff4f72';ctx.beginPath();ctx.arc(player.x,player.y,11,0,7);ctx.fill();ctx.fillStyle='#fff7df';ctx.fillRect(player.x-5,player.y-7,10,7);ctx.fillStyle='#17372c';ctx.fillRect(player.x-6,player.y-11,12,4);
     // interaction prompt
