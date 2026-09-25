@@ -3,7 +3,7 @@
   const canvas = document.querySelector('#game');
   const ctx = canvas.getContext('2d');
   const $ = s => document.querySelector(s);
-  const W = 960, H = 640, duration = 60, margin = 2;
+  const W = 960, H = 640, duration = 60, margin = 0.5;
   const shop = {x:390,y:245,w:180,h:150};
   const houses = [
     {x:74,y:58,w:126,h:92,n:'Frank',at:'Frankilla'}, {x:300,y:42,w:126,h:92,n:'Jouko&Sami',at:'Joukolla & Samilla'}, {x:756,y:62,w:126,h:92,n:'Antti',at:'Antilla'},
