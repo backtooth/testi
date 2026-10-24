@@ -1,0 +1,32 @@
+name: Päivitä tapahtumat
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */4 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-events
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Hae tapahtumat
+        run: node scripts/fetch-events.mjs
+      - name: Tallenna muuttuneet tiedot
+        run: |
+          if git diff --quiet -- tapahtumat/data/events.json; then
+            echo "Ei muutoksia"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tapahtumat/data/events.json
+          git commit -m "Päivitä tapahtumatiedot"
+          git push

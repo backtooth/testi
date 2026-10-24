@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#10100f">
+    <meta name="description" content="Tämän päivän keikat ja klubit Helsingissä.">
+    <title>Menot tänään</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <header class="hero">
+        <p class="eyebrow">Helsinki · tänään</p>
+        <h1>Mitä tänään<br><em>tapahtuu?</em></h1>
+        <p class="date" id="today">Haetaan päivämäärää…</p>
+      </header>
+
+      <section aria-labelledby="events-heading">
+        <div class="section-heading">
+          <h2 id="events-heading">Illan menot</h2>
+          <span class="count" id="event-count" aria-live="polite"></span>
+        </div>
+        <div class="events" id="events" aria-live="polite" aria-busy="true">
+          <article class="message"><p>Haetaan tapahtumia…</p></article>
+        </div>
+      </section>
+
+      <footer>
+        <p>Tapahtumatiedot haetaan tapahtumapaikkojen omilta sivuilta. Tarkista ajantasaiset tiedot aina järjestäjältä.</p>
+        <p id="updated"></p>
+      </footer>
+    </main>
+  </body>
+</html>
