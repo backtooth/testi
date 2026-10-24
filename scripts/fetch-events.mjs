@@ -6,6 +6,10 @@ import { fileURLToPath } from "node:url";
 
 const KUUDES_LINJA_URL = "https://kuudeslinja.com/";
 const LEPAKKOMIES_URL = "https://www.lepis.fi/tapahtumat/";
+const ROCKS_URL = "https://www.rocks.fi/";
+const KULTTUURITALO_URL = "https://kulttuuritalo.fi/tapahtumat/";
+const TAVASTIA_URL = "https://tavastiaklubi.fi/";
+const SEMIFINAL_URL = "https://tavastiaklubi.fi/semifinal/";
 const OUTPUT = resolve("tapahtumat/data/events.json");
 
 function decodeHtml(value) {
@@ -80,6 +84,14 @@ export function parseKuudesLinjaEvents(html, now = new Date()) {
 }
 
 export function parseLepakkomiesEvents(html, now = new Date()) {
+  return parseMediaaniEvents(html, now, "Lepakkomies", LEPAKKOMIES_URL);
+}
+
+export function parseRocksEvents(html, now = new Date()) {
+  return parseMediaaniEvents(html, now, "On the Rocks", ROCKS_URL);
+}
+
+function parseMediaaniEvents(html, now, venue, sourceUrl) {
   const today = helsinkiDateParts(now);
   const articles = html.match(/<article[^>]*class=["'][^"']*\btapahtuma\b[^"']*["'][^>]*>[\s\S]*?<\/article>/gi) ?? [];
   return articles.map((article) => {
@@ -90,16 +102,64 @@ export function parseLepakkomiesEvents(html, now = new Date()) {
     const eventUrl = firstHref(titleHtml);
     const ticketUrl = article.match(/<a[^>]*class=["'][^"']*\bbtn-tiketti\b[^"']*["'][^>]*href=["']([^"']+)["']/i)?.[1];
     const links = [];
-    if (eventUrl) links.push({ url: new URL(eventUrl, LEPAKKOMIES_URL).href, label: "Lisätiedot" });
-    if (ticketUrl) links.push({ url: new URL(decodeHtml(ticketUrl), LEPAKKOMIES_URL).href, label: "Liput" });
+    if (eventUrl) links.push({ url: new URL(eventUrl, sourceUrl).href, label: "Lisätiedot" });
+    if (ticketUrl) links.push({ url: new URL(decodeHtml(ticketUrl), sourceUrl).href, label: "Liput" });
     return {
-      venue: "Lepakkomies",
+      venue,
       date: dateKey(dateText, today),
       title: textFromHtml(titleHtml),
       details: [space, dateText.replace(/^\S+\s+\d{1,2}\.\d{1,2}\.\d{4}\s*\/\s*/i, ""), price].filter(Boolean).join("\n"),
       links,
-      source_url: LEPAKKOMIES_URL,
+      source_url: sourceUrl,
     };
+  });
+}
+
+export function parseKulttuuritaloEvents(html) {
+  const cards = html.split(/<div class=["']pp-content-post\s/gi).slice(1);
+  return cards.flatMap((card) => {
+    const title = textFromHtml(elementWithClass(card, "pp-content-grid-post-title"));
+    const meta = elementWithClass(card, "pp-content-grid-post-meta");
+    const dateText = textFromHtml(meta).match(/\d{1,2}\.\d{1,2}\.\d{4}/)?.[0];
+    const eventUrl = card.match(/itemid=["']([^"']+)["']/i)?.[1] ?? firstHref(card);
+    if (!title || !dateText || !eventUrl) return [];
+    const price = textFromHtml(elementWithClass(meta, "ticket-price"));
+    return [{
+      venue: "Kulttuuritalo",
+      date: dateKey(dateText, helsinkiDateParts()),
+      title,
+      details: price,
+      links: [{ url: new URL(decodeHtml(eventUrl), KULTTUURITALO_URL).href, label: "Lisätiedot" }],
+      source_url: KULTTUURITALO_URL,
+    }];
+  });
+}
+
+function attribute(tag, name) {
+  return decodeHtml(tag.match(new RegExp(`\\b${name}=["']([^"']+)["']`, "i"))?.[1] ?? "");
+}
+
+export function parseTavastiaEvents(html, venue, sourceUrl, locationClass) {
+  const cards = html.match(/<a[^>]*class=["'][^"']*\btiketti-list-item\b[^"']*["'][^>]*>[\s\S]*?<\/a>/gi) ?? [];
+  return cards.flatMap((card) => {
+    const startTag = card.match(/^<a[^>]*>/i)?.[0] ?? "";
+    if (!attribute(startTag, "class").split(/\s+/).includes(locationClass)) return [];
+    const eventUrl = attribute(startTag, "href");
+    const date = attribute(startTag, "data-begin-date");
+    const title = textFromHtml(card.match(/<h3[^>]*>([\s\S]*?)<\/h3>/i)?.[1] ?? "");
+    if (!eventUrl || !/^\d{4}-\d{2}-\d{2}$/.test(date) || !title) return [];
+    const details = textFromHtml(card.replace(/<\/div>/gi, "\n"), true)
+      .split("\n")
+      .filter((line) => line !== title && !/^\S+\s+\d{1,2}\.\d{1,2}\.$/i.test(line) && line !== "Osta liput")
+      .join("\n");
+    return [{
+      venue,
+      date,
+      title,
+      details,
+      links: [{ url: new URL(eventUrl, sourceUrl).href, label: "Lisätiedot" }],
+      source_url: sourceUrl,
+    }];
   });
 }
 
@@ -113,13 +173,21 @@ async function fetchHtml(url) {
 async function main() {
   const kuudesInput = process.argv.indexOf("--kuudes-input");
   const lepisInput = process.argv.indexOf("--lepis-input");
-  const [kuudesHtml, lepisHtml] = await Promise.all([
+  const [kuudesHtml, lepisHtml, rocksHtml, kulttuuritaloHtml, tavastiaHtml, semifinalHtml] = await Promise.all([
     kuudesInput >= 0 ? readFile(process.argv[kuudesInput + 1], "utf8") : fetchHtml(KUUDES_LINJA_URL),
     lepisInput >= 0 ? readFile(process.argv[lepisInput + 1], "utf8") : fetchHtml(LEPAKKOMIES_URL),
+    fetchHtml(ROCKS_URL),
+    fetchHtml(KULTTUURITALO_URL),
+    fetchHtml(TAVASTIA_URL),
+    fetchHtml(SEMIFINAL_URL),
   ]);
   const events = [
     ...parseKuudesLinjaEvents(kuudesHtml),
     ...parseLepakkomiesEvents(lepisHtml),
+    ...parseRocksEvents(rocksHtml),
+    ...parseKulttuuritaloEvents(kulttuuritaloHtml),
+    ...parseTavastiaEvents(tavastiaHtml, "Tavastia", TAVASTIA_URL, "location-tavastia-klubi"),
+    ...parseTavastiaEvents(semifinalHtml, "Semifinal", SEMIFINAL_URL, "location-semifinal"),
   ];
   if (!events.length) throw new Error("Yhtään tapahtumaa ei löytynyt; vanha data säilytetään.");
   await mkdir(dirname(OUTPUT), { recursive: true });

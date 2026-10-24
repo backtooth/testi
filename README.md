@@ -16,5 +16,6 @@ Peli toimii staattisena ilman asennuksia. Sääntötestit: `node castle-siege/ch
 ## Tapahtumat tänään
 
 Helsingin tämän päivän tapahtumat löytyvät hakemistosta `tapahtumat/`.
-Mukana ovat Kuudennen Linjan ja Lepakkomiehen tapahtumat.
+Mukana ovat Kuudennen Linjan, Lepakkomiehen, On the Rocksin, Kulttuuritalon,
+Tavastian ja Semifinalin tapahtumat.
 Tapahtumatiedot päivitetään automaattisesti GitHub Actionsilla.
