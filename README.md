@@ -17,5 +17,10 @@ Peli toimii staattisena ilman asennuksia. Sääntötestit: `node castle-siege/ch
 
 Helsingin tämän päivän tapahtumat löytyvät hakemistosta `tapahtumat/`.
 Mukana ovat Kuudennen Linjan, Lepakkomiehen, On the Rocksin, Kulttuuritalon,
-Tavastian ja Semifinalin tapahtumat.
+Tavastian, Semifinalin ja Mustan Kissan tapahtumat.
 Tapahtumatiedot päivitetään automaattisesti GitHub Actionsilla.
+
+Mustan Kissan Facebookissa kuvana julkaistava kuukausiohjelma syötetään käsin
+tiedostoon `tapahtumat/data/manual-events.json`. Jokaisessa tapahtumassa tarvitaan
+vähintään `venue`, `date`, `title` ja `source_url`. Automaattinen päivitys yhdistää
+tiedoston tapahtumat muiden lähteiden tietoihin eikä kirjoita käsin syötettyä tiedostoa yli.

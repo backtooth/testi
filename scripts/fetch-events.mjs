@@ -11,6 +11,7 @@ const KULTTUURITALO_URL = "https://kulttuuritalo.fi/tapahtumat/";
 const TAVASTIA_URL = "https://tavastiaklubi.fi/";
 const SEMIFINAL_URL = "https://tavastiaklubi.fi/semifinal/";
 const OUTPUT = resolve("tapahtumat/data/events.json");
+const MANUAL_EVENTS = resolve("tapahtumat/data/manual-events.json");
 
 function decodeHtml(value) {
   const named = { amp: "&", quot: '"', apos: "'", lt: "<", gt: ">", nbsp: " " };
@@ -170,16 +171,28 @@ async function fetchHtml(url) {
   });
 }
 
+async function loadManualEvents() {
+  const data = JSON.parse(await readFile(MANUAL_EVENTS, "utf8"));
+  if (!Array.isArray(data.events)) throw new Error("manual-events.json: events ei ole lista");
+  return data.events.map((event, index) => {
+    if (!event.venue || !/^\d{4}-\d{2}-\d{2}$/.test(event.date) || !event.title || !event.source_url) {
+      throw new Error(`manual-events.json: tapahtuma ${index + 1} on puutteellinen`);
+    }
+    return { ...event, details: event.details ?? "", links: event.links ?? [] };
+  });
+}
+
 async function main() {
   const kuudesInput = process.argv.indexOf("--kuudes-input");
   const lepisInput = process.argv.indexOf("--lepis-input");
-  const [kuudesHtml, lepisHtml, rocksHtml, kulttuuritaloHtml, tavastiaHtml, semifinalHtml] = await Promise.all([
+  const [kuudesHtml, lepisHtml, rocksHtml, kulttuuritaloHtml, tavastiaHtml, semifinalHtml, manualEvents] = await Promise.all([
     kuudesInput >= 0 ? readFile(process.argv[kuudesInput + 1], "utf8") : fetchHtml(KUUDES_LINJA_URL),
     lepisInput >= 0 ? readFile(process.argv[lepisInput + 1], "utf8") : fetchHtml(LEPAKKOMIES_URL),
     fetchHtml(ROCKS_URL),
     fetchHtml(KULTTUURITALO_URL),
     fetchHtml(TAVASTIA_URL),
     fetchHtml(SEMIFINAL_URL),
+    loadManualEvents(),
   ]);
   const events = [
     ...parseKuudesLinjaEvents(kuudesHtml),
@@ -188,6 +201,7 @@ async function main() {
     ...parseKulttuuritaloEvents(kulttuuritaloHtml),
     ...parseTavastiaEvents(tavastiaHtml, "Tavastia", TAVASTIA_URL, "location-tavastia-klubi"),
     ...parseTavastiaEvents(semifinalHtml, "Semifinal", SEMIFINAL_URL, "location-semifinal"),
+    ...manualEvents,
   ];
   if (!events.length) throw new Error("Yhtään tapahtumaa ei löytynyt; vanha data säilytetään.");
   await mkdir(dirname(OUTPUT), { recursive: true });
