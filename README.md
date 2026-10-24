@@ -16,4 +16,5 @@ Peli toimii staattisena ilman asennuksia. Sääntötestit: `node castle-siege/ch
 ## Tapahtumat tänään
 
 Helsingin tämän päivän tapahtumat löytyvät hakemistosta `tapahtumat/`.
+Mukana ovat Kuudennen Linjan ja Lepakkomiehen tapahtumat.
 Tapahtumatiedot päivitetään automaattisesti GitHub Actionsilla.

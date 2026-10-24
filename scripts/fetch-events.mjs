@@ -4,7 +4,8 @@ import { readFile, mkdir, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
-const SOURCE_URL = "https://kuudeslinja.com/";
+const KUUDES_LINJA_URL = "https://kuudeslinja.com/";
+const LEPAKKOMIES_URL = "https://www.lepis.fi/tapahtumat/";
 const OUTPUT = resolve("tapahtumat/data/events.json");
 
 function decodeHtml(value) {
@@ -50,12 +51,22 @@ function field(article, className) {
   return article.match(pattern)?.[1] ?? "";
 }
 
-export function parseEvents(html, now = new Date()) {
+function elementWithClass(html, className) {
+  const pattern = new RegExp(`<([a-z][a-z0-9]*)[^>]*class=["'][^"']*\\b${className}\\b[^"']*["'][^>]*>([\\s\\S]*?)<\\/\\1>`, "i");
+  return html.match(pattern)?.[2] ?? "";
+}
+
+function firstHref(html) {
+  const href = html.match(/<a[^>]*href=["']([^"']+)["']/i)?.[1];
+  return href ? decodeHtml(href) : "";
+}
+
+export function parseKuudesLinjaEvents(html, now = new Date()) {
   const today = helsinkiDateParts(now);
   const articles = html.match(/<article[^>]*class=["'][^"']*\bevent\b[^"']*["'][^>]*>[\s\S]*?<\/article>/gi) ?? [];
   return articles.map((article) => {
     const links = [...article.matchAll(/<a[^>]*class=["'][^"']*\bevent-button\b[^"']*["'][^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)]
-      .map(([, url, label]) => ({ url: new URL(decodeHtml(url), SOURCE_URL).href, label: textFromHtml(label) }));
+      .map(([, url, label]) => ({ url: new URL(decodeHtml(url), KUUDES_LINJA_URL).href, label: textFromHtml(label) }));
     const dateText = textFromHtml(field(article, "pvm"));
     return {
       venue: "Kuudes Linja",
@@ -63,20 +74,53 @@ export function parseEvents(html, now = new Date()) {
       title: textFromHtml(field(article, "title")),
       details: textFromHtml(field(article, "info"), true),
       links,
-      source_url: SOURCE_URL,
+      source_url: KUUDES_LINJA_URL,
     };
   });
 }
 
+export function parseLepakkomiesEvents(html, now = new Date()) {
+  const today = helsinkiDateParts(now);
+  const articles = html.match(/<article[^>]*class=["'][^"']*\btapahtuma\b[^"']*["'][^>]*>[\s\S]*?<\/article>/gi) ?? [];
+  return articles.map((article) => {
+    const titleHtml = elementWithClass(article, "h2");
+    const dateText = textFromHtml(elementWithClass(article, "date-info"));
+    const space = textFromHtml(elementWithClass(article, "tapahtumatila"));
+    const price = textFromHtml(elementWithClass(article, "lippujen-lisatieto"));
+    const eventUrl = firstHref(titleHtml);
+    const ticketUrl = article.match(/<a[^>]*class=["'][^"']*\bbtn-tiketti\b[^"']*["'][^>]*href=["']([^"']+)["']/i)?.[1];
+    const links = [];
+    if (eventUrl) links.push({ url: new URL(eventUrl, LEPAKKOMIES_URL).href, label: "Lisätiedot" });
+    if (ticketUrl) links.push({ url: new URL(decodeHtml(ticketUrl), LEPAKKOMIES_URL).href, label: "Liput" });
+    return {
+      venue: "Lepakkomies",
+      date: dateKey(dateText, today),
+      title: textFromHtml(titleHtml),
+      details: [space, dateText.replace(/^\S+\s+\d{1,2}\.\d{1,2}\.\d{4}\s*\/\s*/i, ""), price].filter(Boolean).join("\n"),
+      links,
+      source_url: LEPAKKOMIES_URL,
+    };
+  });
+}
+
+async function fetchHtml(url) {
+  return fetch(url, { headers: { "user-agent": "tapahtumat-pages/1.0 (+GitHub Pages)" } }).then((response) => {
+    if (!response.ok) throw new Error(`${url} vastasi HTTP ${response.status}`);
+    return response.text();
+  });
+}
+
 async function main() {
-  const inputIndex = process.argv.indexOf("--input");
-  const html = inputIndex >= 0
-    ? await readFile(process.argv[inputIndex + 1], "utf8")
-    : await fetch(SOURCE_URL, { headers: { "user-agent": "tapahtumat-pages/1.0 (+GitHub Pages)" } }).then((response) => {
-        if (!response.ok) throw new Error(`Lähde vastasi HTTP ${response.status}`);
-        return response.text();
-      });
-  const events = parseEvents(html);
+  const kuudesInput = process.argv.indexOf("--kuudes-input");
+  const lepisInput = process.argv.indexOf("--lepis-input");
+  const [kuudesHtml, lepisHtml] = await Promise.all([
+    kuudesInput >= 0 ? readFile(process.argv[kuudesInput + 1], "utf8") : fetchHtml(KUUDES_LINJA_URL),
+    lepisInput >= 0 ? readFile(process.argv[lepisInput + 1], "utf8") : fetchHtml(LEPAKKOMIES_URL),
+  ]);
+  const events = [
+    ...parseKuudesLinjaEvents(kuudesHtml),
+    ...parseLepakkomiesEvents(lepisHtml),
+  ];
   if (!events.length) throw new Error("Yhtään tapahtumaa ei löytynyt; vanha data säilytetään.");
   await mkdir(dirname(OUTPUT), { recursive: true });
   await writeFile(OUTPUT, `${JSON.stringify({ updated_at: new Date().toISOString(), events }, null, 2)}\n`, "utf8");
