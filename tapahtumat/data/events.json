@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T19:06:14.628Z",
+  "updated_at": "2026-10-25T22:37:20.654Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -1949,19 +1949,6 @@
         }
       ],
       "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Tavastia",
-      "date": "2026-10-25",
-      "title": "Razorlight (UK) + Free Carmen",
-      "details": "18.00\nOvet\n18.30\nFree Carmen\n19.45\nRazorlight",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-10-25/razorlight-uk-free-carmen/118887/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/"
     },
     {
       "venue": "Tavastia",
