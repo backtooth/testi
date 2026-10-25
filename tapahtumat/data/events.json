@@ -1,32 +1,6 @@
 {
-  "updated_at": "2026-10-25T04:51:44.997Z",
+  "updated_at": "2026-10-25T13:13:30.754Z",
   "events": [
-    {
-      "venue": "Kuudes Linja",
-      "date": "2026-10-24",
-      "title": "ALKUILLAN KONSERTTI: PEDRO (LEVYJULKKARIT) + VICTOR NORDIS",
-      "details": "LIVE: Victor Nordis (klo 21)\nLIVE: Pedro (klo 20)\nEnnakot Tiketistä 14 €, liput ovelta 16 €\n+ security fee 3,90 €\nOvet klo 19",
-      "links": [
-        {
-          "url": "https://www.tiketti.fi/pedro-victor-nordis-kuudes-linja-helsinki-lippuja/120803",
-          "label": "Liput"
-        }
-      ],
-      "source_url": "https://kuudeslinja.com/"
-    },
-    {
-      "venue": "Kuudes Linja",
-      "date": "2026-10-24",
-      "title": "LADI",
-      "details": "Lauantaidisko DJs\nLiput 12 € (vapaa pääsy ennen klo 23:30)\n+ security fee 3,90 €\nOvet klo 23:15–04:30",
-      "links": [
-        {
-          "url": "https://www.facebook.com/events/1894493998499681/",
-          "label": "FB"
-        }
-      ],
-      "source_url": "https://kuudeslinja.com/"
-    },
     {
       "venue": "Kuudes Linja",
       "date": "2026-10-28",
@@ -507,19 +481,6 @@
     },
     {
       "venue": "Lepakkomies",
-      "date": "2026-10-24",
-      "title": "MARSUPOTAMIA – ASCENSION",
-      "details": "Klubi\novet klo 19:00\nliput alakertaan 10-25€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/marsupotamia-ascension/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
       "date": "2026-10-27",
       "title": "Ei pöllömpi pubivisa by Pöllö & Ode",
       "details": "Street Bar\novet klo 18:00\nVapaa pääsy!",
@@ -752,38 +713,17 @@
       "source_url": "https://www.lepis.fi/tapahtumat/"
     },
     {
-      "venue": "On the Rocks",
-      "date": "2026-10-24",
-      "title": "For My Pain…, Scars of Solitude",
-      "details": "Klubi\novet klo 20:00\nliput alk. 29 € / 32 €",
+      "venue": "Lepakkomies",
+      "date": "2026-11-11",
+      "title": "Pepita Vanni + Ville Miettinen + Sanni Mäntyranta",
+      "details": "Klubi\novet klo 20:00\nliput alakertaan 6€",
       "links": [
         {
-          "url": "https://www.rocks.fi/tapahtumat/for-my-pain-scars-of-solitude/",
+          "url": "https://www.lepis.fi/tapahtumat/pepita-vanni-ville-miettinen-sanni-mantyranta/",
           "label": "Lisätiedot"
-        },
-        {
-          "url": "https://www.tiketti.fi/tapahtuma/119846",
-          "label": "Liput"
         }
       ],
-      "source_url": "https://www.rocks.fi/"
-    },
-    {
-      "venue": "On the Rocks",
-      "date": "2026-10-24",
-      "title": "Turmion Kätilöt – The Colossal After Party",
-      "details": "Klubi\novet klo 23:00\nliput alk. 12 € / 14 €",
-      "links": [
-        {
-          "url": "https://www.rocks.fi/tapahtumat/turmion-katilot-the-colossal-after-party/",
-          "label": "Lisätiedot"
-        },
-        {
-          "url": "https://www.tiketti.fi/tapahtuma/118918",
-          "label": "Liput"
-        }
-      ],
-      "source_url": "https://www.rocks.fi/"
+      "source_url": "https://www.lepis.fi/tapahtumat/"
     },
     {
       "venue": "On the Rocks",
@@ -850,56 +790,34 @@
       "source_url": "https://www.rocks.fi/"
     },
     {
-      "venue": "Kulttuuritalo",
-      "date": "2026-10-20",
-      "title": "Dylan Moran: LOOKING FOR TROUBLE",
-      "details": "Liput alkaen 44,00€",
+      "venue": "On the Rocks",
+      "date": "2026-10-30",
+      "title": "DIRT – Halloween Special Vol. 5, Pretty",
+      "details": "Klubi\novet klo 20:00\nliput alk. 23 € / 25 €",
       "links": [
         {
-          "url": "https://kulttuuritalo.fi/tapahtuma/dylan-moran/",
+          "url": "https://www.rocks.fi/tapahtumat/dirt-halloween-special-vol-5-pretty/",
           "label": "Lisätiedot"
+        },
+        {
+          "url": "https://www.tiketti.fi/dirt-halloween-special-vol-5-pretty-on-the-rocks-helsinki-lippuja/120702",
+          "label": "Liput"
         }
       ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+      "source_url": "https://www.rocks.fi/"
     },
     {
-      "venue": "Kulttuuritalo",
-      "date": "2026-10-21",
-      "title": "KULT: ELITA 5",
-      "details": "Liput alkaen 44,10€",
+      "venue": "On the Rocks",
+      "date": "2026-10-30",
+      "title": "Öisin on karmivampaa! Halloween Extravaganza: DJs Taika-Iiro & Volde-Mortti",
+      "details": "Klubi\novet klo 23:30\nliput ovelta 7 €",
       "links": [
         {
-          "url": "https://kulttuuritalo.fi/tapahtuma/kult-elita-5/",
+          "url": "https://www.rocks.fi/tapahtumat/oisin-on-karmivampaa-halloween-extravaganza-djs-taika-iiro-volde-mortti/",
           "label": "Lisätiedot"
         }
       ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Kulttuuritalo",
-      "date": "2026-10-23",
-      "title": "KULT: Amuri (levynjulkkarit) + Liisa Akimof",
-      "details": "Liput alkaen 20,00€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/amuri-levynjulkkarit-liisa-akimof/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Kulttuuritalo",
-      "date": "2026-10-23",
-      "title": "Kai Hahto – 35 Years of Music",
-      "details": "Liput alkaen 44,90€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/kai-hahto-35-years-of-music/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+      "source_url": "https://www.rocks.fi/"
     },
     {
       "venue": "Kulttuuritalo",
@@ -982,7 +900,7 @@
     {
       "venue": "Kulttuuritalo",
       "date": "2026-10-30",
-      "title": "KULT: Robyn Hitchcock (UK)",
+      "title": "KULT: Robyn Hitchcock (UK) + Emma Swift",
       "details": "Liput alkaen 28,10€",
       "links": [
         {
@@ -1657,6 +1575,19 @@
     },
     {
       "venue": "Kulttuuritalo",
+      "date": "2027-02-05",
+      "title": "Ane Brun (NO) – I Thought We Were The Same Nordic Tour 2027",
+      "details": "Liput alkaen 42,50€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/ane-brun-no-i-thought-we-were-the-same-nordic-tour-2027/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
       "date": "2027-02-06",
       "title": "10cc",
       "details": "Liput alkaen 54,90€",
@@ -1702,6 +1633,19 @@
       "links": [
         {
           "url": "https://kulttuuritalo.fi/tapahtuma/baby-lasagna-2/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2027-02-14",
+      "title": "Arttu Wiskari – Suomi Finland PRKL",
+      "details": "Liput alkaen 39,90€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/arttu-wiskari-suomi-finland-prkl/",
           "label": "Lisätiedot"
         }
       ],
@@ -1762,7 +1706,7 @@
     {
       "venue": "Kulttuuritalo",
       "date": "2027-03-05",
-      "title": "MALEVO – FOREVER GAUCHO",
+      "title": "MALEVO – Argentina-show",
       "details": "Liput alkaen 44,50€",
       "links": [
         {
