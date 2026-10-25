@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T13:13:30.754Z",
+  "updated_at": "2026-10-25T19:06:14.628Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -818,32 +818,6 @@
         }
       ],
       "source_url": "https://www.rocks.fi/"
-    },
-    {
-      "venue": "Kulttuuritalo",
-      "date": "2026-10-24",
-      "title": "JENNI VARTIAINEN – VEDENALAISTA-KONSERTTISALIKIERTUE 2026",
-      "details": "Liput alkaen 49,90€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/jenni-vartiainen-vedenalaista/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Kulttuuritalo",
-      "date": "2026-10-24",
-      "title": "KULT: 10 Years Of The Circuit: Prolix (UK)",
-      "details": "Liput alkaen 33,60€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/10-years-of-the-circuit-prolix-uk/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
     },
     {
       "venue": "Kulttuuritalo",
@@ -1980,7 +1954,7 @@
       "venue": "Tavastia",
       "date": "2026-10-25",
       "title": "Razorlight (UK) + Free Carmen",
-      "details": "Liput\n31 € / 32 €\n18.00\nOvet\n18.30\nFree Carmen\n19.45\nRazorlight",
+      "details": "18.00\nOvet\n18.30\nFree Carmen\n19.45\nRazorlight",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-10-25/razorlight-uk-free-carmen/118887/",
