@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T22:32:38.271Z",
+  "updated_at": "2026-10-25T04:51:44.997Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -851,6 +851,58 @@
     },
     {
       "venue": "Kulttuuritalo",
+      "date": "2026-10-20",
+      "title": "Dylan Moran: LOOKING FOR TROUBLE",
+      "details": "Liput alkaen 44,00€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/dylan-moran/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2026-10-21",
+      "title": "KULT: ELITA 5",
+      "details": "Liput alkaen 44,10€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/kult-elita-5/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2026-10-23",
+      "title": "KULT: Amuri (levynjulkkarit) + Liisa Akimof",
+      "details": "Liput alkaen 20,00€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/amuri-levynjulkkarit-liisa-akimof/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2026-10-23",
+      "title": "Kai Hahto – 35 Years of Music",
+      "details": "Liput alkaen 44,90€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/kai-hahto-35-years-of-music/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
       "date": "2026-10-24",
       "title": "JENNI VARTIAINEN – VEDENALAISTA-KONSERTTISALIKIERTUE 2026",
       "details": "Liput alkaen 49,90€",
@@ -930,7 +982,7 @@
     {
       "venue": "Kulttuuritalo",
       "date": "2026-10-30",
-      "title": "KULT: Robyn Hitchcock (UK) + Emma Swift",
+      "title": "KULT: Robyn Hitchcock (UK)",
       "details": "Liput alkaen 28,10€",
       "links": [
         {
@@ -1605,19 +1657,6 @@
     },
     {
       "venue": "Kulttuuritalo",
-      "date": "2027-02-05",
-      "title": "Ane Brun (NO) – I Thought We Were The Same Nordic Tour 2027",
-      "details": "Liput alkaen 42,50€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/ane-brun-no-i-thought-we-were-the-same-nordic-tour-2027/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Kulttuuritalo",
       "date": "2027-02-06",
       "title": "10cc",
       "details": "Liput alkaen 54,90€",
@@ -1663,19 +1702,6 @@
       "links": [
         {
           "url": "https://kulttuuritalo.fi/tapahtuma/baby-lasagna-2/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Kulttuuritalo",
-      "date": "2027-02-14",
-      "title": "Arttu Wiskari – Suomi Finland PRKL",
-      "details": "Liput alkaen 39,90€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/arttu-wiskari-suomi-finland-prkl/",
           "label": "Lisätiedot"
         }
       ],
@@ -1736,7 +1762,7 @@
     {
       "venue": "Kulttuuritalo",
       "date": "2027-03-05",
-      "title": "MALEVO – Argentina-show",
+      "title": "MALEVO – FOREVER GAUCHO",
       "details": "Liput alkaen 44,50€",
       "links": [
         {
@@ -3019,19 +3045,6 @@
         }
       ],
       "source_url": "https://tavastiaklubi.fi/"
-    },
-    {
-      "venue": "Semifinal",
-      "date": "2026-10-24",
-      "title": "House of Auer: Kymmenen – Discoteca Auer",
-      "details": "Liput\n10 € / 12 €\n23.30\nOvet",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-10-24/house-of-auer-kymmenen-discoteca-auer/121605/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/semifinal/"
     },
     {
       "venue": "Semifinal",
