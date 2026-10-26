@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T15:15:44.966Z",
+  "updated_at": "2026-10-26T21:03:33.667Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -1367,6 +1367,19 @@
     },
     {
       "venue": "Kulttuuritalo",
+      "date": "2026-12-17",
+      "title": "KULT: Flok – Sydäntalvi",
+      "details": "Liput alkaen 30,00€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/kult-flok-sydantalvi/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
       "date": "2026-12-18",
       "title": "Maija Vilkkumaa – Karaoke-queen",
       "details": "Liput alkaen 44,90€",
@@ -1698,6 +1711,19 @@
       "links": [
         {
           "url": "https://kulttuuritalo.fi/tapahtuma/malevo-forever-gaucho/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2027-03-06",
+      "title": "Saxon (GB) – Gods of Thunder Tour",
+      "details": "Liput alkaen 35,00€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/saxon/",
           "label": "Lisätiedot"
         }
       ],
@@ -2771,6 +2797,19 @@
     },
     {
       "venue": "Tavastia",
+      "date": "2027-03-01",
+      "title": "Jacob Banks (UK)",
+      "details": "Lipunmyynti käynnistyy 29.10. klo 10.00\n19.00\nOvet",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2027-03-01/jacob-banks-uk/121708/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
       "date": "2027-03-03",
       "title": "Sunnan (SWE)",
       "details": "Liput\n32,50 € / 36 €\n19.00\nOvet",
@@ -2929,10 +2968,10 @@
       "venue": "Tavastia",
       "date": "2027-09-17",
       "title": "REAPER FEST 2027",
-      "details": "pe 17.9.-\nLiput",
+      "details": "Liput\n49 €",
       "links": [
         {
-          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119662/",
+          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119664/",
           "label": "Lisätiedot"
         }
       ],
@@ -2942,10 +2981,10 @@
       "venue": "Tavastia",
       "date": "2027-09-17",
       "title": "REAPER FEST 2027",
-      "details": "Liput\n49 €",
+      "details": "pe 17.9.-\nLiput",
       "links": [
         {
-          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119664/",
+          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119662/",
           "label": "Lisätiedot"
         }
       ],
