@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-26T04:56:10.137Z",
+  "updated_at": "2026-10-26T15:15:44.966Z",
   "events": [
     {
       "venue": "Kuudes Linja",
       "date": "2026-10-28",
       "title": "OTTELIA KURITON (LEVYJULKKARIT) + JERE IJÄS",
-      "details": "LIVE: Ottelia Kuriton\nLIVE: Jere Ijäs\nEnnakot Tiketistä ja Eventualista 18/15 €, liput ovelta 22/18 €\n+ security fee 3,90 €\nOvet klo 19",
+      "details": "LIVE: Ottelia Kuriton (klo 20:00)\nLIVE: Jere Ijäs (klo 19:30)\nEnnakot Tiketistä ja Eventualista 18/15 €, liput ovelta 22/18 €\n+ security fee 3,90 €\nOvet klo 19",
       "links": [
         {
           "url": "https://www.tiketti.fi/ottelia-kuriton-levyjulkkarit-kuudes-linja-helsinki-lippuja/120743",
@@ -22,7 +22,7 @@
       "venue": "Kuudes Linja",
       "date": "2026-10-29",
       "title": "HAUTA WIZARD + SUMEA + NICK CAVEA SUOMEKSI",
-      "details": "LIVE: Hauta Wizard\nLIVE: Sumea\nLIVE: Nick Cavea suomeksi\nEnnakot Tiketistä 12 €, liput ovelta 14 €\n+ security fee 3,90 €\nOvet klo 19",
+      "details": "LIVE: Hauta Wizard (klo 21:30)\nLIVE: Sumea (klo 20:30)\nLIVE: Nick Cavea suomeksi (klo 19:30)\nEnnakot Tiketistä 12 €, liput ovelta 14 €\n+ security fee 3,90 €\nOvet klo 19",
       "links": [
         {
           "url": "https://www.tiketti.fi/hauta-wizard-sumea-nick-cavea-suomeksi-kuudes-linja-helsinki-lippuja/121264",
@@ -39,7 +39,7 @@
       "venue": "Kuudes Linja",
       "date": "2026-10-30",
       "title": "ALKUILLAN KONSERTTI: HYPE Å LAXXXATIVE (PLAYS TYPE O NEGATIVE) + DEPRESSED LOAD (PLAYS DEPECHE MODE)",
-      "details": "LIVE: Hype Å Laxxxative (plays Type O Negative)\nLIVE: Depressed Load (plays Depeche Mode)\nEnnakot Tiketistä 14 €, liput ovelta 16 €\n+ security fee 3,90 €\nOvet klo 19",
+      "details": "LIVE: Hype Å Laxxxative (plays Type O Negative) (klo 21:00)\nLIVE: Depressed Load (plays Depeche Mode) (klo 19:50)\nEnnakot Tiketistä 14 €, liput ovelta 16 €\n+ security fee 3,90 €\nOvet klo 19",
       "links": [
         {
           "url": "https://www.tiketti.fi/hype-a-l-laxxxative-depressed-load-kuudes-linja-helsinki-lippuja/120179",
@@ -69,7 +69,7 @@
       "venue": "Kuudes Linja",
       "date": "2026-10-31",
       "title": "ALKUILLAN KONSERTTI: SCALES + LEMMENPYSSYT + TOMI PUUKKO JA JYTÄPOJAT",
-      "details": "LIVE: Scales\nLIVE: Lemmenpyssyt\nLIVE: Tomi Puukko ja Jytäpojat\nEnnakot Tiketistä 14 €, liput ovelta 16 €\n+ security fee 3,90 €\nOvet klo 19",
+      "details": "LIVE: Tomi Puukko ja Jytäpojat (klo 21:30)\nLIVE: Lemmenpyssyt (klo 20:30)\nLIVE: Scales (klo 19:30)\nEnnakot Tiketistä 14 €, liput ovelta 16 €\n+ security fee 3,90 €\nOvet klo 19",
       "links": [
         {
           "url": "https://www.tiketti.fi/kekrikarnevaalit-kuudes-linja-helsinki-lippuja/121021",
@@ -78,6 +78,19 @@
         {
           "url": "https://www.facebook.com/events/2167325077162302",
           "label": "FB"
+        }
+      ],
+      "source_url": "https://kuudeslinja.com/"
+    },
+    {
+      "venue": "Kuudes Linja",
+      "date": "2026-10-31",
+      "title": "UPTOWN HALLOWEEN",
+      "details": "DJ Hermanni & DJ The Last\nMC Choco\nVJ Random Doctors with Special Horror Visuals!\nEnnakot kide.appista 6/10 €, liput ovelta 12 € (vapaa pääsy Halloween-asussa ennen klo 23:45)\n+ security fee 3,90 €\nOvet klo 23:15–04:30",
+      "links": [
+        {
+          "url": "https://kide.app/events/d9352c65-3409-4795-ab79-d1b787b35980",
+          "label": "Liput"
         }
       ],
       "source_url": "https://kuudeslinja.com/"
@@ -388,7 +401,7 @@
           "label": "Liput"
         },
         {
-          "url": "https://www.facebook.com/events/843596175076335",
+          "url": "https://www.facebook.com/events/1093342186640527/",
           "label": "FB"
         }
       ],
@@ -744,6 +757,19 @@
     },
     {
       "venue": "On the Rocks",
+      "date": "2026-10-27",
+      "title": "Street Bar goes Dimmu Borgir & Behemoth! DJ Punis",
+      "details": "Street Bar\novet klo 22:30\nVapaa pääsy",
+      "links": [
+        {
+          "url": "https://www.rocks.fi/tapahtumat/street-bar-goes-dimmu-borgir-behemoth-dj-punis/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://www.rocks.fi/"
+    },
+    {
+      "venue": "On the Rocks",
       "date": "2026-10-28",
       "title": "Sudden Lights (LAT), Eidetic Dreams",
       "details": "Klubi\novet klo 19:00\nliput alk. 16 € / 20 €",
@@ -802,19 +828,6 @@
         {
           "url": "https://www.tiketti.fi/dirt-halloween-special-vol-5-pretty-on-the-rocks-helsinki-lippuja/120702",
           "label": "Liput"
-        }
-      ],
-      "source_url": "https://www.rocks.fi/"
-    },
-    {
-      "venue": "On the Rocks",
-      "date": "2026-10-30",
-      "title": "Öisin on karmivampaa! Halloween Extravaganza: DJs Taika-Iiro & Volde-Mortti",
-      "details": "Klubi\novet klo 23:30\nliput ovelta 7 €",
-      "links": [
-        {
-          "url": "https://www.rocks.fi/tapahtumat/oisin-on-karmivampaa-halloween-extravaganza-djs-taika-iiro-volde-mortti/",
-          "label": "Lisätiedot"
         }
       ],
       "source_url": "https://www.rocks.fi/"
@@ -1967,7 +1980,7 @@
       "venue": "Tavastia",
       "date": "2026-10-30",
       "title": "Notkea Rotta All Stars",
-      "details": "Liput\n32 € / 35 €",
+      "details": "Liput\n32 € / 35 €\n19.00\nOvet\n20.30\nNotkea Rotta",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-10-30/notkea-rotta-all-stars/119338/",
@@ -1980,7 +1993,7 @@
       "venue": "Tavastia",
       "date": "2026-10-30",
       "title": "Tavastian Halloween: Lauantaidisko",
-      "details": "Liput\n14 €\n23.30\nOvet",
+      "details": "Liput\n14 €\n24.00\nOvet",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-10-30/tavastian-halloween-lauantaidisko/121291/",
@@ -2773,7 +2786,7 @@
       "venue": "Tavastia",
       "date": "2027-03-06",
       "title": "Vesterinen Yhtyeineen: Paluu Tavastialle",
-      "details": "Lipunmyynti käynnistyy 26.10. klo 09.00\n19.00\nOvet\n21.00\nVesterinen Yhtyeineen",
+      "details": "Liput\n39,90 €\n19.00\nOvet\n21.00\nVesterinen Yhtyeineen",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-03-06/vesterinen-yhtyeineen-paluu-tavastialle/121808/",
@@ -2968,7 +2981,7 @@
       "venue": "Semifinal",
       "date": "2026-10-29",
       "title": "Annieeva (EP-Julkkarit)",
-      "details": "Liput\n13 € / 15 €\n19.00\nOvet",
+      "details": "Liput\n13 € / 15 €\n19.00\nOvet\n19.45\nANNIEEVA",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-10-29/annieeva-ep-julkkarit/120774/",
