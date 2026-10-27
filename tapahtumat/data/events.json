@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T05:13:34.234Z",
+  "updated_at": "2026-10-27T14:36:31.549Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -740,23 +740,6 @@
     },
     {
       "venue": "On the Rocks",
-      "date": "2026-10-26",
-      "title": "Temic, Joviac",
-      "details": "Klubi\novet klo 19:00\nliput alk. 23 € / 26 €",
-      "links": [
-        {
-          "url": "https://www.rocks.fi/tapahtumat/temic-joviac/",
-          "label": "Lisätiedot"
-        },
-        {
-          "url": "https://www.tiketti.fi/temic-den-joviac-on-the-rocks-helsinki-lippuja/120580",
-          "label": "Liput"
-        }
-      ],
-      "source_url": "https://www.rocks.fi/"
-    },
-    {
-      "venue": "On the Rocks",
       "date": "2026-10-27",
       "title": "Street Bar goes Dimmu Borgir & Behemoth! DJ Punis",
       "details": "Street Bar\novet klo 22:30\nVapaa pääsy",
@@ -833,17 +816,17 @@
       "source_url": "https://www.rocks.fi/"
     },
     {
-      "venue": "Kulttuuritalo",
-      "date": "2026-10-26",
-      "title": "Zucchero",
-      "details": "Liput alkaen 60,40€",
+      "venue": "On the Rocks",
+      "date": "2026-10-30",
+      "title": "Öisin on karmivampaa! Halloween Extravaganza: DJs Taika-Iiro & Volde-Mortti",
+      "details": "Klubi\novet klo 23:30\nliput ovelta 7 €",
       "links": [
         {
-          "url": "https://kulttuuritalo.fi/tapahtuma/zucchero/",
+          "url": "https://www.rocks.fi/tapahtumat/oisin-on-karmivampaa-halloween-extravaganza-djs-taika-iiro-volde-mortti/",
           "label": "Lisätiedot"
         }
       ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+      "source_url": "https://www.rocks.fi/"
     },
     {
       "venue": "Kulttuuritalo",
@@ -1524,7 +1507,7 @@
     {
       "venue": "Kulttuuritalo",
       "date": "2027-01-29",
-      "title": "Rakkaudella Rauli – Tähtiin kirjoitettu tarina",
+      "title": "Rakkaudella Rauli – Tähtiin kirjoitettu tarina 29.1.2027",
       "details": "Liput alkaen 45,40€",
       "links": [
         {
@@ -1537,7 +1520,7 @@
     {
       "venue": "Kulttuuritalo",
       "date": "2027-01-30",
-      "title": "Rakkaudella Rauli – Tähtiin kirjoitettu tarina",
+      "title": "Rakkaudella Rauli – Tähtiin kirjoitettu tarina 30.1.2026",
       "details": "Liput alkaen 45,40€",
       "links": [
         {
@@ -2563,6 +2546,19 @@
     },
     {
       "venue": "Tavastia",
+      "date": "2027-01-02",
+      "title": "Red Eleven plays Faith No More feat. Ville Tuomi",
+      "details": "Liput\n28 € / 30 €\n20.00\nOvet",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2027-01-02/red-eleven-plays-faith-no-more-feat-ville-tuomi/121820/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
       "date": "2027-01-06",
       "title": "Vörjeans",
       "details": "19.00\nOvet\nLoppuunmyyty",
@@ -2608,6 +2604,19 @@
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-01-09/tiisu-paatoskeikka/121453/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
+      "date": "2027-01-15",
+      "title": "Timo Kämäräinen",
+      "details": "Liput\n28 € / 30 €\n20.00\nOvet",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2027-01-15/timo-kamarainen/121924/",
           "label": "Lisätiedot"
         }
       ],
@@ -2790,6 +2799,19 @@
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-02-26/huora-lahiobotox/121056/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
+      "date": "2027-02-27",
+      "title": "Huora, Lähiöbotox",
+      "details": "Lipunmyynti käynnistyy 28.10. klo 09.00\n20.00\nOvet",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2027-02-27/huora-lahiobotox/121492/",
           "label": "Lisätiedot"
         }
       ],
