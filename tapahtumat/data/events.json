@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T05:52:10.705Z",
+  "updated_at": "2026-10-28T15:11:04.450Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -494,32 +494,6 @@
     },
     {
       "venue": "Lepakkomies",
-      "date": "2026-10-27",
-      "title": "Ei pöllömpi pubivisa by Pöllö & Ode",
-      "details": "Street Bar\novet klo 18:00\nVapaa pääsy!",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
-      "date": "2026-10-27",
-      "title": "333kollektiivi: HÄÄT(Ö)",
-      "details": "Klubi\novet klo 19:30\nliput alakertaan 12-35€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/333kollektiivi-haato/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
       "date": "2026-10-28",
       "title": "Triplicity: TATAKI / Oulun_Keskusta / Pumpuli",
       "details": "Klubi\novet klo 20:00\nliput alakertaan 8€",
@@ -733,6 +707,32 @@
       "links": [
         {
           "url": "https://www.lepis.fi/tapahtumat/pepita-vanni-ville-miettinen-sanni-mantyranta/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://www.lepis.fi/tapahtumat/"
+    },
+    {
+      "venue": "Lepakkomies",
+      "date": "2026-11-12",
+      "title": "Marrasvieraat: Absolute Key + Animal Sociale + Kuolema-duo",
+      "details": "Klubi\novet klo 20:00\nliput alakertaan 8€",
+      "links": [
+        {
+          "url": "https://www.lepis.fi/tapahtumat/marrasvieraat-absolute-key-animal-sociale-kuolema-duo/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://www.lepis.fi/tapahtumat/"
+    },
+    {
+      "venue": "Lepakkomies",
+      "date": "2026-11-13",
+      "title": "Iron & Aether: Craneium + Green King + Danakil Heat",
+      "details": "Klubi\novet klo 19:00\nliput alakertaan 10€",
+      "links": [
+        {
+          "url": "https://www.lepis.fi/tapahtumat/iron-aether-craneium-green-king-danakil-heat/",
           "label": "Lisätiedot"
         }
       ],
@@ -1844,6 +1844,19 @@
     },
     {
       "venue": "Kulttuuritalo",
+      "date": "2027-04-08",
+      "title": "KULT: Sir Elwood Duo – Voitto Auringolle 2027",
+      "details": "Liput alkaen 33,00€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/kult-sir-elwood-duo-voitto-auringolle-2027/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
       "date": "2027-04-17",
       "title": "Maustetytöt: MT Unplugged",
       "details": "Liput alkaen 34,90€",
@@ -2015,7 +2028,7 @@
       "venue": "Tavastia",
       "date": "2026-10-31",
       "title": "Nyrkkitappelu, Flippipuisto",
-      "details": "Liput\n28 € / 32 €\n19.00\nOvet",
+      "details": "Liput\n28 € / 32 €\n19.00\nOvet\n19.30\nFlippipuisto\n20.30\nNyrkkitappelu",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-10-31/nyrkkitappelu-flippipuisto/116947/",
@@ -2054,7 +2067,7 @@
       "venue": "Tavastia",
       "date": "2026-11-04",
       "title": "Finding Jens Hortling",
-      "details": "Liput\n22 € / 24 €\n19.00\nOvet",
+      "details": "Liput\n22 € / 24 €\n19.00\nOvet\n20.00",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-04/finding-jens-hortling/119915/",
@@ -2080,7 +2093,7 @@
       "venue": "Tavastia",
       "date": "2026-11-06",
       "title": "Popeda",
-      "details": "Liput\n39 € / 42 €\n20.00\nOvet",
+      "details": "Liput\n39 € / 42 €\n20.00\nOvet\n21.30",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-06/popeda/118480/",
@@ -2093,7 +2106,7 @@
       "venue": "Tavastia",
       "date": "2026-11-07",
       "title": "Pihlaja (Levyjulkkarit)",
-      "details": "Liput\n24 € / 26 €\n19.00\nOvet",
+      "details": "Liput\n24 € / 26 €\n19.00\nOvet\n20.00\nPihlaja",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-07/pihlaja-levyjulkkarit/120095/",
@@ -2106,7 +2119,7 @@
       "venue": "Tavastia",
       "date": "2026-11-07",
       "title": "Julma Henri & Steen1",
-      "details": "Liput\n27 € / 29 €\n23.30\nOvet",
+      "details": "Liput\n27 € / 29 €\n23.30\nOvet\n00.00\nSteen1\n01.00\nJulma Henri",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-07/julma-henri-steen1/120610/",
@@ -2808,7 +2821,7 @@
       "venue": "Tavastia",
       "date": "2027-02-27",
       "title": "Huora, Lähiöbotox",
-      "details": "Lipunmyynti käynnistyy 28.10. klo 09.00\n20.00\nOvet",
+      "details": "Liput\n32 € / 35 €\n20.00\nOvet",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-02-27/huora-lahiobotox/121492/",
@@ -2981,6 +2994,19 @@
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-08-24/maija-vilkkumaa-pitka-ihana-leikki-28-vuotta/117360/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
+      "date": "2027-09-09",
+      "title": "The Chats (AU)",
+      "details": "Lipunmyynti käynnistyy 2.11. klo 11.00\n19.00\nOvet",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2027-09-09/the-chats-au/121811/",
           "label": "Lisätiedot"
         }
       ],
@@ -3287,6 +3313,19 @@
     },
     {
       "venue": "Semifinal",
+      "date": "2026-12-02",
+      "title": "Joka v*tun keskiviikko: Laura Haimila",
+      "details": "Liput\n15 € / 20 €\n18.00\nOvet\n19.00\nSHOWTIME",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2026-12-02/joka-vtun-keskiviikko-laura-haimila/121637/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/semifinal/"
+    },
+    {
+      "venue": "Semifinal",
       "date": "2026-12-03",
       "title": "Club Eternal Flame",
       "details": "Liput\n10 € / 12 €\n19.00\nOvet",
@@ -3306,6 +3345,19 @@
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-12-04/left/121556/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/semifinal/"
+    },
+    {
+      "venue": "Semifinal",
+      "date": "2026-12-09",
+      "title": "Joka v*tun keskiviikko: Teemu Vesterinen",
+      "details": "Liput\n15 € / 20 €\n18.00\nOvet\n19.00\nSHOWTIME",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2026-12-09/joka-vtun-keskiviikko-teemu-vesterinen/121640/",
           "label": "Lisätiedot"
         }
       ],
