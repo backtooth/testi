@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T15:11:04.450Z",
+  "updated_at": "2026-10-29T05:55:35.871Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -830,19 +830,6 @@
     },
     {
       "venue": "Kulttuuritalo",
-      "date": "2026-10-28",
-      "title": "Sleaford Mods (UK) – The Demise of Planet X",
-      "details": "Liput alkaen 49,50€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/sleaford-mods-uk/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Kulttuuritalo",
       "date": "2026-10-29",
       "title": "VESALA – LAULUMAILLA-KONSERTTISALIKIERTUE 2026 – lisäkonsertti",
       "details": "Liput alkaen 39,90€",
@@ -922,7 +909,7 @@
     {
       "venue": "Kulttuuritalo",
       "date": "2026-11-04",
-      "title": "KULT: Boris (JPN) ”Pink” 20th KULT: Anniversary + special guest: Planning for Burial (US) (SOLD OUT!)",
+      "title": "KULT: Boris (JPN) ”Pink” 20th Anniversary + special guest: Planning for Burial (US) (SOLD OUT!)",
       "details": "Liput alkaen 40,10€",
       "links": [
         {
@@ -1987,19 +1974,6 @@
     },
     {
       "venue": "Tavastia",
-      "date": "2026-10-28",
-      "title": "Gloryhammer - 5th Album Release Tour 2026",
-      "details": "Liput\n55,50 € / 58 €\n18.30\nOvet\n19.25\nArion\n20.15\nMajestica\n21.30\nGloryhammer",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-10-28/gloryhammer-5th-album-release-tour-2026/114255/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/"
-    },
-    {
-      "venue": "Tavastia",
       "date": "2026-10-30",
       "title": "Notkea Rotta All Stars",
       "details": "Liput\n32 € / 35 €\n19.00\nOvet\n20.30\nNotkea Rotta",
@@ -3050,19 +3024,6 @@
         }
       ],
       "source_url": "https://tavastiaklubi.fi/"
-    },
-    {
-      "venue": "Semifinal",
-      "date": "2026-10-28",
-      "title": "Joka v*tun keskiviikko: Matti Paalanen",
-      "details": "Liput\n15 € / 20 €\n18.00\nOvet\n19.00\nSHOWTIME",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-10-28/joka-vtun-keskiviikko-matti-paalanen/120571/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/semifinal/"
     },
     {
       "venue": "Semifinal",
