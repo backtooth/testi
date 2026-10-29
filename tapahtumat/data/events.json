@@ -1,23 +1,6 @@
 {
-  "updated_at": "2026-10-29T05:55:35.871Z",
+  "updated_at": "2026-10-29T15:16:52.726Z",
   "events": [
-    {
-      "venue": "Kuudes Linja",
-      "date": "2026-10-28",
-      "title": "OTTELIA KURITON (LEVYJULKKARIT) + JERE IJÄS",
-      "details": "LIVE: Ottelia Kuriton (klo 20:00)\nLIVE: Jere Ijäs (klo 19:30)\nEnnakot Tiketistä ja Eventualista 18/15 €, liput ovelta 22/18 €\n+ security fee 3,90 €\nOvet klo 19",
-      "links": [
-        {
-          "url": "https://www.tiketti.fi/ottelia-kuriton-levyjulkkarit-kuudes-linja-helsinki-lippuja/120743",
-          "label": "Liput"
-        },
-        {
-          "url": "https://www.facebook.com/events/1430463772541253/",
-          "label": "FB"
-        }
-      ],
-      "source_url": "https://kuudeslinja.com/"
-    },
     {
       "venue": "Kuudes Linja",
       "date": "2026-10-29",
@@ -494,19 +477,6 @@
     },
     {
       "venue": "Lepakkomies",
-      "date": "2026-10-28",
-      "title": "Triplicity: TATAKI / Oulun_Keskusta / Pumpuli",
-      "details": "Klubi\novet klo 20:00\nliput alakertaan 8€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/triplicity-tataki-oulun_keskusta-pumpuli/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
       "date": "2026-10-29",
       "title": "Southern Rock Night: Roots&Bones + Psykentucky + DogDukes",
       "details": "Klubi\novet klo 20:00\nliput alk. 7€/9€",
@@ -585,7 +555,7 @@
       "details": "Street Bar\novet klo 18:00\nVapaa pääsy!",
       "links": [
         {
-          "url": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-2/",
+          "url": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode/",
           "label": "Lisätiedot"
         }
       ],
@@ -693,7 +663,7 @@
       "details": "Street Bar\novet klo 18:00\nVapaa pääsy!",
       "links": [
         {
-          "url": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-3/",
+          "url": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-2/",
           "label": "Lisätiedot"
         }
       ],
@@ -739,34 +709,17 @@
       "source_url": "https://www.lepis.fi/tapahtumat/"
     },
     {
-      "venue": "On the Rocks",
-      "date": "2026-10-27",
-      "title": "Street Bar goes Dimmu Borgir & Behemoth! DJ Punis",
-      "details": "Street Bar\novet klo 22:30\nVapaa pääsy",
+      "venue": "Lepakkomies",
+      "date": "2026-11-13",
+      "title": "Masta Lion Presents: No Limits ”Pikkujoulu” – Finnish Metal meets Afro and Reggae",
+      "details": "Klubi\novet klo 23:00\nliput alakertaan 10€",
       "links": [
         {
-          "url": "https://www.rocks.fi/tapahtumat/street-bar-goes-dimmu-borgir-behemoth-dj-punis/",
+          "url": "https://www.lepis.fi/tapahtumat/masta-lion-presents-no-limits-pikkujoulu-finnish-metal-meets-afro-and-reggae/",
           "label": "Lisätiedot"
         }
       ],
-      "source_url": "https://www.rocks.fi/"
-    },
-    {
-      "venue": "On the Rocks",
-      "date": "2026-10-28",
-      "title": "Sudden Lights (LAT), Eidetic Dreams",
-      "details": "Klubi\novet klo 19:00\nliput alk. 16 € / 20 €",
-      "links": [
-        {
-          "url": "https://www.rocks.fi/tapahtumat/sudden-lights-lat-eidetic-dreams/",
-          "label": "Lisätiedot"
-        },
-        {
-          "url": "https://www.tiketti.fi/sudden-lights-lat-eidetic-dreams-on-the-rocks-helsinki-lippuja/119288",
-          "label": "Liput"
-        }
-      ],
-      "source_url": "https://www.rocks.fi/"
+      "source_url": "https://www.lepis.fi/tapahtumat/"
     },
     {
       "venue": "On the Rocks",
@@ -823,6 +776,36 @@
       "links": [
         {
           "url": "https://www.rocks.fi/tapahtumat/oisin-on-karmivampaa-halloween-extravaganza-djs-taika-iiro-volde-mortti/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://www.rocks.fi/"
+    },
+    {
+      "venue": "On the Rocks",
+      "date": "2026-10-31",
+      "title": "Business City",
+      "details": "Klubi\novet klo 20:00\nliput alk. 25 € / 29 €",
+      "links": [
+        {
+          "url": "https://www.rocks.fi/tapahtumat/business-city/",
+          "label": "Lisätiedot"
+        },
+        {
+          "url": "https://www.tiketti.fi/tapahtuma/118781",
+          "label": "Liput"
+        }
+      ],
+      "source_url": "https://www.rocks.fi/"
+    },
+    {
+      "venue": "On the Rocks",
+      "date": "2026-10-31",
+      "title": "Klub Kalma: Halloween-yön naamiaiset",
+      "details": "Klubi\novet klo 22:30\nliput ovelta 12 €",
+      "links": [
+        {
+          "url": "https://www.rocks.fi/tapahtumat/klub-kalma-halloween-yon-naamiaiset/",
           "label": "Lisätiedot"
         }
       ],
@@ -1441,6 +1424,19 @@
     },
     {
       "venue": "Kulttuuritalo",
+      "date": "2027-01-15",
+      "title": "KULT: Fear of Domination + Despiser",
+      "details": "Liput alkaen 22,00€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/kult-fear-of-domination-despiser/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
       "date": "2027-01-18",
       "title": "Lords of the Sound – The Music of Hans Zimmer",
       "details": "Liput alkaen 59,00€",
@@ -1753,6 +1749,19 @@
     },
     {
       "venue": "Kulttuuritalo",
+      "date": "2027-03-12",
+      "title": "KULT: Block of Flats + support",
+      "details": "Liput alkaen 22,60€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/kult-block-of-flats-support/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
       "date": "2027-03-13",
       "title": "Haloo Helsinki! – 20-vuotisjuhlakiertue 2027 (Sold Out!)",
       "details": "Liput alkaen 49,90€",
@@ -2028,7 +2037,7 @@
       "venue": "Tavastia",
       "date": "2026-11-02",
       "title": "Sibelius-lukion Bändimaraton",
-      "details": "Liput\n22,50 €\n17.00\nOvet",
+      "details": "Liput\n22,50 €\n17.00\novet\n17.30\nShowtime",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-02/sibelius-lukion-bandimaraton/121305/",
@@ -2494,6 +2503,19 @@
     },
     {
       "venue": "Tavastia",
+      "date": "2026-12-26",
+      "title": "Tatskatyttöjen Tapsantanssit",
+      "details": "Liput\n12,50 €\n23.30\nOvet",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2026-12-26/tatskatyttojen-tapsantanssit/121970/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
       "date": "2026-12-29",
       "title": "Asa: Terveisiä kaaoksesta 20v",
       "details": "Liput\n27,50 € / 30 €\n19.00\nOvet",
@@ -2574,7 +2596,7 @@
       "venue": "Tavastia",
       "date": "2027-01-08",
       "title": "Vörjeans",
-      "details": "20.00\nOvet\nLoppuunvarattu",
+      "details": "Liput\n38 € / 40 €\n20.00\nOvet",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-01-08/vorjeans/120422/",
@@ -2808,7 +2830,7 @@
       "venue": "Tavastia",
       "date": "2027-03-01",
       "title": "Jacob Banks (UK)",
-      "details": "Lipunmyynti käynnistyy 29.10. klo 10.00\n19.00\nOvet",
+      "details": "Liput\n35,90 €\n19.00\nOvet",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-03-01/jacob-banks-uk/121708/",
