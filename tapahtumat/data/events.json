@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T15:16:52.726Z",
+  "updated_at": "2026-10-29T21:12:47.316Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -98,8 +98,8 @@
     {
       "venue": "Kuudes Linja",
       "date": "2026-11-06",
-      "title": "ALKUILLAN KONSERTTI: MODEM – MODEMISM-JULKKARIT + SOKAR",
-      "details": "LIVE: Modem\nLIVE: Sokar\nEnnakot Tiketistä ja Eventualista 25 €, liput ovelta 28 €\n+ security fee 3,90 €\nOvet klo 19",
+      "title": "ALKUILLAN KONSERTTI: MODEM – MODEMISM-JULKKARIT + SOKAR + WALDEMAR BLOM",
+      "details": "LIVE: Modem\nLIVE: Sokar\nLIVE: Waldemar Blom\nEnnakot Tiketistä ja Eventualista 25 €, liput ovelta 28 €\n+ security fee 3,90 €\nOvet klo 19",
       "links": [
         {
           "url": "https://www.tiketti.fi/tapahtuma/118557",
@@ -1950,6 +1950,19 @@
       "links": [
         {
           "url": "https://kulttuuritalo.fi/tapahtuma/helsinki-lit-2027/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2027-10-11",
+      "title": "HAEVN (NL) – ANIMA Tour 2027",
+      "details": "Liput alkaen 44,90€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/haevn-nl-anima-tour-2027/",
           "label": "Lisätiedot"
         }
       ],
