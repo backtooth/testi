@@ -1,23 +1,6 @@
 {
-  "updated_at": "2026-10-30T05:57:41.168Z",
+  "updated_at": "2026-10-30T15:05:41.896Z",
   "events": [
-    {
-      "venue": "Kuudes Linja",
-      "date": "2026-10-29",
-      "title": "HAUTA WIZARD + SUMEA + NICK CAVEA SUOMEKSI",
-      "details": "LIVE: Hauta Wizard (klo 21:30)\nLIVE: Sumea (klo 20:30)\nLIVE: Nick Cavea suomeksi (klo 19:30)\nEnnakot Tiketistä 12 €, liput ovelta 14 €\n+ security fee 3,90 €\nOvet klo 19",
-      "links": [
-        {
-          "url": "https://www.tiketti.fi/hauta-wizard-sumea-nick-cavea-suomeksi-kuudes-linja-helsinki-lippuja/121264",
-          "label": "Liput"
-        },
-        {
-          "url": "https://www.facebook.com/events/1567766994553775",
-          "label": "FB"
-        }
-      ],
-      "source_url": "https://kuudeslinja.com/"
-    },
     {
       "venue": "Kuudes Linja",
       "date": "2026-10-30",
@@ -110,6 +93,14 @@
           "label": "FB"
         }
       ],
+      "source_url": "https://kuudeslinja.com/"
+    },
+    {
+      "venue": "Kuudes Linja",
+      "date": "2026-11-06",
+      "title": "GEMZ – THE ULTIMATE POP PARTY",
+      "details": "DJ:t lunawil & ratgirl\nLiput 12 € (vapaa pääsy ennen klo 23:45)\n+ security fee 3,90 €\nOvet klo 23:15–04:30",
+      "links": [],
       "source_url": "https://kuudeslinja.com/"
     },
     {
@@ -477,23 +468,6 @@
     },
     {
       "venue": "Lepakkomies",
-      "date": "2026-10-29",
-      "title": "Southern Rock Night: Roots&Bones + Psykentucky + DogDukes",
-      "details": "Klubi\novet klo 20:00\nliput alk. 7€/9€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/southern-rock-night-rootsbones-psykentucky-dogdukes/",
-          "label": "Lisätiedot"
-        },
-        {
-          "url": "https://www.tiketti.fi/roots-bones-psykentucky-dogdukes-lepakkomies-helsinki-lippuja/119746",
-          "label": "Liput"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
       "date": "2026-10-30",
       "title": "Grave Hex – EP Release Show + Tunkio + Deathfuckingwound + Mädätys",
       "details": "Klubi\novet klo 20:00\nliput alakertaan 10€",
@@ -722,34 +696,17 @@
       "source_url": "https://www.lepis.fi/tapahtumat/"
     },
     {
-      "venue": "On the Rocks",
-      "date": "2026-10-29",
-      "title": "Halloween Pre-Party: Ozzy by Kärtsy, Don & Takakarvaajat plays Turbonegro, DJ Tonto",
-      "details": "Klubi\novet klo 19:00\nliput alk. 15 € / 17 €",
+      "venue": "Lepakkomies",
+      "date": "2026-11-17",
+      "title": "Ei pöllömpi pubivisa by Pöllö & Ode",
+      "details": "Street Bar\novet klo 18:00\nVapaa pääsy!",
       "links": [
         {
-          "url": "https://www.rocks.fi/tapahtumat/halloween-pre-party-ozzy-by-kartsy-don-takakarvaajat-plays-turbonegro-dj-tonto/",
-          "label": "Lisätiedot"
-        },
-        {
-          "url": "https://www.tiketti.fi/tapahtuma/121391",
-          "label": "Liput"
-        }
-      ],
-      "source_url": "https://www.rocks.fi/"
-    },
-    {
-      "venue": "On the Rocks",
-      "date": "2026-10-29",
-      "title": "Street Barin Halloween-etkot: DJ Tonto",
-      "details": "Street Bar\novet klo 22:30\nVapaa pääsy",
-      "links": [
-        {
-          "url": "https://www.rocks.fi/tapahtumat/street-barin-halloween-etkot-dj-tonto/",
+          "url": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-3/",
           "label": "Lisätiedot"
         }
       ],
-      "source_url": "https://www.rocks.fi/"
+      "source_url": "https://www.lepis.fi/tapahtumat/"
     },
     {
       "venue": "On the Rocks",
@@ -812,30 +769,38 @@
       "source_url": "https://www.rocks.fi/"
     },
     {
-      "venue": "Kulttuuritalo",
-      "date": "2026-10-29",
-      "title": "VESALA – LAULUMAILLA-KONSERTTISALIKIERTUE 2026 – lisäkonsertti",
-      "details": "Liput alkaen 39,90€",
+      "venue": "On the Rocks",
+      "date": "2026-11-04",
+      "title": "Snipe Drive (levyjulkkarit), Riekko Salama",
+      "details": "Klubi\novet klo 19:00\nliput alk. 15 € / 19 €",
       "links": [
         {
-          "url": "https://kulttuuritalo.fi/tapahtuma/vesala-laulumailla-konserttisalikiertue-2026-lisakonsertti/",
+          "url": "https://www.rocks.fi/tapahtumat/snipe-drive-levyjulkkarit-riekko-salama/",
           "label": "Lisätiedot"
+        },
+        {
+          "url": "https://www.tiketti.fi/tapahtuma/121133",
+          "label": "Liput"
         }
       ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+      "source_url": "https://www.rocks.fi/"
     },
     {
-      "venue": "Kulttuuritalo",
-      "date": "2026-10-29",
-      "title": "KULT: Olga Myko + Alma Alanko",
-      "details": "Liput alkaen 28,50€",
+      "venue": "On the Rocks",
+      "date": "2026-11-05",
+      "title": "Pimento – Vatsatanssia metallimusiikkiin: The Cemetery",
+      "details": "Klubi\novet klo 19:00\nliput alk. Early Bird alk. 25 €",
       "links": [
         {
-          "url": "https://kulttuuritalo.fi/tapahtuma/olga-myko/",
+          "url": "https://www.rocks.fi/tapahtumat/pimento-vatsatanssia-metallimusiikkiin-the-cemetery/",
           "label": "Lisätiedot"
+        },
+        {
+          "url": "https://www.tiketti.fi/tapahtuma/119513",
+          "label": "Liput"
         }
       ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+      "source_url": "https://www.rocks.fi/"
     },
     {
       "venue": "Kulttuuritalo",
@@ -2141,7 +2106,7 @@
       "venue": "Tavastia",
       "date": "2026-11-09",
       "title": "Xzibit (USA)",
-      "details": "Liput\n49,50 € / 52 €\n19.00\nOvet",
+      "details": "Liput\n49,50 € / 52 €\n19.00\nOvet\n20.30\nXzibit",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-09/xzibit-usa/120396/",
@@ -2154,7 +2119,7 @@
       "venue": "Tavastia",
       "date": "2026-11-10",
       "title": "Xzibit (USA)",
-      "details": "19.00\nOvet\nLoppuunmyyty",
+      "details": "19.00\nOvet\n20.30\nXzibit\nLoppuunmyyty",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-10/xzibit-usa/118938/",
@@ -2880,6 +2845,19 @@
     },
     {
       "venue": "Tavastia",
+      "date": "2027-03-07",
+      "title": "Vesterinen Yhtyeineen: Paluu Tavastialle",
+      "details": "Liput\n39,90 €\n18.00\nOvet\n19.30\nVesterinen Yhtyeineen",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2027-03-07/vesterinen-yhtyeineen-paluu-tavastialle/121810/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
       "date": "2027-03-08",
       "title": "D'espairsRay (JPN)",
       "details": "18.30\nOvet\nLoppuunmyyty",
@@ -3025,10 +3003,10 @@
       "venue": "Tavastia",
       "date": "2027-09-17",
       "title": "REAPER FEST 2027",
-      "details": "Liput\n49 €",
+      "details": "pe 17.9.-\nLiput",
       "links": [
         {
-          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119664/",
+          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119662/",
           "label": "Lisätiedot"
         }
       ],
@@ -3038,10 +3016,10 @@
       "venue": "Tavastia",
       "date": "2027-09-17",
       "title": "REAPER FEST 2027",
-      "details": "pe 17.9.-\nLiput",
+      "details": "Liput\n49 €",
       "links": [
         {
-          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119662/",
+          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119664/",
           "label": "Lisätiedot"
         }
       ],
