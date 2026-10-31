@@ -1,36 +1,6 @@
 {
-  "updated_at": "2026-10-31T05:53:41.146Z",
+  "updated_at": "2026-10-31T14:35:04.905Z",
   "events": [
-    {
-      "venue": "Kuudes Linja",
-      "date": "2026-10-30",
-      "title": "ALKUILLAN KONSERTTI: HYPE Å LAXXXATIVE (PLAYS TYPE O NEGATIVE) + DEPRESSED LOAD (PLAYS DEPECHE MODE)",
-      "details": "LIVE: Hype Å Laxxxative (plays Type O Negative) (klo 21:00)\nLIVE: Depressed Load (plays Depeche Mode) (klo 19:50)\nEnnakot Tiketistä 14 €, liput ovelta 16 €\n+ security fee 3,90 €\nOvet klo 19",
-      "links": [
-        {
-          "url": "https://www.tiketti.fi/hype-a-l-laxxxative-depressed-load-kuudes-linja-helsinki-lippuja/120179",
-          "label": "Liput"
-        },
-        {
-          "url": "https://www.facebook.com/events/1799843084516677",
-          "label": "FB"
-        }
-      ],
-      "source_url": "https://kuudeslinja.com/"
-    },
-    {
-      "venue": "Kuudes Linja",
-      "date": "2026-10-30",
-      "title": "POP FROM THE GRAVE",
-      "details": "DJ:t AleXCX, bööna, CEX, Lassi Lassi, Slaya Bit & Friends, Zaza Larsson\nEnnakot Eventualista 10 €, liput ovelta 12 €\n+ security fee 3,90 €\nOvet klo 23:15–04:30",
-      "links": [
-        {
-          "url": "https://www.eventu.al/en/event/9336/finland/helsinki/pop-grave",
-          "label": "Liput"
-        }
-      ],
-      "source_url": "https://kuudeslinja.com/"
-    },
     {
       "venue": "Kuudes Linja",
       "date": "2026-10-31",
@@ -468,32 +438,6 @@
     },
     {
       "venue": "Lepakkomies",
-      "date": "2026-10-30",
-      "title": "Grave Hex – EP Release Show + Tunkio + Deathfuckingwound + Mädätys",
-      "details": "Klubi\novet klo 20:00\nliput alakertaan 10€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/grave-hex-ep-release-show-tunkio-deathfuckingwound-madatys/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
-      "date": "2026-10-30",
-      "title": "Bête Noire – Halloween",
-      "details": "Klubi\novet klo 00:00\nliput alakertaan 3€ sis. eteispalvelumaksu",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/bete-noire-halloween/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
       "date": "2026-10-31",
       "title": "HALLOWEEN ROCK: Hugo Cajan & Todellisuus + Gritty Details + Fuzzkills",
       "details": "Klubi\novet klo 20:00\nliput alakertaan 12€",
@@ -709,34 +653,30 @@
       "source_url": "https://www.lepis.fi/tapahtumat/"
     },
     {
-      "venue": "On the Rocks",
-      "date": "2026-10-30",
-      "title": "DIRT – Halloween Special Vol. 5, Pretty",
-      "details": "Klubi\novet klo 20:00\nliput alk. 23 € / 25 €",
+      "venue": "Lepakkomies",
+      "date": "2026-11-18",
+      "title": "The Heartjackers (UK/FI) + Get In",
+      "details": "Klubi\novet klo 20:00\nliput alakertaan 5€",
       "links": [
         {
-          "url": "https://www.rocks.fi/tapahtumat/dirt-halloween-special-vol-5-pretty/",
+          "url": "https://www.lepis.fi/tapahtumat/the-heartjackers-uk-fi-get-in/",
           "label": "Lisätiedot"
-        },
-        {
-          "url": "https://www.tiketti.fi/dirt-halloween-special-vol-5-pretty-on-the-rocks-helsinki-lippuja/120702",
-          "label": "Liput"
         }
       ],
-      "source_url": "https://www.rocks.fi/"
+      "source_url": "https://www.lepis.fi/tapahtumat/"
     },
     {
-      "venue": "On the Rocks",
-      "date": "2026-10-30",
-      "title": "Öisin on karmivampaa! Halloween Extravaganza: DJs Taika-Iiro & Volde-Mortti",
-      "details": "Klubi\novet klo 23:30\nliput ovelta 7 €",
+      "venue": "Lepakkomies",
+      "date": "2026-11-19",
+      "title": "Forward Folks + The Horribly Ones",
+      "details": "Klubi\novet klo 20:00\nliput alakertaan 10€",
       "links": [
         {
-          "url": "https://www.rocks.fi/tapahtumat/oisin-on-karmivampaa-halloween-extravaganza-djs-taika-iiro-volde-mortti/",
+          "url": "https://www.lepis.fi/tapahtumat/forward-folks-the-horribly-ones/",
           "label": "Lisätiedot"
         }
       ],
-      "source_url": "https://www.rocks.fi/"
+      "source_url": "https://www.lepis.fi/tapahtumat/"
     },
     {
       "venue": "On the Rocks",
@@ -803,30 +743,34 @@
       "source_url": "https://www.rocks.fi/"
     },
     {
-      "venue": "Kulttuuritalo",
-      "date": "2026-10-30",
-      "title": "KULT: Robyn Hitchcock (UK) + Emma Swift",
-      "details": "Liput alkaen 28,10€",
+      "venue": "On the Rocks",
+      "date": "2026-11-06",
+      "title": "Kehä, Laineen Kasperi & Matkatoimisto",
+      "details": "Klubi\novet klo 20:00\nliput alk. 20 € / 23 €",
       "links": [
         {
-          "url": "https://kulttuuritalo.fi/tapahtuma/robyn-hitchcock-uk-support/",
+          "url": "https://www.rocks.fi/tapahtumat/keha-laineen-kasperi-matkatoimisto/",
           "label": "Lisätiedot"
+        },
+        {
+          "url": "https://www.tiketti.fi/tapahtuma/121510",
+          "label": "Liput"
         }
       ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+      "source_url": "https://www.rocks.fi/"
     },
     {
-      "venue": "Kulttuuritalo",
-      "date": "2026-10-30",
-      "title": "VESALA – LAULUMAILLA-KONSERTTISALIKIERTUE 2026 (Loppuunvarattu)",
-      "details": "Liput alkaen 39,90€",
+      "venue": "On the Rocks",
+      "date": "2026-11-06",
+      "title": "Back To The Future 80s Party! DJ Mortti & friends",
+      "details": "Street Bar\novet klo 23:30\nliput ovelta 7 €",
       "links": [
         {
-          "url": "https://kulttuuritalo.fi/tapahtuma/vesala-laulumailla-konserttisalikiertue-2026/",
+          "url": "https://www.rocks.fi/tapahtumat/back-to-the-future-80s-party-dj-mortti-friends/",
           "label": "Lisätiedot"
         }
       ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+      "source_url": "https://www.rocks.fi/"
     },
     {
       "venue": "Kulttuuritalo",
@@ -1182,7 +1126,7 @@
     {
       "venue": "Kulttuuritalo",
       "date": "2026-12-03",
-      "title": "KULT: Joshua Idehen",
+      "title": "KULT: Joshua Idehen + HYRYSYSY",
       "details": "Liput alkaen 27,90€",
       "links": [
         {
@@ -2327,7 +2271,7 @@
       "venue": "Tavastia",
       "date": "2026-12-04",
       "title": "Neljä Ruusua",
-      "details": "Liput\n35 € / 38 €\n19.00\nOvet",
+      "details": "19.00\nOvet\nLoppuunvarattu",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-12-04/nelja-ruusua/119854/",
@@ -3016,7 +2960,7 @@
       "venue": "Semifinal",
       "date": "2026-10-31",
       "title": "YOUNGHEARTED",
-      "details": "20.00\nOvet\n21.00",
+      "details": "Liput\n30 € / 33 €\n20.00\nOvet\n21.00",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-10-31/younghearted/120923/",
