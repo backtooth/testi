@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T20:01:50.676Z",
+  "updated_at": "2026-10-31T23:26:12.392Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -1906,19 +1906,6 @@
     {
       "venue": "Tavastia",
       "date": "2026-10-31",
-      "title": "Nyrkkitappelu, Flippipuisto",
-      "details": "19.00\nOvet\n19.30\nFlippipuisto\n20.30\nNyrkkitappelu",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-10-31/nyrkkitappelu-flippipuisto/116947/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/"
-    },
-    {
-      "venue": "Tavastia",
-      "date": "2026-10-31",
       "title": "Emodisko Halloween Special: Take to the Skis",
       "details": "Liput\n12 € / 12 €\n23.30\nOvet",
       "links": [
@@ -2921,10 +2908,10 @@
       "venue": "Tavastia",
       "date": "2027-09-17",
       "title": "REAPER FEST 2027",
-      "details": "pe 17.9.-\nLiput",
+      "details": "Liput\n49 €",
       "links": [
         {
-          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119662/",
+          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119664/",
           "label": "Lisätiedot"
         }
       ],
@@ -2934,10 +2921,10 @@
       "venue": "Tavastia",
       "date": "2027-09-17",
       "title": "REAPER FEST 2027",
-      "details": "Liput\n49 €",
+      "details": "pe 17.9.-\nLiput",
       "links": [
         {
-          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119664/",
+          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119662/",
           "label": "Lisätiedot"
         }
       ],
@@ -2955,19 +2942,6 @@
         }
       ],
       "source_url": "https://tavastiaklubi.fi/"
-    },
-    {
-      "venue": "Semifinal",
-      "date": "2026-10-31",
-      "title": "YOUNGHEARTED",
-      "details": "Liput\n30 € / 33 €\n20.00\nOvet\n21.00",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-10-31/younghearted/120923/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/semifinal/"
     },
     {
       "venue": "Semifinal",
