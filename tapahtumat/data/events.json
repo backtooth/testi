@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T20:51:43.255Z",
+  "updated_at": "2026-10-31T05:53:41.146Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -1182,7 +1182,7 @@
     {
       "venue": "Kulttuuritalo",
       "date": "2026-12-03",
-      "title": "KULT: Joshua Idehen + HYRYSYSY",
+      "title": "KULT: Joshua Idehen",
       "details": "Liput alkaen 27,90€",
       "links": [
         {
@@ -1958,32 +1958,6 @@
         }
       ],
       "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Tavastia",
-      "date": "2026-10-30",
-      "title": "Notkea Rotta All Stars",
-      "details": "Liput\n32 € / 35 €\n19.00\nOvet\n20.30\nNotkea Rotta",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-10-30/notkea-rotta-all-stars/119338/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/"
-    },
-    {
-      "venue": "Tavastia",
-      "date": "2026-10-30",
-      "title": "Tavastian Halloween: Lauantaidisko",
-      "details": "Liput\n14 €\n24.00\nOvet",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-10-30/tavastian-halloween-lauantaidisko/121291/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/"
     },
     {
       "venue": "Tavastia",
@@ -3040,22 +3014,9 @@
     },
     {
       "venue": "Semifinal",
-      "date": "2026-10-30",
-      "title": "YOUNGHEARTED",
-      "details": "Liput\n30 € / 33 €\n20.00\nOvet\n21.00",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-10-30/younghearted/120921/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/semifinal/"
-    },
-    {
-      "venue": "Semifinal",
       "date": "2026-10-31",
       "title": "YOUNGHEARTED",
-      "details": "Liput\n30 € / 33 €\n20.00\nOvet\n21.00",
+      "details": "20.00\nOvet\n21.00",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-10-31/younghearted/120923/",
