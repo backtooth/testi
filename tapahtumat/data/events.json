@@ -1,36 +1,6 @@
 {
-  "updated_at": "2026-11-01T06:18:06.761Z",
+  "updated_at": "2026-11-01T15:15:36.135Z",
   "events": [
-    {
-      "venue": "Kuudes Linja",
-      "date": "2026-10-31",
-      "title": "ALKUILLAN KONSERTTI: SCALES + LEMMENPYSSYT + TOMI PUUKKO JA JYTÄPOJAT",
-      "details": "LIVE: Tomi Puukko ja Jytäpojat (klo 21:30)\nLIVE: Lemmenpyssyt (klo 20:30)\nLIVE: Scales (klo 19:30)\nEnnakot Tiketistä 14 €, liput ovelta 16 €\n+ security fee 3,90 €\nOvet klo 19",
-      "links": [
-        {
-          "url": "https://www.tiketti.fi/kekrikarnevaalit-kuudes-linja-helsinki-lippuja/121021",
-          "label": "Liput"
-        },
-        {
-          "url": "https://www.facebook.com/events/2167325077162302",
-          "label": "FB"
-        }
-      ],
-      "source_url": "https://kuudeslinja.com/"
-    },
-    {
-      "venue": "Kuudes Linja",
-      "date": "2026-10-31",
-      "title": "UPTOWN HALLOWEEN",
-      "details": "DJ Hermanni & DJ The Last\nMC Choco\nVJ Random Doctors with Special Horror Visuals!\nEnnakot kide.appista 6/10 €, liput ovelta 12 € (vapaa pääsy Halloween-asussa ennen klo 23:45)\n+ security fee 3,90 €\nOvet klo 23:15–04:30",
-      "links": [
-        {
-          "url": "https://kide.app/events/d9352c65-3409-4795-ab79-d1b787b35980",
-          "label": "Liput"
-        }
-      ],
-      "source_url": "https://kuudeslinja.com/"
-    },
     {
       "venue": "Kuudes Linja",
       "date": "2026-11-05",
@@ -438,36 +408,6 @@
     },
     {
       "venue": "Lepakkomies",
-      "date": "2026-10-31",
-      "title": "HALLOWEEN ROCK: Hugo Cajan & Todellisuus + Gritty Details + Fuzzkills",
-      "details": "Klubi\novet klo 20:00\nliput alakertaan 12€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/halloween-rock-hugo-cajan-todellisuus-gritty-details-fuzzkills/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
-      "date": "2026-10-31",
-      "title": "DNB Finland Halloween Rave",
-      "details": "Klubi\novet klo 00:00\nliput alk. 15€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/dnb-finland-halloween-rave/",
-          "label": "Lisätiedot"
-        },
-        {
-          "url": "https://www.tiketti.fi/dnb-finland-halloween-rave-lepakkomies-helsinki-lippuja/121420",
-          "label": "Liput"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
       "date": "2026-11-03",
       "title": "Ei pöllömpi pubivisa by Pöllö & Ode",
       "details": "Street Bar\novet klo 18:00\nVapaa pääsy!",
@@ -673,6 +613,32 @@
       "links": [
         {
           "url": "https://www.lepis.fi/tapahtumat/forward-folks-the-horribly-ones/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://www.lepis.fi/tapahtumat/"
+    },
+    {
+      "venue": "Lepakkomies",
+      "date": "2026-11-20",
+      "title": "Monsternaut + Mount Palatine + Astral Sleep",
+      "details": "Klubi\novet klo 20:00\nliput alakertaan 12€",
+      "links": [
+        {
+          "url": "https://www.lepis.fi/tapahtumat/monsternaut-mount-palatine-astral-sleep/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://www.lepis.fi/tapahtumat/"
+    },
+    {
+      "venue": "Lepakkomies",
+      "date": "2026-11-21",
+      "title": "Ongelma + Katujen Äänet + Karanneet Käärmeet + Villit Nautinnot",
+      "details": "Klubi\novet klo 20:00\nliput alakertaan 10€",
+      "links": [
+        {
+          "url": "https://www.lepis.fi/tapahtumat/ongelma-katujen-aanet-karanneet-kaarmeet-villit-nautinnot/",
           "label": "Lisätiedot"
         }
       ],
