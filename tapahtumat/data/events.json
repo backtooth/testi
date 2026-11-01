@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T23:26:12.392Z",
+  "updated_at": "2026-11-01T06:18:06.761Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -680,36 +680,6 @@
     },
     {
       "venue": "On the Rocks",
-      "date": "2026-10-31",
-      "title": "Business City",
-      "details": "Klubi\novet klo 20:00\nliput alk. 25 € / 29 €",
-      "links": [
-        {
-          "url": "https://www.rocks.fi/tapahtumat/business-city/",
-          "label": "Lisätiedot"
-        },
-        {
-          "url": "https://www.tiketti.fi/tapahtuma/118781",
-          "label": "Liput"
-        }
-      ],
-      "source_url": "https://www.rocks.fi/"
-    },
-    {
-      "venue": "On the Rocks",
-      "date": "2026-10-31",
-      "title": "Klub Kalma: Halloween-yön naamiaiset",
-      "details": "Klubi\novet klo 22:30\nliput ovelta 12 €",
-      "links": [
-        {
-          "url": "https://www.rocks.fi/tapahtumat/klub-kalma-halloween-yon-naamiaiset/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.rocks.fi/"
-    },
-    {
-      "venue": "On the Rocks",
       "date": "2026-11-04",
       "title": "Snipe Drive (levyjulkkarit), Riekko Salama",
       "details": "Klubi\novet klo 19:00\nliput alk. 15 € / 19 €",
@@ -773,17 +743,34 @@
       "source_url": "https://www.rocks.fi/"
     },
     {
-      "venue": "Kulttuuritalo",
-      "date": "2026-10-31",
-      "title": "YAMATO – The Drummers of Japan 2026",
-      "details": "Liput alkaen 69,50€",
+      "venue": "On the Rocks",
+      "date": "2026-11-07",
+      "title": "Assemble The Chariots, Plaguebreeder",
+      "details": "Klubi\novet klo 20:00\nliput alk. 20 € / 23 €",
       "links": [
         {
-          "url": "https://kulttuuritalo.fi/tapahtuma/yamato-the-drummers-of-japan-2/",
+          "url": "https://www.rocks.fi/tapahtumat/assemble-the-chariots-plaguebreeder/",
+          "label": "Lisätiedot"
+        },
+        {
+          "url": "https://www.tiketti.fi/tapahtuma/120714",
+          "label": "Liput"
+        }
+      ],
+      "source_url": "https://www.rocks.fi/"
+    },
+    {
+      "venue": "On the Rocks",
+      "date": "2026-11-07",
+      "title": "Lauantaidisko DJs: 90s + 00s",
+      "details": "Klubi\novet klo 23:30\nliput ovelta 7 €",
+      "links": [
+        {
+          "url": "https://www.rocks.fi/tapahtumat/lauantaidisko-djs-90s-00s/",
           "label": "Lisätiedot"
         }
       ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+      "source_url": "https://www.rocks.fi/"
     },
     {
       "venue": "Kulttuuritalo",
@@ -1905,19 +1892,6 @@
     },
     {
       "venue": "Tavastia",
-      "date": "2026-10-31",
-      "title": "Emodisko Halloween Special: Take to the Skis",
-      "details": "Liput\n12 € / 12 €\n23.30\nOvet",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-10-31/emodisko-halloween-special-take-to-the-skis/121004/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/"
-    },
-    {
-      "venue": "Tavastia",
       "date": "2026-11-02",
       "title": "Sibelius-lukion Bändimaraton",
       "details": "Liput\n22,50 €\n17.00\novet\n17.30\nShowtime",
@@ -2258,7 +2232,7 @@
       "venue": "Tavastia",
       "date": "2026-12-04",
       "title": "Neljä Ruusua",
-      "details": "Liput\n35 € / 38 €\n19.00\nOvet",
+      "details": "19.00\nOvet\nLoppuunvarattu",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-12-04/nelja-ruusua/119854/",
@@ -2908,10 +2882,10 @@
       "venue": "Tavastia",
       "date": "2027-09-17",
       "title": "REAPER FEST 2027",
-      "details": "Liput\n49 €",
+      "details": "pe 17.9.-\nLiput",
       "links": [
         {
-          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119664/",
+          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119662/",
           "label": "Lisätiedot"
         }
       ],
@@ -2921,10 +2895,10 @@
       "venue": "Tavastia",
       "date": "2027-09-17",
       "title": "REAPER FEST 2027",
-      "details": "pe 17.9.-\nLiput",
+      "details": "Liput\n49 €",
       "links": [
         {
-          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119662/",
+          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119664/",
           "label": "Lisätiedot"
         }
       ],
