@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T06:19:29.028Z",
+  "updated_at": "2026-11-02T18:29:16.585Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -2003,7 +2003,7 @@
       "venue": "Tavastia",
       "date": "2026-11-12",
       "title": "Viral Vegans: Juhlavuoden hyväntekeväisyyskonsertti",
-      "details": "Liput\n24,60 € / 27 €\n18.30\nOvet",
+      "details": "Liput\n24,60 € / 27 €\n18.30\nOvet\n19.30\nShowtime",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-12/viral-vegans-juhlavuoden-hyvantekevaisyyskonsertti/121415/",
@@ -2016,7 +2016,7 @@
       "venue": "Tavastia",
       "date": "2026-11-13",
       "title": "Costi, uu$er",
-      "details": "Liput\n28 € / 30 €\n20.00\nOvet",
+      "details": "Liput\n28 € / 30 €\n20.00\nOvet\n20.45\nuu$er\n21.30\nCosti",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-13/costi-uuer/120053/",
@@ -2146,7 +2146,7 @@
       "venue": "Tavastia",
       "date": "2026-11-27",
       "title": "STAM1NA – DIRTY YEARS 2026",
-      "details": "20.00\nOvet\n21.30\nStam1na\nLoppuunvarattu",
+      "details": "20.00\nOvet\n21.30\nStam1na\nLoppuunmyyty",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-27/stam1na-dirty-years-2026/120340/",
@@ -2638,6 +2638,19 @@
     },
     {
       "venue": "Tavastia",
+      "date": "2027-02-24",
+      "title": "Dynazty (SWE)",
+      "details": "Lipunmyynti käynnistyy 4.11. klo 09.00\n19.00\nOvet",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2027-02-24/dynazty-swe/121969/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
       "date": "2027-02-26",
       "title": "Huora, Lähiöbotox",
       "details": "20.00\nOvet\nLoppuunmyyty",
@@ -2781,6 +2794,19 @@
     },
     {
       "venue": "Tavastia",
+      "date": "2027-03-25",
+      "title": "Pesso (Levyjulkkarit)",
+      "details": "Liput\n25 € / 27 €\n19.00\nOvet",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2027-03-25/pesso-levyjulkkarit/121028/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
       "date": "2027-03-29",
       "title": "Saul Williams (USA)",
       "details": "Liput\n32,50 €\n19.00\nOvet",
@@ -2848,23 +2874,10 @@
       "venue": "Tavastia",
       "date": "2027-09-09",
       "title": "The Chats (AU)",
-      "details": "Lipunmyynti käynnistyy 2.11. klo 11.00\n19.00\nOvet",
+      "details": "Liput\n32,50 €\n19.00\nOvet",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-09-09/the-chats-au/121811/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/"
-    },
-    {
-      "venue": "Tavastia",
-      "date": "2027-09-17",
-      "title": "REAPER FEST 2027",
-      "details": "pe 17.9.-\nLiput",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119662/",
           "label": "Lisätiedot"
         }
       ],
@@ -2878,6 +2891,19 @@
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119664/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
+      "date": "2027-09-17",
+      "title": "REAPER FEST 2027",
+      "details": "pe 17.9.-\nLiput",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119662/",
           "label": "Lisätiedot"
         }
       ],
