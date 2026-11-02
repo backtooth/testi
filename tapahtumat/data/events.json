@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T20:34:01.953Z",
+  "updated_at": "2026-11-02T06:19:29.028Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -737,6 +737,19 @@
         }
       ],
       "source_url": "https://www.rocks.fi/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2026-10-31",
+      "title": "YAMATO – The Drummers of Japan 2026",
+      "details": "Liput alkaen 69,50€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/yamato-the-drummers-of-japan-2/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
     },
     {
       "venue": "Kulttuuritalo",
