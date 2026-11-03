@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-03T11:59:52.738Z",
+  "updated_at": "2026-11-03T19:33:28.118Z",
   "events": [
     {
       "venue": "Kuudes Linja",
       "date": "2026-11-05",
       "title": "ESTER NUORI LEPPÄ & HERKKIEN ARMEIJA + AATOS KETVEL",
-      "details": "LIVE: Ester Nuori Leppä & Herkkien armeija\nLIVE: Aatos Ketvel\nEnnakot Tiketistä 15 €, liput ovelta 18 €\n+ security fee 3,90 €\nOvet klo 19",
+      "details": "LIVE: Ester Nuori Leppä & Herkkien armeija (klo 21)\nLIVE: Aatos Ketvel (klo 20)\nEnnakot Tiketistä 15 €, liput ovelta 18 €\n+ security fee 3,90 €\nOvet klo 19",
       "links": [
         {
           "url": "https://www.tiketti.fi/ester-nuori-leppa-herkkien-armeija-aatos-ketvel-kuudes-lippuja/121345",
@@ -22,7 +22,7 @@
       "venue": "Kuudes Linja",
       "date": "2026-11-06",
       "title": "ALKUILLAN KONSERTTI: MODEM – MODEMISM-JULKKARIT + SOKAR + WALDEMAR BLOM",
-      "details": "LIVE: Modem\nLIVE: Sokar\nLIVE: Waldemar Blom\nEnnakot Tiketistä ja Eventualista 25 €, liput ovelta 28 €\n+ security fee 3,90 €\nOvet klo 19",
+      "details": "LIVE: Modem (klo 21:30)\nLIVE: Sokar (klo 20:30)\nLIVE: Waldemar Blom (klo 19:30)\nEnnakot Tiketistä ja Eventualista 25 €, liput ovelta 28 €\n+ security fee 3,90 €\nOvet klo 19",
       "links": [
         {
           "url": "https://www.tiketti.fi/tapahtuma/118557",
@@ -46,8 +46,8 @@
     {
       "venue": "Kuudes Linja",
       "date": "2026-11-07",
-      "title": "ALKUILLAN KONSERTTI: RATS WILL FEAST + KANNABINOID + TBA",
-      "details": "LIVE: Rats Will Feast\nLIVE: Kannabinoid\nEnnakot Tiketistä 12 €, liput ovelta 15 €\n+ security fee 3,90 €\nOvet klo 19",
+      "title": "ALKUILLAN KONSERTTI: RATS WILL FEAST + KANNABINOID + ESTONER",
+      "details": "LIVE: Kannabinõid (klo 21:30)\nLIVE: Rats Will Feast (klo 20:30)\nLIVE: Estoner (klo 19:30)\nEnnakot Tiketistä 12 €, liput ovelta 15 €\n+ security fee 3,90 €\nOvet klo 19",
       "links": [
         {
           "url": "https://www.tiketti.fi/rats-will-feast-kannabinoid-ee-kuudes-linja-helsinki-lippuja/121122",
@@ -64,7 +64,7 @@
       "venue": "Kuudes Linja",
       "date": "2026-11-07",
       "title": "KUTONEN GOES 90s & 00s",
-      "details": "DJ:t Harvest & Skenikswee\n+ special guest: DJ Ronja Salmi\nEnnakot Eventualista 6/10 €, liput ovelta 13 €. Ennakkolipulla jonon ohi klo 01:een asti.\n+ security fee 3,90 €\nOvet klo 23:15–04:30",
+      "details": "DJ:t Harvest & Skenikswee\n+ special guest: DJ Ronja Salmi\nHuom! Ovelta myydään reilusti lippuja klo 23:15 alkaen. Liput ovelta 13 €. Tapahtuman ennakkoliput on loppuunmyyty. Ennakkolipulla jonon ohi klo 01:een asti.\n+ security fee 3,90 €\nOvet klo 23:15–04:30",
       "links": [
         {
           "url": "https://www.eventu.al/en/event/9339/finland/helsinki/kutonen-goes-90s-00s",
@@ -2469,19 +2469,6 @@
     },
     {
       "venue": "Tavastia",
-      "date": "2027-01-27",
-      "title": "Kiitos Katri Helena",
-      "details": "Liput\n42 € / 45 €\n19.00\nOvet",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2027-01-27/kiitos-katri-helena/117383/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/"
-    },
-    {
-      "venue": "Tavastia",
       "date": "2027-01-29",
       "title": "SARA",
       "details": "Liput\n32,50 € / 35 €\n20.00\nOvet",
@@ -2514,6 +2501,19 @@
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-02-05/crashdiet-swe/119073/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
+      "date": "2027-02-10",
+      "title": "Kiitos Katri Helena",
+      "details": "Liput\n42 € / 45 €\n19.00\nOvet",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2027-02-10/kiitos-katri-helena/117383/",
           "label": "Lisätiedot"
         }
       ],
