@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T18:29:16.585Z",
+  "updated_at": "2026-11-03T02:24:38.405Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -737,32 +737,6 @@
         }
       ],
       "source_url": "https://www.rocks.fi/"
-    },
-    {
-      "venue": "Kulttuuritalo",
-      "date": "2026-10-31",
-      "title": "YAMATO – The Drummers of Japan 2026",
-      "details": "Liput alkaen 69,50€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/yamato-the-drummers-of-japan-2/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Kulttuuritalo",
-      "date": "2026-11-02",
-      "title": "EsDeeKid (UK) – Council House Rat Tour",
-      "details": "Liput alkaen 39,90€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/esdeekid-uk-council-house-rat-tour/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
     },
     {
       "venue": "Kulttuuritalo",
@@ -1868,19 +1842,6 @@
         }
       ],
       "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Tavastia",
-      "date": "2026-11-02",
-      "title": "Sibelius-lukion Bändimaraton",
-      "details": "Liput\n22,50 €\n17.00\novet\n17.30\nShowtime",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-11-02/sibelius-lukion-bandimaraton/121305/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/"
     },
     {
       "venue": "Tavastia",
