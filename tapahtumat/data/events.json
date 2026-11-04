@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T12:15:25.490Z",
+  "updated_at": "2026-11-04T19:53:41.368Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -2955,6 +2955,19 @@
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-10-02/the-mission-uk/120433/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
+      "date": "2027-11-15",
+      "title": "Henge (UK)",
+      "details": "Lipunmyynti käynnistyy 6.11. klo 10.00\n19.00\nOvet",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2027-11-15/henge-uk/122018/",
           "label": "Lisätiedot"
         }
       ],
