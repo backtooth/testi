@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T00:39:36.353Z",
+  "updated_at": "2026-11-04T12:15:25.490Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -46,7 +46,7 @@
     {
       "venue": "Kuudes Linja",
       "date": "2026-11-07",
-      "title": "ALKUILLAN KONSERTTI: RATS WILL FEAST + KANNABINOID + ESTONER",
+      "title": "ALKUILLAN KONSERTTI: RATS WILL FEAST + KANNABINÕID (EE) + ESTONER (EE)",
       "details": "LIVE: Kannabinõid (klo 21:30)\nLIVE: Rats Will Feast (klo 20:30)\nLIVE: Estoner (klo 19:30)\nEnnakot Tiketistä 12 €, liput ovelta 15 €\n+ security fee 3,90 €\nOvet klo 19",
       "links": [
         {
@@ -122,6 +122,19 @@
     },
     {
       "venue": "Kuudes Linja",
+      "date": "2026-11-13",
+      "title": "4WAY",
+      "details": "DJ:t Pixi, Elly, Gegel & Evin Nadine\nEnnakot Eventualista 8 €, liput ovelta 10 €. Ennakkolipulla jonon ohi klo 01:een asti.\n+ security fee 3,90 €\nOvet klo 23:15–04:30",
+      "links": [
+        {
+          "url": "https://www.eventu.al/en/event/10358/finland/helsinki/4way",
+          "label": "Liput"
+        }
+      ],
+      "source_url": "https://kuudeslinja.com/"
+    },
+    {
+      "venue": "Kuudes Linja",
       "date": "2026-11-14",
       "title": "ALKUILLAN KONSERTTI: MONOPOLI MUSIC LIVE – ADI L HASLA, ROOMEO & BAHAMO",
       "details": "LIVE: Adi L Hasla\nLIVE: Roomeo\nLIVE: Bahamo\nEnnakot Tiketistä 15 €, liput ovelta 19 €\n+ security fee 3,90 €\nOvet klo 19",
@@ -182,12 +195,42 @@
     },
     {
       "venue": "Kuudes Linja",
+      "date": "2026-11-20",
+      "title": "BASHMENT YARD (SPECIAL SHOWCASE NIGHT – LION HEAD SOUND MEETS KOMPOSTI SOUND)",
+      "details": "DJ:t VG+, Chargie, Rumpunch & Fadda Francis\nEnnakot Eventualista 10 €, liput ovelta 12 € (vapaa pääsy ennen klo 23:45). Ennakkolipulla jonon ohi klo 01:een asti.\n+ security fee 3,90 €\nOvet klo 23:15–04:30",
+      "links": [
+        {
+          "url": "https://www.eventu.al/en/event/9343/finland/helsinki/bashment-yard-special-showcase-night",
+          "label": "Liput"
+        },
+        {
+          "url": "https://www.facebook.com/events/1097896556482744/",
+          "label": "FB"
+        }
+      ],
+      "source_url": "https://kuudeslinja.com/"
+    },
+    {
+      "venue": "Kuudes Linja",
       "date": "2026-11-21",
       "title": "KINGFISH 10 V",
       "details": "LIVE: Kingfish\nEnnakot Tiketistä 15 €, liput ovelta 18 €\n+ security fee 3,90 €\nOvet klo 19",
       "links": [
         {
           "url": "https://www.tiketti.fi/kingfish-10v-kuudes-linja-helsinki-lippuja/121340",
+          "label": "Liput"
+        }
+      ],
+      "source_url": "https://kuudeslinja.com/"
+    },
+    {
+      "venue": "Kuudes Linja",
+      "date": "2026-11-21",
+      "title": "HOT GIRL CLUB",
+      "details": "LIVE: Miss Lioness & Sspicy J\nDJ:t M-BABY & Ulrika\nEnnakot Eventualista 10 €, liput ovelta 13 €. Ennakkolipulla jonon ohi klo 01:een asti.\n+ security fee 3,90 €\nOvet klo 23:15–04:30",
+      "links": [
+        {
+          "url": "https://www.eventu.al/en/event/9340/finland/helsinki/hot-girl-club",
           "label": "Liput"
         }
       ],
@@ -238,6 +281,14 @@
           "label": "FB"
         }
       ],
+      "source_url": "https://kuudeslinja.com/"
+    },
+    {
+      "venue": "Kuudes Linja",
+      "date": "2026-11-28",
+      "title": "LADI",
+      "details": "Lauantaidisko DJs\nLiput 12 € (vapaa pääsy ennen klo 23:30)\n+ security fee 3,90 €\nOvet klo 23:15–04:30",
+      "links": [],
       "source_url": "https://kuudeslinja.com/"
     },
     {
@@ -357,6 +408,19 @@
     },
     {
       "venue": "Kuudes Linja",
+      "date": "2027-01-15",
+      "title": "ALKUILLAN KONSERTTI: TAMARA LUONTO 10 V-JUHLAT + JONI EKMAN GROUP + ALBERT",
+      "details": "LIVE: Tamara Luonto\nLIVE: Joni Ekman Group\nLIVE: Albert\nEnnakot Tiketistä ja Eventualista 16 €, liput ovelta 18 €\n+ security fee 3,90 €\nOvet klo 19",
+      "links": [
+        {
+          "url": "https://www.tiketti.fi/tamara-luonto-joni-ekman-group-albert-kuudes-linja-helsinki-lippuja/122065",
+          "label": "Liput"
+        }
+      ],
+      "source_url": "https://kuudeslinja.com/"
+    },
+    {
+      "venue": "Kuudes Linja",
       "date": "2027-01-16",
       "title": "ALKUILLAN KONSERTTI: DEMONIC DEATH JUDGE – SEAWEED 10 YEAR ANNIVERSARY + SUNNIVA + ELEKTRUS EREKTUS",
       "details": "LIVE: Demonic Death Judge\nLIVE: Sunniva\nLIVE: Elektrus Erektus\nEnnakot Tiketistä 15 €, liput ovelta 18 €\n+ security fee 3,90 €\nOvet klo 19",
@@ -391,6 +455,19 @@
     },
     {
       "venue": "Kuudes Linja",
+      "date": "2027-01-30",
+      "title": "ALKUILLAN KONSERTTI: PYRY LAAKSO + IRA",
+      "details": "LIVE: Pyry Laakso\nLIVE: Ira\nEnnakot Tiketistä ja Eventualista 17 €, liput ovelta 20 €\n+ security fee 3,90 €\nOvet klo 19",
+      "links": [
+        {
+          "url": "https://www.tiketti.fi/pyry-laakso-ira-kuudes-linja-helsinki-lippuja/122066",
+          "label": "Liput"
+        }
+      ],
+      "source_url": "https://kuudeslinja.com/"
+    },
+    {
+      "venue": "Kuudes Linja",
       "date": "2027-02-05",
       "title": "ALKUILLAN KONSERTTI: TERVEET KÄDET (SUBTERRA-LEVYJULKKARIT)",
       "details": "LIVE: Terveet Kädet\nEnnakot Tiketistä 18 €, liput ovelta 22 €\n+ security fee 3,90 €\nOvet klo 19",
@@ -405,19 +482,6 @@
         }
       ],
       "source_url": "https://kuudeslinja.com/"
-    },
-    {
-      "venue": "Lepakkomies",
-      "date": "2026-11-03",
-      "title": "Ei pöllömpi pubivisa by Pöllö & Ode",
-      "details": "Street Bar\novet klo 18:00\nVapaa pääsy!",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
     },
     {
       "venue": "Lepakkomies",
@@ -639,6 +703,19 @@
       "links": [
         {
           "url": "https://www.lepis.fi/tapahtumat/ongelma-katujen-aanet-karanneet-kaarmeet-villit-nautinnot/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://www.lepis.fi/tapahtumat/"
+    },
+    {
+      "venue": "Lepakkomies",
+      "date": "2026-11-24",
+      "title": "Ei pöllömpi pubivisa by Pöllö & Ode",
+      "details": "Street Bar\novet klo 18:00\nVapaa pääsy!",
+      "links": [
+        {
+          "url": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-4/",
           "label": "Lisätiedot"
         }
       ],
@@ -1990,7 +2067,7 @@
       "venue": "Tavastia",
       "date": "2026-11-14",
       "title": "Battle Beast",
-      "details": "Liput\n39,90 € / 42 €\n20.00\nOvet",
+      "details": "Liput\n39,90 € / 42 €\n20.00\nOvet\n20.30\nCrimson Sun\n21.30",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-14/battle-beast/119778/",
@@ -2601,7 +2678,7 @@
       "venue": "Tavastia",
       "date": "2027-02-24",
       "title": "Dynazty (SWE)",
-      "details": "Lipunmyynti käynnistyy 4.11. klo 09.00\n19.00\nOvet",
+      "details": "Liput\n33,50 €\n19.00\nOvet",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-02-24/dynazty-swe/121969/",
@@ -2926,7 +3003,7 @@
       "venue": "Semifinal",
       "date": "2026-11-07",
       "title": "Alwari Tuohitorvi Revisited",
-      "details": "Liput\n25 € / 27 €\n20.00\nOvet",
+      "details": "Liput\n25 € / 27 €\n20.00\nOvet\n20.45\nAlwari Tuohitorvi",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-07/alwari-tuohitorvi-revisited/120066/",
@@ -2995,19 +3072,6 @@
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-14/tams-saaga/121168/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/semifinal/"
-    },
-    {
-      "venue": "Semifinal",
-      "date": "2026-11-17",
-      "title": "JAMMA JAMMA JAMIT",
-      "details": "Liput ovelta Vapaa pääsy\n18.00\nOvet",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-11-17/jamma-jamma-jamit/119579/",
           "label": "Lisätiedot"
         }
       ],
