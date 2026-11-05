@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T00:55:58.463Z",
+  "updated_at": "2026-11-05T12:28:28.718Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -391,6 +391,23 @@
     },
     {
       "venue": "Kuudes Linja",
+      "date": "2027-01-08",
+      "title": "ALKUILLAN KONSERTTI: PEER GÜNT + BLINDBOÜND",
+      "details": "LIVE: Peer Günt\nLIVE: Blindboünd\nEnnakot Tiketistä 30 €, liput ovelta 35 €\n+ security fee 3,90 €\nOvet klo 19",
+      "links": [
+        {
+          "url": "https://www.tiketti.fi/peer-gunt-blindbound-kuudes-linja-helsinki-lippuja/121948",
+          "label": "Liput"
+        },
+        {
+          "url": "https://www.facebook.com/events/2232553601003284",
+          "label": "FB"
+        }
+      ],
+      "source_url": "https://kuudeslinja.com/"
+    },
+    {
+      "venue": "Kuudes Linja",
       "date": "2027-01-09",
       "title": "ALKUILLAN KONSERTTI: BAD APPLES PLAYS GUNS N’ ROSES + MUSEO PLAYS MUSE",
       "details": "LIVE: Bad Apples plays Guns N’ Roses\nLIVE: Museo plays Muse\nEnnakot Tiketistä 14 €, liput ovelta 16 €\n+ security fee 3,90 €\nOvet klo 19",
@@ -485,19 +502,6 @@
     },
     {
       "venue": "Lepakkomies",
-      "date": "2026-11-04",
-      "title": "Crooked Mouth (CA / LT) + Henna Emilia Hietamäki + Carnyx & Spear + Vesper Kennings",
-      "details": "Klubi\novet klo 20:00\nliput alakertaan 10€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/crooked-mouth-ca-lt-henna-emilia-hietamaki-carnyx-spear-vesper-kennings/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
       "date": "2026-11-05",
       "title": "IAmber + DIMM + Orbium",
       "details": "Klubi\novet klo 20:00\nliput alakertaan 5€",
@@ -585,7 +589,7 @@
       "details": "Street Bar\novet klo 18:00\nVapaa pääsy!",
       "links": [
         {
-          "url": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-2/",
+          "url": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode/",
           "label": "Lisätiedot"
         }
       ],
@@ -632,12 +636,12 @@
     },
     {
       "venue": "Lepakkomies",
-      "date": "2026-11-13",
-      "title": "Masta Lion Presents: No Limits ”Pikkujoulu” – Finnish Metal meets Afro and Reggae",
-      "details": "Klubi\novet klo 23:00\nliput alakertaan 10€",
+      "date": "2026-11-14",
+      "title": "DESCEND: Back to the Roots",
+      "details": "Klubi\novet klo 21:00\nliput alakertaan 8€",
       "links": [
         {
-          "url": "https://www.lepis.fi/tapahtumat/masta-lion-presents-no-limits-pikkujoulu-finnish-metal-meets-afro-and-reggae/",
+          "url": "https://www.lepis.fi/tapahtumat/descend-back-to-the-roots/",
           "label": "Lisätiedot"
         }
       ],
@@ -650,7 +654,7 @@
       "details": "Street Bar\novet klo 18:00\nVapaa pääsy!",
       "links": [
         {
-          "url": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-3/",
+          "url": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-2/",
           "label": "Lisätiedot"
         }
       ],
@@ -715,28 +719,24 @@
       "details": "Street Bar\novet klo 18:00\nVapaa pääsy!",
       "links": [
         {
-          "url": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-4/",
+          "url": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-3/",
           "label": "Lisätiedot"
         }
       ],
       "source_url": "https://www.lepis.fi/tapahtumat/"
     },
     {
-      "venue": "On the Rocks",
-      "date": "2026-11-04",
-      "title": "Snipe Drive (levyjulkkarit), Riekko Salama",
-      "details": "Klubi\novet klo 19:00\nliput alk. 15 € / 19 €",
+      "venue": "Lepakkomies",
+      "date": "2026-11-25",
+      "title": "Nättinassut + Nick Cavea suomeksi",
+      "details": "Klubi\novet klo 20:00\nliput alakertaan 10€",
       "links": [
         {
-          "url": "https://www.rocks.fi/tapahtumat/snipe-drive-levyjulkkarit-riekko-salama/",
+          "url": "https://www.lepis.fi/tapahtumat/nattinassut-nick-cavea-suomeksi/",
           "label": "Lisätiedot"
-        },
-        {
-          "url": "https://www.tiketti.fi/tapahtuma/121133",
-          "label": "Liput"
         }
       ],
-      "source_url": "https://www.rocks.fi/"
+      "source_url": "https://www.lepis.fi/tapahtumat/"
     },
     {
       "venue": "On the Rocks",
@@ -816,17 +816,17 @@
       "source_url": "https://www.rocks.fi/"
     },
     {
-      "venue": "Kulttuuritalo",
-      "date": "2026-11-04",
-      "title": "KULT: Boris (JPN) ”Pink” 20th Anniversary + special guest: Planning for Burial (US) (SOLD OUT!)",
-      "details": "Liput alkaen 40,10€",
+      "venue": "On the Rocks",
+      "date": "2026-11-09",
+      "title": "PJK Live",
+      "details": "Klubi\novet klo 19:00\nVapaa pääsy",
       "links": [
         {
-          "url": "https://kulttuuritalo.fi/tapahtuma/boris-jpn-pink-20th-anniversary/",
+          "url": "https://www.rocks.fi/tapahtumat/pjk-live/",
           "label": "Lisätiedot"
         }
       ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+      "source_url": "https://www.rocks.fi/"
     },
     {
       "venue": "Kulttuuritalo",
@@ -1792,6 +1792,19 @@
     },
     {
       "venue": "Kulttuuritalo",
+      "date": "2027-04-18",
+      "title": "Suzi Quatro “ROCKIN’ ON!”",
+      "details": "Liput alkaen 76,90€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/suzi-quatro-born-to-rock/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
       "date": "2027-04-19",
       "title": "RY X",
       "details": "Liput alkaen 38,50€",
@@ -2494,6 +2507,19 @@
     },
     {
       "venue": "Tavastia",
+      "date": "2027-01-16",
+      "title": "good boys - VEACE-levyjulkkarit",
+      "details": "Lipunmyynti käynnistyy 6.11. klo 09.00\n20.00\nOvet",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2027-01-16/good-boys-veace-levyjulkkarit/122127/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
       "date": "2027-01-20",
       "title": "Frank Zappa Memorial Pancake Breakfast",
       "details": "Liput\n30 € / 32 €\n19.00\nOvet",
@@ -3042,7 +3068,7 @@
       "venue": "Semifinal",
       "date": "2026-11-13",
       "title": "The Chiefs, Trashcan Dance, Escabroso",
-      "details": "Liput\n12 € / 14 €\n19.30\nOvet",
+      "details": "Liput\n12 € / 14 €\n20.00\nOvet\n20.30\nEscabroso\n21.30\nTrashcan Dance\n22.30\nThe Chiefs",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-13/the-chiefs-trashcan-dance-escabroso/121822/",
