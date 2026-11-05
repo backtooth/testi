@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T12:28:28.718Z",
+  "updated_at": "2026-11-05T22:04:54.959Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -141,6 +141,19 @@
       "links": [
         {
           "url": "https://www.tiketti.fi/adi-l-hasla-roomeo-bahamo-kuudes-linja-helsinki-lippuja/121606",
+          "label": "Liput"
+        }
+      ],
+      "source_url": "https://kuudeslinja.com/"
+    },
+    {
+      "venue": "Kuudes Linja",
+      "date": "2026-11-14",
+      "title": "CLUB MARKKINAVAKO",
+      "details": "Markkinavako DJs\nEnnakot Eventualista 8 €, liput ovelta 12 € (vapaa pääsy ennen klo 23:45). Ennakkolipulla jonon ohi klo 01:een asti.\n+ security fee 3,90 €\nOvet klo 23:15–04:30",
+      "links": [
+        {
+          "url": "https://www.eventu.al/en/event/9328/finland/helsinki/club-markkinavako",
           "label": "Liput"
         }
       ],
@@ -827,6 +840,19 @@
         }
       ],
       "source_url": "https://www.rocks.fi/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2026-11-04",
+      "title": "KULT: Boris (JPN) ”Pink” 20th Anniversary + special guest: Planning for Burial (US) (SOLD OUT!)",
+      "details": "Liput alkaen 40,10€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/boris-jpn-pink-20th-anniversary/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
     },
     {
       "venue": "Kulttuuritalo",
@@ -1792,19 +1818,6 @@
     },
     {
       "venue": "Kulttuuritalo",
-      "date": "2027-04-18",
-      "title": "Suzi Quatro “ROCKIN’ ON!”",
-      "details": "Liput alkaen 76,90€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/suzi-quatro-born-to-rock/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Kulttuuritalo",
       "date": "2027-04-19",
       "title": "RY X",
       "details": "Liput alkaen 38,50€",
@@ -1932,19 +1945,6 @@
         }
       ],
       "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Tavastia",
-      "date": "2026-11-05",
-      "title": "Semmarit",
-      "details": "Liput\n35 € / 39 €\n19.00\nOvet\n20.30",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-11-05/semmarit/117941/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/"
     },
     {
       "venue": "Tavastia",
@@ -2985,19 +2985,6 @@
         }
       ],
       "source_url": "https://tavastiaklubi.fi/"
-    },
-    {
-      "venue": "Semifinal",
-      "date": "2026-11-05",
-      "title": "I Think I Broke Something, Khroma, Iha Sama",
-      "details": "Liput\n13 € / 15 €\n19.00\nOvet\n19.30\nIHA SAMA\n20.30\nI THINK I BROKE SOMETHING\n21.30\nKHROMA",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-11-05/i-think-i-broke-something-khroma-iha-sama/121408/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/semifinal/"
     },
     {
       "venue": "Semifinal",
