@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T15:58:47.168Z",
+  "updated_at": "2026-11-06T21:34:56.771Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -826,6 +826,19 @@
     },
     {
       "venue": "Kulttuuritalo",
+      "date": "2026-11-05",
+      "title": "KULT: Elämän arvoinen -tukikonsertti",
+      "details": "Liput alkaen 44,10€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/kult-elaman-arvoinen-tukikonsertti/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
       "date": "2026-11-06",
       "title": "Suomi Nauraa – Stand Up Show 6.11.",
       "details": "Liput alkaen 48,00€",
@@ -1222,19 +1235,6 @@
       "links": [
         {
           "url": "https://kulttuuritalo.fi/tapahtuma/leavings-timo-rautiainen-varasteleva-joulupukki/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Kulttuuritalo",
-      "date": "2026-12-16",
-      "title": "KULT: Metallica ”Ride The Lightning” Tribute with producer Flemming Rasmussen",
-      "details": "Liput alkaen 15,50€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/kult-metallica-ride-the-lightning-tribute-with-producer-flemming-rasmussen/",
           "label": "Lisätiedot"
         }
       ],
@@ -1928,19 +1928,6 @@
         }
       ],
       "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Tavastia",
-      "date": "2026-11-06",
-      "title": "Popeda",
-      "details": "Liput\n39 € / 42 €\n20.00\nOvet\n21.30",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-11-06/popeda/118480/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/"
     },
     {
       "venue": "Tavastia",
@@ -2869,7 +2856,7 @@
       "venue": "Tavastia",
       "date": "2027-04-02",
       "title": "J. Karjalainen",
-      "details": "Liput\n59 € / 65 €\n20.00\nOvet",
+      "details": "20.00\nOvet\nLoppuunvarattu",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-04-02/j-karjalainen/122089/",
@@ -3007,19 +2994,6 @@
         }
       ],
       "source_url": "https://tavastiaklubi.fi/"
-    },
-    {
-      "venue": "Semifinal",
-      "date": "2026-11-06",
-      "title": "Club Eternal Flame",
-      "details": "Liput\n10 € / 12 €\n19.00\nOvet",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-11-06/club-eternal-flame/119866/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/semifinal/"
     },
     {
       "venue": "Semifinal",
