@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T22:04:54.959Z",
+  "updated_at": "2026-11-06T06:56:40.848Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -515,19 +515,6 @@
     },
     {
       "venue": "Lepakkomies",
-      "date": "2026-11-05",
-      "title": "IAmber + DIMM + Orbium",
-      "details": "Klubi\novet klo 20:00\nliput alakertaan 5€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/iamber-dimm-orbium/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
       "date": "2026-11-06",
       "title": "After Infinity (Levyjulkkarit) + Gladenfold",
       "details": "Klubi\novet klo 20:00\nliput alk. 12€/15€",
@@ -752,6 +739,19 @@
       "source_url": "https://www.lepis.fi/tapahtumat/"
     },
     {
+      "venue": "Lepakkomies",
+      "date": "2026-11-27",
+      "title": "Ceaseless Torment + Mutant Blast + Jewel Throne",
+      "details": "Klubi\novet klo 20:00\nliput alakertaan 10€",
+      "links": [
+        {
+          "url": "https://www.lepis.fi/tapahtumat/ceaseless-torment-mutant-blast-jewel-throne/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://www.lepis.fi/tapahtumat/"
+    },
+    {
       "venue": "On the Rocks",
       "date": "2026-11-05",
       "title": "Pimento – Vatsatanssia metallimusiikkiin: The Cemetery",
@@ -840,19 +840,6 @@
         }
       ],
       "source_url": "https://www.rocks.fi/"
-    },
-    {
-      "venue": "Kulttuuritalo",
-      "date": "2026-11-04",
-      "title": "KULT: Boris (JPN) ”Pink” 20th Anniversary + special guest: Planning for Burial (US) (SOLD OUT!)",
-      "details": "Liput alkaen 40,10€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/boris-jpn-pink-20th-anniversary/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
     },
     {
       "venue": "Kulttuuritalo",
@@ -1811,6 +1798,19 @@
       "links": [
         {
           "url": "https://kulttuuritalo.fi/tapahtuma/maustetytot-mt-unplugged/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2027-04-18",
+      "title": "Suzi Quatro “ROCKIN’ ON!”",
+      "details": "Liput alkaen 76,90€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/suzi-quatro-born-to-rock/",
           "label": "Lisätiedot"
         }
       ],
