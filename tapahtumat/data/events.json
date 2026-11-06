@@ -1,23 +1,6 @@
 {
-  "updated_at": "2026-11-06T06:56:40.848Z",
+  "updated_at": "2026-11-06T15:58:47.168Z",
   "events": [
-    {
-      "venue": "Kuudes Linja",
-      "date": "2026-11-05",
-      "title": "ESTER NUORI LEPPÄ & HERKKIEN ARMEIJA + AATOS KETVEL",
-      "details": "LIVE: Ester Nuori Leppä & Herkkien armeija (klo 21)\nLIVE: Aatos Ketvel (klo 20)\nEnnakot Tiketistä 15 €, liput ovelta 18 €\n+ security fee 3,90 €\nOvet klo 19",
-      "links": [
-        {
-          "url": "https://www.tiketti.fi/ester-nuori-leppa-herkkien-armeija-aatos-ketvel-kuudes-lippuja/121345",
-          "label": "Liput"
-        },
-        {
-          "url": "https://www.facebook.com/events/1493637875934819/",
-          "label": "FB"
-        }
-      ],
-      "source_url": "https://kuudeslinja.com/"
-    },
     {
       "venue": "Kuudes Linja",
       "date": "2026-11-06",
@@ -843,19 +826,6 @@
     },
     {
       "venue": "Kulttuuritalo",
-      "date": "2026-11-05",
-      "title": "KULT: Elämän arvoinen -tukikonsertti",
-      "details": "Liput alkaen 44,10€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/kult-elaman-arvoinen-tukikonsertti/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Kulttuuritalo",
       "date": "2026-11-06",
       "title": "Suomi Nauraa – Stand Up Show 6.11.",
       "details": "Liput alkaen 48,00€",
@@ -1252,6 +1222,19 @@
       "links": [
         {
           "url": "https://kulttuuritalo.fi/tapahtuma/leavings-timo-rautiainen-varasteleva-joulupukki/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2026-12-16",
+      "title": "KULT: Metallica ”Ride The Lightning” Tribute with producer Flemming Rasmussen",
+      "details": "Liput alkaen 15,50€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/kult-metallica-ride-the-lightning-tribute-with-producer-flemming-rasmussen/",
           "label": "Lisätiedot"
         }
       ],
@@ -2509,7 +2492,7 @@
       "venue": "Tavastia",
       "date": "2027-01-16",
       "title": "good boys - VEACE-levyjulkkarit",
-      "details": "Lipunmyynti käynnistyy 6.11. klo 09.00\n20.00\nOvet",
+      "details": "Liput\n27 € / 30 €\n20.00\nOvet",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-01-16/good-boys-veace-levyjulkkarit/122127/",
@@ -2871,6 +2854,32 @@
     },
     {
       "venue": "Tavastia",
+      "date": "2027-04-01",
+      "title": "J. Karjalainen",
+      "details": "Liput\n59 € / 65 €",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2027-04-01/j-karjalainen/122088/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
+      "date": "2027-04-02",
+      "title": "J. Karjalainen",
+      "details": "Liput\n59 € / 65 €\n20.00\nOvet",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2027-04-02/j-karjalainen/122089/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
       "date": "2027-05-29",
       "title": "Scar Symmentry (SWE), Rise To Fall (ES), Meret",
       "details": "Liput\n30 € / 35 €",
@@ -2938,10 +2947,10 @@
       "venue": "Tavastia",
       "date": "2027-09-17",
       "title": "REAPER FEST 2027",
-      "details": "Liput\n49 €",
+      "details": "pe 17.9.-\nLiput",
       "links": [
         {
-          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119664/",
+          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119662/",
           "label": "Lisätiedot"
         }
       ],
@@ -2951,10 +2960,10 @@
       "venue": "Tavastia",
       "date": "2027-09-17",
       "title": "REAPER FEST 2027",
-      "details": "pe 17.9.-\nLiput",
+      "details": "Liput\n49 €",
       "links": [
         {
-          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119662/",
+          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119664/",
           "label": "Lisätiedot"
         }
       ],
@@ -2975,9 +2984,22 @@
     },
     {
       "venue": "Tavastia",
+      "date": "2027-10-23",
+      "title": "Pohjola Heavy Jazz Group",
+      "details": "Liput\n43,50 € / 45 €",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2027-10-23/pohjola-heavy-jazz-group/122117/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
       "date": "2027-11-15",
       "title": "Henge (UK)",
-      "details": "Lipunmyynti käynnistyy 6.11. klo 10.00\n19.00\nOvet",
+      "details": "Liput\n32,50 € / 35 €\n19.00\nOvet",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-11-15/henge-uk/122018/",
@@ -3137,6 +3159,19 @@
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-26/roge/121193/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/semifinal/"
+    },
+    {
+      "venue": "Semifinal",
+      "date": "2026-11-28",
+      "title": "What Awaits Us, Traitors Among Us, Ashes of Perishing",
+      "details": "Liput\n13 € / 15 €\n20.00\nOvet",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2026-11-28/what-awaits-us-traitors-among-us-ashes-of-perishing/122061/",
           "label": "Lisätiedot"
         }
       ],
