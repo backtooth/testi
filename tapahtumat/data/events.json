@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T20:17:01.380Z",
+  "updated_at": "2026-11-07T23:42:34.017Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -798,32 +798,6 @@
         }
       ],
       "source_url": "https://www.rocks.fi/"
-    },
-    {
-      "venue": "Kulttuuritalo",
-      "date": "2026-11-06",
-      "title": "Suomi Nauraa – Stand Up Show 6.11.",
-      "details": "Liput alkaen 48,00€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/suomi-nauraa-stand-up-show-6-11/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Kulttuuritalo",
-      "date": "2026-11-06",
-      "title": "KULT: Kinga Głyk",
-      "details": "Liput alkaen 35,90€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/kult-kinga-glyk/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
     },
     {
       "venue": "Kulttuuritalo",
@@ -1907,19 +1881,6 @@
     {
       "venue": "Tavastia",
       "date": "2026-11-07",
-      "title": "Pihlaja (Levyjulkkarit)",
-      "details": "Liput\n24 € / 26 €\n19.00\nOvet\n20.00\nPihlaja",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-11-07/pihlaja-levyjulkkarit/120095/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/"
-    },
-    {
-      "venue": "Tavastia",
-      "date": "2026-11-07",
       "title": "Julma Henri & Steen1",
       "details": "Liput\n27 € / 29 €\n23.30\nOvet\n00.00\nSteen1\n01.00\nJulma Henri",
       "links": [
@@ -2922,10 +2883,10 @@
       "venue": "Tavastia",
       "date": "2027-09-17",
       "title": "REAPER FEST 2027",
-      "details": "Liput\n49 €",
+      "details": "pe 17.9.-\nLiput",
       "links": [
         {
-          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119664/",
+          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119662/",
           "label": "Lisätiedot"
         }
       ],
@@ -2935,10 +2896,10 @@
       "venue": "Tavastia",
       "date": "2027-09-17",
       "title": "REAPER FEST 2027",
-      "details": "pe 17.9.-\nLiput",
+      "details": "Liput\n49 €",
       "links": [
         {
-          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119662/",
+          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119664/",
           "label": "Lisätiedot"
         }
       ],
@@ -2982,19 +2943,6 @@
         }
       ],
       "source_url": "https://tavastiaklubi.fi/"
-    },
-    {
-      "venue": "Semifinal",
-      "date": "2026-11-07",
-      "title": "Alwari Tuohitorvi Revisited",
-      "details": "Liput\n25 € / 27 €\n20.00\nOvet\n20.45\nAlwari Tuohitorvi",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-11-07/alwari-tuohitorvi-revisited/120066/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/semifinal/"
     },
     {
       "venue": "Semifinal",
