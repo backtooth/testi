@@ -1,31 +1,6 @@
 {
-  "updated_at": "2026-11-07T06:08:11.700Z",
+  "updated_at": "2026-11-07T14:56:18.496Z",
   "events": [
-    {
-      "venue": "Kuudes Linja",
-      "date": "2026-11-06",
-      "title": "ALKUILLAN KONSERTTI: MODEM – MODEMISM-JULKKARIT + SOKAR + WALDEMAR BLOM",
-      "details": "LIVE: Modem (klo 21:30)\nLIVE: Sokar (klo 20:30)\nLIVE: Waldemar Blom (klo 19:30)\nEnnakot Tiketistä ja Eventualista 25 €, liput ovelta 28 €\n+ security fee 3,90 €\nOvet klo 19",
-      "links": [
-        {
-          "url": "https://www.tiketti.fi/tapahtuma/118557",
-          "label": "Liput"
-        },
-        {
-          "url": "https://www.facebook.com/events/1460195039486571",
-          "label": "FB"
-        }
-      ],
-      "source_url": "https://kuudeslinja.com/"
-    },
-    {
-      "venue": "Kuudes Linja",
-      "date": "2026-11-06",
-      "title": "GEMZ – THE ULTIMATE POP PARTY",
-      "details": "DJ:t lunawil & ratgirl\nLiput 12 € (vapaa pääsy ennen klo 23:45)\n+ security fee 3,90 €\nOvet klo 23:15–04:30",
-      "links": [],
-      "source_url": "https://kuudeslinja.com/"
-    },
     {
       "venue": "Kuudes Linja",
       "date": "2026-11-07",
@@ -498,36 +473,6 @@
     },
     {
       "venue": "Lepakkomies",
-      "date": "2026-11-06",
-      "title": "After Infinity (Levyjulkkarit) + Gladenfold",
-      "details": "Klubi\novet klo 20:00\nliput alk. 12€/15€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/after-infinity-levyjulkkarit-gladenfold/",
-          "label": "Lisätiedot"
-        },
-        {
-          "url": "https://www.tiketti.fi/after-infinity-gladenfold-lepakkomies-helsinki-lippuja/119408",
-          "label": "Liput"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
-      "date": "2026-11-06",
-      "title": "Plezure Krew: Bassment Vol. 2",
-      "details": "Klubi\novet klo 00:00\nliput alakertaan 3€ sis. eteispalvelumaksu",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/plezure-krew-bassment-vol-2/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
       "date": "2026-11-07",
       "title": "LEPIKSEN SYNTTÄRIT!!!",
       "details": "Klubi\novet klo 17:00\nVapaa pääsy!",
@@ -723,6 +668,19 @@
     },
     {
       "venue": "Lepakkomies",
+      "date": "2026-11-26",
+      "title": "NISKAFLIPPI-TORSTAI: Kokoomus + Myrkytys + Odottaa + Harhaoppi",
+      "details": "Klubi\novet klo 20:00\nliput alakertaan 5€",
+      "links": [
+        {
+          "url": "https://www.lepis.fi/tapahtumat/niskaflippi-torstai-kokoomus-myrkytys-odottaa-harhaoppi/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://www.lepis.fi/tapahtumat/"
+    },
+    {
+      "venue": "Lepakkomies",
       "date": "2026-11-27",
       "title": "Ceaseless Torment + Mutant Blast + Jewel Throne",
       "details": "Klubi\novet klo 20:00\nliput alakertaan 10€",
@@ -735,51 +693,17 @@
       "source_url": "https://www.lepis.fi/tapahtumat/"
     },
     {
-      "venue": "On the Rocks",
-      "date": "2026-11-05",
-      "title": "Pimento – Vatsatanssia metallimusiikkiin: The Cemetery",
-      "details": "Klubi\novet klo 19:00\nliput alk. 28 € / 30 €",
+      "venue": "Lepakkomies",
+      "date": "2026-11-28",
+      "title": "Yölentoklubi: Jaakko Kulta + Aaro630 + Pihalla",
+      "details": "Klubi\novet klo 20:00\nliput alakertaan LOPPUUNMYYTY",
       "links": [
         {
-          "url": "https://www.rocks.fi/tapahtumat/pimento-vatsatanssia-metallimusiikkiin-the-cemetery/",
-          "label": "Lisätiedot"
-        },
-        {
-          "url": "https://www.tiketti.fi/tapahtuma/119513",
-          "label": "Liput"
-        }
-      ],
-      "source_url": "https://www.rocks.fi/"
-    },
-    {
-      "venue": "On the Rocks",
-      "date": "2026-11-06",
-      "title": "Kehä, Laineen Kasperi & Matkatoimisto",
-      "details": "Klubi\novet klo 20:00\nliput alk. 20 € / 23 €",
-      "links": [
-        {
-          "url": "https://www.rocks.fi/tapahtumat/keha-laineen-kasperi-matkatoimisto/",
-          "label": "Lisätiedot"
-        },
-        {
-          "url": "https://www.tiketti.fi/tapahtuma/121510",
-          "label": "Liput"
-        }
-      ],
-      "source_url": "https://www.rocks.fi/"
-    },
-    {
-      "venue": "On the Rocks",
-      "date": "2026-11-06",
-      "title": "Back To The Future 80s Party! DJ Mortti & DJ Mikke",
-      "details": "Street Bar\novet klo 23:30\nliput ovelta 7 €",
-      "links": [
-        {
-          "url": "https://www.rocks.fi/tapahtumat/back-to-the-future-80s-party-dj-mortti-dj-mikke/",
+          "url": "https://www.lepis.fi/tapahtumat/yolentoklubi-jaakko-kulta-aaro630-pihalla/",
           "label": "Lisätiedot"
         }
       ],
-      "source_url": "https://www.rocks.fi/"
+      "source_url": "https://www.lepis.fi/tapahtumat/"
     },
     {
       "venue": "On the Rocks",
@@ -825,43 +749,55 @@
       "source_url": "https://www.rocks.fi/"
     },
     {
-      "venue": "Kulttuuritalo",
-      "date": "2026-11-05",
-      "title": "KULT: Elämän arvoinen -tukikonsertti",
-      "details": "Liput alkaen 44,10€",
+      "venue": "On the Rocks",
+      "date": "2026-11-11",
+      "title": "Saga Olsson (levyjulkkarit), Muovikukat",
+      "details": "Klubi\novet klo 19:00\nliput alk. 15 € / 18 €",
       "links": [
         {
-          "url": "https://kulttuuritalo.fi/tapahtuma/kult-elaman-arvoinen-tukikonsertti/",
+          "url": "https://www.rocks.fi/tapahtumat/saga-olsson-levyjulkkarit-muovikukat/",
           "label": "Lisätiedot"
+        },
+        {
+          "url": "https://www.tiketti.fi/tapahtuma/120963",
+          "label": "Liput"
         }
       ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+      "source_url": "https://www.rocks.fi/"
     },
     {
-      "venue": "Kulttuuritalo",
-      "date": "2026-11-06",
-      "title": "Suomi Nauraa – Stand Up Show 6.11.",
-      "details": "Liput alkaen 48,00€",
+      "venue": "On the Rocks",
+      "date": "2026-11-12",
+      "title": "John Corabi & Friends (USA)",
+      "details": "Klubi\novet klo 19:00\nliput alk. 36 € / 40 €",
       "links": [
         {
-          "url": "https://kulttuuritalo.fi/tapahtuma/suomi-nauraa-stand-up-show-6-11/",
+          "url": "https://www.rocks.fi/tapahtumat/john-corabi-friends-usa/",
           "label": "Lisätiedot"
+        },
+        {
+          "url": "https://www.tiketti.fi/tapahtuma/118674",
+          "label": "Liput"
         }
       ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+      "source_url": "https://www.rocks.fi/"
     },
     {
-      "venue": "Kulttuuritalo",
-      "date": "2026-11-06",
-      "title": "KULT: Kinga Głyk",
-      "details": "Liput alkaen 35,90€",
+      "venue": "On the Rocks",
+      "date": "2026-11-13",
+      "title": "K30 Live: The Pansies",
+      "details": "Klubi\novet klo 20:00\nliput alk. 29 € / 32 €",
       "links": [
         {
-          "url": "https://kulttuuritalo.fi/tapahtuma/kult-kinga-glyk/",
+          "url": "https://www.rocks.fi/tapahtumat/k30-live-the-pansies/",
           "label": "Lisätiedot"
+        },
+        {
+          "url": "https://www.tiketti.fi/tapahtuma/121162",
+          "label": "Liput"
         }
       ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+      "source_url": "https://www.rocks.fi/"
     },
     {
       "venue": "Kulttuuritalo",
@@ -1235,6 +1171,19 @@
       "links": [
         {
           "url": "https://kulttuuritalo.fi/tapahtuma/leavings-timo-rautiainen-varasteleva-joulupukki/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2026-12-16",
+      "title": "KULT: Metallica ”Ride The Lightning” Tribute with producer Flemming Rasmussen",
+      "details": "Liput alkaen 15,50€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/kult-metallica-ride-the-lightning-tribute-with-producer-flemming-rasmussen/",
           "label": "Lisätiedot"
         }
       ],
@@ -2843,7 +2792,7 @@
       "venue": "Tavastia",
       "date": "2027-04-01",
       "title": "J. Karjalainen",
-      "details": "Liput\n59 € / 65 €",
+      "details": "Loppuunvarattu",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-04-01/j-karjalainen/122088/",
