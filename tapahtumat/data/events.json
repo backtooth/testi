@@ -1,40 +1,6 @@
 {
-  "updated_at": "2026-11-08T06:13:21.779Z",
+  "updated_at": "2026-11-08T15:19:32.010Z",
   "events": [
-    {
-      "venue": "Kuudes Linja",
-      "date": "2026-11-07",
-      "title": "ALKUILLAN KONSERTTI: RATS WILL FEAST + KANNABINÕID (EE) + ESTONER (EE)",
-      "details": "LIVE: Kannabinõid (klo 21:30)\nLIVE: Rats Will Feast (klo 20:30)\nLIVE: Estoner (klo 19:30)\nEnnakot Tiketistä 12 €, liput ovelta 15 €\n+ security fee 3,90 €\nOvet klo 19",
-      "links": [
-        {
-          "url": "https://www.tiketti.fi/rats-will-feast-kannabinoid-ee-kuudes-linja-helsinki-lippuja/121122",
-          "label": "Liput"
-        },
-        {
-          "url": "https://www.facebook.com/events/1816832946334792",
-          "label": "FB"
-        }
-      ],
-      "source_url": "https://kuudeslinja.com/"
-    },
-    {
-      "venue": "Kuudes Linja",
-      "date": "2026-11-07",
-      "title": "KUTONEN GOES 90s & 00s",
-      "details": "DJ:t Harvest & Skenikswee\n+ special guest: DJ Ronja Salmi\nHuom! Ovelta myydään reilusti lippuja klo 23:15 alkaen. Liput ovelta 13 €. Tapahtuman ennakkoliput on loppuunmyyty. Ennakkolipulla jonon ohi klo 01:een asti.\n+ security fee 3,90 €\nOvet klo 23:15–04:30",
-      "links": [
-        {
-          "url": "https://www.eventu.al/en/event/9339/finland/helsinki/kutonen-goes-90s-00s",
-          "label": "Liput"
-        },
-        {
-          "url": "https://www.facebook.com/events/1142958791731572",
-          "label": "FB"
-        }
-      ],
-      "source_url": "https://kuudeslinja.com/"
-    },
     {
       "venue": "Kuudes Linja",
       "date": "2026-11-11",
@@ -473,45 +439,6 @@
     },
     {
       "venue": "Lepakkomies",
-      "date": "2026-11-07",
-      "title": "LEPIKSEN SYNTTÄRIT!!!",
-      "details": "Klubi\novet klo 17:00\nVapaa pääsy!",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/lepiksen-synttarit/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
-      "date": "2026-11-07",
-      "title": "Iskelmähelvetti 2: Sörnäinen + Haaveet + Jean Ramsay & Rock’n’Roy",
-      "details": "Klubi\novet klo 20:00\nliput alakertaan 10€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/iskelmahelvetti-2-sornainen-haaveet-jean-ramsay-rocknroy/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
-      "date": "2026-11-07",
-      "title": "Hyperspace Eventz: Club Revelry",
-      "details": "Klubi\novet klo 23:30\nliput alakertaan 5€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/hyperspace-eventz-club-revelry/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
       "date": "2026-11-10",
       "title": "Ei pöllömpi pubivisa by Pöllö & Ode",
       "details": "Street Bar\novet klo 18:00\nVapaa pääsy!",
@@ -706,34 +633,51 @@
       "source_url": "https://www.lepis.fi/tapahtumat/"
     },
     {
-      "venue": "On the Rocks",
-      "date": "2026-11-07",
-      "title": "Assemble The Chariots, Plaguebreeder",
-      "details": "Klubi\novet klo 20:00\nliput alk. 20 € / 23 €",
+      "venue": "Lepakkomies",
+      "date": "2026-11-28",
+      "title": "LEPISKELMÄ",
+      "details": "Klubi\novet klo 00:00\nliput alakertaan 3€ sis. eteispalvelumaksu",
       "links": [
         {
-          "url": "https://www.rocks.fi/tapahtumat/assemble-the-chariots-plaguebreeder/",
+          "url": "https://www.lepis.fi/tapahtumat/lepiskelma/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://www.lepis.fi/tapahtumat/"
+    },
+    {
+      "venue": "Lepakkomies",
+      "date": "2026-12-02",
+      "title": "viola + Vera Wall",
+      "details": "Klubi\novet klo 20:00\nliput alk. 12€/15€",
+      "links": [
+        {
+          "url": "https://www.lepis.fi/tapahtumat/viola-vera-wall/",
           "label": "Lisätiedot"
         },
         {
-          "url": "https://www.tiketti.fi/tapahtuma/120714",
+          "url": "https://www.tiketti.fi/viola-vera-wall-lepakkomies-helsinki-lippuja/121199",
           "label": "Liput"
         }
       ],
-      "source_url": "https://www.rocks.fi/"
+      "source_url": "https://www.lepis.fi/tapahtumat/"
     },
     {
-      "venue": "On the Rocks",
-      "date": "2026-11-07",
-      "title": "Lauantaidisko DJs: 90s + 00s",
-      "details": "Klubi\novet klo 23:30\nliput ovelta 7 €",
+      "venue": "Lepakkomies",
+      "date": "2026-12-04",
+      "title": "Rearviewmirror – A Tribute to Pearl Jam",
+      "details": "Klubi\novet klo 20:00\nliput alk. 12€/14€",
       "links": [
         {
-          "url": "https://www.rocks.fi/tapahtumat/lauantaidisko-djs-90s-00s/",
+          "url": "https://www.lepis.fi/tapahtumat/rearviewmirror-a-tribute-to-pearl-jam/",
           "label": "Lisätiedot"
+        },
+        {
+          "url": "https://www.tiketti.fi/rearviewmirror-a-tribute-to-pearl-jam-lepakkomies-helsinki-lippuja/121669",
+          "label": "Liput"
         }
       ],
-      "source_url": "https://www.rocks.fi/"
+      "source_url": "https://www.lepis.fi/tapahtumat/"
     },
     {
       "venue": "On the Rocks",
@@ -794,6 +738,36 @@
         },
         {
           "url": "https://www.tiketti.fi/tapahtuma/121162",
+          "label": "Liput"
+        }
+      ],
+      "source_url": "https://www.rocks.fi/"
+    },
+    {
+      "venue": "On the Rocks",
+      "date": "2026-11-13",
+      "title": "K-30 Club: Britpop & 90s Disco",
+      "details": "Klubi\novet klo 22:00\nliput ovelta 10 €",
+      "links": [
+        {
+          "url": "https://www.rocks.fi/tapahtumat/k-30-club-britpop-90s-disco/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://www.rocks.fi/"
+    },
+    {
+      "venue": "On the Rocks",
+      "date": "2026-11-14",
+      "title": "45 Degree Woman, Surunaamio Acoustic",
+      "details": "Klubi\novet klo 20:00\nliput alk. 25 € / 28 €",
+      "links": [
+        {
+          "url": "https://www.rocks.fi/tapahtumat/45-degree-woman-surunaamio-acoustic/",
+          "label": "Lisätiedot"
+        },
+        {
+          "url": "https://www.tiketti.fi/tapahtuma/121285",
           "label": "Liput"
         }
       ],
