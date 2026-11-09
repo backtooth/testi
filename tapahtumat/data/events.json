@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T06:46:45.409Z",
+  "updated_at": "2026-11-09T18:52:58.730Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -772,6 +772,45 @@
         }
       ],
       "source_url": "https://www.rocks.fi/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2026-11-07",
+      "title": "KULT: Kukkatalo + Orvokki",
+      "details": "Liput alkaen 20,00€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/kukkatalo-orvokki/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2026-11-07",
+      "title": "Nelli Matula presents: 10 VUOTTA MATULAA -juhlashow",
+      "details": "Liput alkaen 39,90€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/nelli-matula-presents-10-vuotta-matulaa-juhlashow/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2026-11-08",
+      "title": "ALL(H)OURS 1st World Tour <RISE UP>",
+      "details": "Liput alkaen 69,90€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/allhours-1st-world-tour-rise-up/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
     },
     {
       "venue": "Kulttuuritalo",
@@ -1817,7 +1856,7 @@
       "venue": "Tavastia",
       "date": "2026-11-09",
       "title": "Xzibit (USA)",
-      "details": "Liput\n49,50 € / 52 €\n19.00\nOvet\n20.30\nXzibit",
+      "details": "19.00\nOvet\n20.30\nXzibit",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-09/xzibit-usa/120396/",
@@ -2193,6 +2232,19 @@
     {
       "venue": "Tavastia",
       "date": "2026-12-26",
+      "title": "Pertti Kurikan 70 v. -juhladisko",
+      "details": "Liput\n10 € / 10 €\n18.00\nOvet",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2026-12-26/pertti-kurikan-70-v-juhladisko/122332/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
+      "date": "2026-12-26",
       "title": "Tatskatyttöjen Tapsantanssit",
       "details": "Liput\n12,50 €\n23.30\nOvet",
       "links": [
@@ -2380,6 +2432,19 @@
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-01-29/sara/120427/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
+      "date": "2027-01-30",
+      "title": "Reilukerho 20-vuotisjuhlakeikka",
+      "details": "Lipunmyynti käynnistyy 10.11. klo 10.00\n20.00\nOvet",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2027-01-30/reilukerho-20-vuotisjuhlakeikka/122222/",
           "label": "Lisätiedot"
         }
       ],
@@ -2688,7 +2753,7 @@
       "venue": "Tavastia",
       "date": "2027-04-01",
       "title": "J. Karjalainen",
-      "details": "Loppuunvarattu",
+      "details": "Loppuunmyyty",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-04-01/j-karjalainen/122088/",
@@ -2701,7 +2766,7 @@
       "venue": "Tavastia",
       "date": "2027-04-02",
       "title": "J. Karjalainen",
-      "details": "20.00\nOvet\nLoppuunvarattu",
+      "details": "20.00\nOvet\nLoppuunmyyty",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-04-02/j-karjalainen/122089/",
@@ -2792,10 +2857,10 @@
       "venue": "Tavastia",
       "date": "2027-09-17",
       "title": "REAPER FEST 2027",
-      "details": "Liput\n49 €",
+      "details": "pe 17.9.-\nLiput",
       "links": [
         {
-          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119664/",
+          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119662/",
           "label": "Lisätiedot"
         }
       ],
@@ -2805,10 +2870,10 @@
       "venue": "Tavastia",
       "date": "2027-09-17",
       "title": "REAPER FEST 2027",
-      "details": "pe 17.9.-\nLiput",
+      "details": "Liput\n49 €",
       "links": [
         {
-          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119662/",
+          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119664/",
           "label": "Lisätiedot"
         }
       ],
