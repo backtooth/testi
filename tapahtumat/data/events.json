@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T20:32:20.109Z",
+  "updated_at": "2026-11-09T06:46:45.409Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -772,19 +772,6 @@
         }
       ],
       "source_url": "https://www.rocks.fi/"
-    },
-    {
-      "venue": "Kulttuuritalo",
-      "date": "2026-11-08",
-      "title": "ALL(H)OURS 1st World Tour <RISE UP>",
-      "details": "Liput alkaen 69,90€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/allhours-1st-world-tour-rise-up/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
     },
     {
       "venue": "Kulttuuritalo",
@@ -1828,19 +1815,6 @@
     },
     {
       "venue": "Tavastia",
-      "date": "2026-11-08",
-      "title": "Yasuaki Shimizu (JP)",
-      "details": "18.00\nOvet\n19.00\nYasuaki Shimizu",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-11-08/yasuaki-shimizu-jp/118573/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/"
-    },
-    {
-      "venue": "Tavastia",
       "date": "2026-11-09",
       "title": "Xzibit (USA)",
       "details": "Liput\n49,50 € / 52 €\n19.00\nOvet\n20.30\nXzibit",
@@ -2818,10 +2792,10 @@
       "venue": "Tavastia",
       "date": "2027-09-17",
       "title": "REAPER FEST 2027",
-      "details": "pe 17.9.-\nLiput",
+      "details": "Liput\n49 €",
       "links": [
         {
-          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119662/",
+          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119664/",
           "label": "Lisätiedot"
         }
       ],
@@ -2831,10 +2805,10 @@
       "venue": "Tavastia",
       "date": "2027-09-17",
       "title": "REAPER FEST 2027",
-      "details": "Liput\n49 €",
+      "details": "pe 17.9.-\nLiput",
       "links": [
         {
-          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119664/",
+          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119662/",
           "label": "Lisätiedot"
         }
       ],
