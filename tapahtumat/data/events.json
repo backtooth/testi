@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T12:43:57.404Z",
+  "updated_at": "2026-11-10T21:50:20.718Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -1863,19 +1863,6 @@
     },
     {
       "venue": "Tavastia",
-      "date": "2026-11-10",
-      "title": "Xzibit (USA)",
-      "details": "19.00\nOvet\n20.30\nXzibit\nLoppuunmyyty",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-11-10/xzibit-usa/118938/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/"
-    },
-    {
-      "venue": "Tavastia",
       "date": "2026-11-11",
       "title": "F (Levyjulkkarit)",
       "details": "19.00\nOvet\n20.30\nF\nLoppuunmyyty",
@@ -2955,19 +2942,6 @@
     },
     {
       "venue": "Semifinal",
-      "date": "2026-11-10",
-      "title": "Kuudesta Kymmeneen",
-      "details": "Liput\n16,50€ / 18€\n18.00\nOvet",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-11-10/kuudesta-kymmeneen/120769/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/semifinal/"
-    },
-    {
-      "venue": "Semifinal",
       "date": "2026-11-11",
       "title": "Joka v*tun keskiviikko: Yllätysesiintyjä",
       "details": "Liput\n15 € / 20 €\n18.00\nOvet\n19.00\nSHOWTIME",
@@ -2983,7 +2957,7 @@
       "venue": "Semifinal",
       "date": "2026-11-12",
       "title": "3:37",
-      "details": "19.00\nOvet\nLoppuunvarattu",
+      "details": "19.00\nOvet\n19.15\nSECRET QUEST\n20.00\nLoppuunmyyty",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-12/337/121671/",
