@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T18:52:58.730Z",
+  "updated_at": "2026-11-10T02:46:23.376Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -772,45 +772,6 @@
         }
       ],
       "source_url": "https://www.rocks.fi/"
-    },
-    {
-      "venue": "Kulttuuritalo",
-      "date": "2026-11-07",
-      "title": "KULT: Kukkatalo + Orvokki",
-      "details": "Liput alkaen 20,00€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/kukkatalo-orvokki/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Kulttuuritalo",
-      "date": "2026-11-07",
-      "title": "Nelli Matula presents: 10 VUOTTA MATULAA -juhlashow",
-      "details": "Liput alkaen 39,90€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/nelli-matula-presents-10-vuotta-matulaa-juhlashow/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Kulttuuritalo",
-      "date": "2026-11-08",
-      "title": "ALL(H)OURS 1st World Tour <RISE UP>",
-      "details": "Liput alkaen 69,90€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/allhours-1st-world-tour-rise-up/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
     },
     {
       "venue": "Kulttuuritalo",
@@ -1646,6 +1607,19 @@
     },
     {
       "venue": "Kulttuuritalo",
+      "date": "2027-03-20",
+      "title": "KAJ med liveband",
+      "details": "Liput alkaen 49,90€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/kaj-med-liveband/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
       "date": "2027-03-24",
       "title": "Eivør",
       "details": "Liput alkaen 49,00€",
@@ -1851,19 +1825,6 @@
         }
       ],
       "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Tavastia",
-      "date": "2026-11-09",
-      "title": "Xzibit (USA)",
-      "details": "19.00\nOvet\n20.30\nXzibit",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-11-09/xzibit-usa/120396/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/"
     },
     {
       "venue": "Tavastia",
