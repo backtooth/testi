@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-10T02:46:23.376Z",
+  "updated_at": "2026-11-10T12:43:57.404Z",
   "events": [
     {
       "venue": "Kuudes Linja",
       "date": "2026-11-11",
       "title": "ALKUILLAN KONSERTTI: MAYOHK (JP)",
-      "details": "LIVE: MAYOHK (JP)\nEnnakot Tickettailor.comista alkaen 55 € + lippukaupan kulut\n+ security fee 3,90 €\nOvet 17:30 (VIP) / 19:00 (General)",
+      "details": "LIVE: MAYOHK (JP) (klo 19:30)\nEnnakot Tickettailor.comista alkaen 55 € + lippukaupan kulut\n+ security fee 3,90 €\nOvet 17:30 (VIP) / 19:00 (General)",
       "links": [
         {
           "url": "https://www.tickettailor.com/events/asiarec/2363173",
@@ -18,7 +18,7 @@
       "venue": "Kuudes Linja",
       "date": "2026-11-12",
       "title": "THE OBSESSED (US) + KLASTOS (SE)",
-      "details": "LIVE: The Obsessed\nLIVE: Klastos\nEnnakot Tiketistä 37,50 €, liput ovelta 38 €\n+ security fee 3,90 €\nOvet klo 19",
+      "details": "LIVE: The Obsessed (21:00)\nLIVE: Klastos (klo 19:30)\nEnnakot Tiketistä 37,50 €, liput ovelta 38 €\n+ security fee 3,90 €\nOvet klo 19",
       "links": [
         {
           "url": "https://www.tiketti.fi/the-obsessed-us-klatos-swe-kuudes-linja-helsinki-lippuja/118318",
@@ -35,7 +35,7 @@
       "venue": "Kuudes Linja",
       "date": "2026-11-13",
       "title": "ALKUILLAN KONSERTTI: BÄMÄ – BÄMÄVERSUMI-LEVYJULKKARIT",
-      "details": "LIVE: BÄMÄ\nEnnakot Tiketistä ja Eventualista 20 €, liput ovelta 25 €\n+ security fee 3,90 €\nOvet klo 19",
+      "details": "LIVE: BÄMÄ (klo 20)\nEnnakot Tiketistä ja Eventualista 20 €, liput ovelta 25 €\n+ security fee 3,90 €\nOvet klo 19",
       "links": [
         {
           "url": "https://www.tiketti.fi/bama-kuudes-linja-helsinki-lippuja/119054",
@@ -78,6 +78,19 @@
       "links": [
         {
           "url": "https://www.eventu.al/en/event/9328/finland/helsinki/club-markkinavako",
+          "label": "Liput"
+        }
+      ],
+      "source_url": "https://kuudeslinja.com/"
+    },
+    {
+      "venue": "Kuudes Linja",
+      "date": "2026-11-15",
+      "title": "AFRO SUNDAY",
+      "details": "DJ Elly, Goodblood, Hermanni, MC Choco, DJ Nice\nEnnakot kide.appista 5/8 €, liput ovelta 10 €\n+ security fee 3,90 €\nOvet klo 23–04:30",
+      "links": [
+        {
+          "url": "https://kide.app/events/fcae6b9a-2e42-42fa-90ff-10a60e76fe2e",
           "label": "Liput"
         }
       ],
@@ -491,6 +504,19 @@
     },
     {
       "venue": "Lepakkomies",
+      "date": "2026-11-13",
+      "title": "Back to the Future 80s Disco!",
+      "details": "Klubi\novet klo 00:00\nliput alakertaan 3€ sis. eteispalvelumaksu",
+      "links": [
+        {
+          "url": "https://www.lepis.fi/tapahtumat/back-to-the-future-80s-disco/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://www.lepis.fi/tapahtumat/"
+    },
+    {
+      "venue": "Lepakkomies",
       "date": "2026-11-14",
       "title": "DESCEND: Back to the Roots",
       "details": "Klubi\novet klo 21:00\nliput alakertaan 8€",
@@ -663,36 +689,6 @@
       "source_url": "https://www.lepis.fi/tapahtumat/"
     },
     {
-      "venue": "Lepakkomies",
-      "date": "2026-12-04",
-      "title": "Rearviewmirror – A Tribute to Pearl Jam",
-      "details": "Klubi\novet klo 20:00\nliput alk. 12€/14€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/rearviewmirror-a-tribute-to-pearl-jam/",
-          "label": "Lisätiedot"
-        },
-        {
-          "url": "https://www.tiketti.fi/rearviewmirror-a-tribute-to-pearl-jam-lepakkomies-helsinki-lippuja/121669",
-          "label": "Liput"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "On the Rocks",
-      "date": "2026-11-09",
-      "title": "PJK Live",
-      "details": "Klubi\novet klo 19:00\nVapaa pääsy",
-      "links": [
-        {
-          "url": "https://www.rocks.fi/tapahtumat/pjk-live/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.rocks.fi/"
-    },
-    {
       "venue": "On the Rocks",
       "date": "2026-11-11",
       "title": "Saga Olsson (levyjulkkarit), Muovikukat",
@@ -769,6 +765,19 @@
         {
           "url": "https://www.tiketti.fi/tapahtuma/121285",
           "label": "Liput"
+        }
+      ],
+      "source_url": "https://www.rocks.fi/"
+    },
+    {
+      "venue": "On the Rocks",
+      "date": "2026-11-14",
+      "title": "Rockdisko! Djs MIkke The Flamer & Sampsa",
+      "details": "Klubi\novet klo 23:00\nliput ovelta 7 €",
+      "links": [
+        {
+          "url": "https://www.rocks.fi/tapahtumat/rockdisko-djs-mikke-the-flamer-sampsa/",
+          "label": "Lisätiedot"
         }
       ],
       "source_url": "https://www.rocks.fi/"
@@ -1412,6 +1421,19 @@
     },
     {
       "venue": "Kulttuuritalo",
+      "date": "2027-02-13",
+      "title": "Iconic Voices of Enigma Live Show",
+      "details": "Liput alkaen 45€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/iconic-voices-of-enigma-live-show/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
       "date": "2027-02-14",
       "title": "Arttu Wiskari – Suomi Finland PRKL",
       "details": "Liput alkaen 39,90€",
@@ -1626,6 +1648,19 @@
       "links": [
         {
           "url": "https://kulttuuritalo.fi/tapahtuma/eivor/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2027-03-27",
+      "title": "KULT: Knipi",
+      "details": "Liput alkaen 33,00€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/kult-knipi/",
           "label": "Lisätiedot"
         }
       ],
@@ -2051,7 +2086,7 @@
       "venue": "Tavastia",
       "date": "2026-12-02",
       "title": "Säveltäjä Olli Lindholm -konsertti",
-      "details": "Liput\n29,90 € / 32 €\n19.00\nOvet",
+      "details": "19.00\nOvet\nPeruttu",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-12-02/saveltaja-olli-lindholm-konsertti/121074/",
@@ -2402,7 +2437,7 @@
       "venue": "Tavastia",
       "date": "2027-01-30",
       "title": "Reilukerho 20-vuotisjuhlakeikka",
-      "details": "Lipunmyynti käynnistyy 10.11. klo 10.00\n20.00\nOvet",
+      "details": "Liput\n29,99 € / 32 €\n20.00\nOvet",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-01-30/reilukerho-20-vuotisjuhlakeikka/122222/",
@@ -2432,6 +2467,19 @@
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-02-05/crashdiet-swe/119073/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
+      "date": "2027-02-06",
+      "title": "louna0nline: starseed album tour",
+      "details": "Lipunmyynti käynnistyy 12.11. klo 12.00",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2027-02-06/louna0nline-starseed-album-tour/122189/",
           "label": "Lisätiedot"
         }
       ],
@@ -2686,6 +2734,19 @@
     },
     {
       "venue": "Tavastia",
+      "date": "2027-03-21",
+      "title": "Bloodred Hourglass, Brymir, Pridian (EST)",
+      "details": "Liput\n33,50 € / 35 €\n18.00\nOvet",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2027-03-21/bloodred-hourglass-brymir-pridian-est/122286/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
       "date": "2027-03-25",
       "title": "Pesso (Levyjulkkarit)",
       "details": "Liput\n25 € / 27 €\n19.00\nOvet",
@@ -2770,6 +2831,19 @@
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-06-01/the-pineapple-thief-uk/120777/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
+      "date": "2027-06-12",
+      "title": "Wolf Parade (CAN)",
+      "details": "Liput\n39,90 € / 42 €\n20.00\nOvet",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2027-06-12/wolf-parade-can/122299/",
           "label": "Lisätiedot"
         }
       ],
