@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T16:16:36.349Z",
+  "updated_at": "2026-11-11T22:50:28.251Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -1268,6 +1268,19 @@
     },
     {
       "venue": "Kulttuuritalo",
+      "date": "2027-01-08",
+      "title": "KULT: Griefton Sons + Barnyard Pickers",
+      "details": "Liput alkaen 20,00€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/kult-griefton-sons-barnyard-pickers/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
       "date": "2027-01-09",
       "title": "Uudenvuoden Wieniläiskonsertti: Schönbrunnin Linnanorkesteri (klo 15:00 näytös)",
       "details": "Liput alkaen 74,50€",
@@ -1352,6 +1365,19 @@
       "links": [
         {
           "url": "https://kulttuuritalo.fi/tapahtuma/joutsenlampi-pjotr-tsaikovski/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2027-01-28",
+      "title": "Ismo Leikola – Omasta mielestä 28.1.2027",
+      "details": "Liput alkaen 43,00€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/ismo-leikola-omasta-mielesta-28-1-2027/",
           "label": "Lisätiedot"
         }
       ],
@@ -1915,19 +1941,6 @@
         }
       ],
       "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Tavastia",
-      "date": "2026-11-11",
-      "title": "F (Levyjulkkarit)",
-      "details": "19.00\nOvet\n20.30\nF\nLoppuunmyyty",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-11-11/f-levyjulkkarit/118326/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/"
     },
     {
       "venue": "Tavastia",
@@ -3007,19 +3020,6 @@
         }
       ],
       "source_url": "https://tavastiaklubi.fi/"
-    },
-    {
-      "venue": "Semifinal",
-      "date": "2026-11-11",
-      "title": "Joka v*tun keskiviikko: Yllätysesiintyjä",
-      "details": "Liput\n15 € / 20 €\n18.00\nOvet\n19.00\nSHOWTIME",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-11-11/joka-vtun-keskiviikko-yllatysesiintyja/121629/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/semifinal/"
     },
     {
       "venue": "Semifinal",
