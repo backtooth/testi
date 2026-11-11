@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T06:38:15.970Z",
+  "updated_at": "2026-11-11T16:16:36.349Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -61,7 +61,7 @@
       "venue": "Kuudes Linja",
       "date": "2026-11-14",
       "title": "ALKUILLAN KONSERTTI: MONOPOLI MUSIC LIVE – ADI L HASLA, ROOMEO & BAHAMO",
-      "details": "LIVE: Adi L Hasla\nLIVE: Roomeo\nLIVE: Bahamo\nEnnakot Tiketistä 15 €, liput ovelta 19 €\n+ security fee 3,90 €\nOvet klo 19",
+      "details": "LIVE: Adi L Hasla (klo 21:30)\nLIVE: Roomeo (klo 20:30)\nLIVE: Bahamo (klo 19:30)\nEnnakot Tiketistä 15 €, liput ovelta 19 €\n+ security fee 3,90 €\nOvet klo 19",
       "links": [
         {
           "url": "https://www.tiketti.fi/adi-l-hasla-roomeo-bahamo-kuudes-linja-helsinki-lippuja/121606",
@@ -277,6 +277,53 @@
     },
     {
       "venue": "Kuudes Linja",
+      "date": "2026-12-04",
+      "title": "SOLI KPOP CLUB – REDRED HOLIDAY",
+      "details": "Soli DJ Team\nEnnakot Eventualista 13 €, liput ovelta 16 €. Ennakkolipulla jonon ohi klo 01:een asti.\n+ security fee 3,90 €\nOvet klo 23:15–04:30",
+      "links": [
+        {
+          "url": "https://www.eventu.al/en/event/9346/finland/helsinki/soli",
+          "label": "Liput"
+        }
+      ],
+      "source_url": "https://kuudeslinja.com/"
+    },
+    {
+      "venue": "Kuudes Linja",
+      "date": "2026-12-05",
+      "title": "ALKUILLAN KONSERTTI: HELSINKI ILMAN NATSEJA 10 V",
+      "details": "LIVE: Kukkatalo\nLIVE: Asla Jo\nLIVE: Mary Ann Hawkins\nLIVE: Teini-Pää\nLIVE: Orvokki\n+ DJ Kolkka\nEnnakot Tiketistä 15 € / 25 € (tukihinta), liput ovelta 17 € / 25 € (tukihinta)\n+ security fee 3,90 €\nOvet klo 18:30",
+      "links": [
+        {
+          "url": "https://www.tiketti.fi/helsinki-ilman-natseja-10v-kuudes-linja-helsinki-lippuja/122348",
+          "label": "Liput"
+        },
+        {
+          "url": "https://www.facebook.com/events/1831727914745443",
+          "label": "FB"
+        }
+      ],
+      "source_url": "https://kuudeslinja.com/"
+    },
+    {
+      "venue": "Kuudes Linja",
+      "date": "2026-12-06",
+      "title": "HELSINKI ILMAN NATSEJA 10 V -JATKOT",
+      "details": "LIVE: good boys\nLIVE: F\nLIVE: Malla\nLIVE: Laineen Kasperi\nLIVE: Nikke & The Whiskars\n+ DJ:t Laura Vartio & Skenikswee\nEnnakot Tiketistä 15 € / 25 € (tukihinta), liput ovelta 17 € / 25 € (tukihinta)\n+ security fee 3,90 €\nOvet klo 20",
+      "links": [
+        {
+          "url": "https://www.tiketti.fi/helsinki-ilman-natseja-10v-kuudes-linja-helsinki-lippuja/122348",
+          "label": "Liput"
+        },
+        {
+          "url": "https://www.facebook.com/events/1831727914745443",
+          "label": "FB"
+        }
+      ],
+      "source_url": "https://kuudeslinja.com/"
+    },
+    {
+      "venue": "Kuudes Linja",
       "date": "2026-12-11",
       "title": "ALKUILLAN KONSERTTI: VILLE1000000 + R1",
       "details": "LIVE: ville1000000\nLIVE: r1\nEnnakot Tiketistä 14 €, liput ovelta 17 €\n+ security fee 3,90 €\nOvet klo 19",
@@ -429,6 +476,10 @@
         {
           "url": "https://www.tiketti.fi/pyry-laakso-ira-kuudes-linja-helsinki-lippuja/122066",
           "label": "Liput"
+        },
+        {
+          "url": "https://www.facebook.com/events/1379331654082388",
+          "label": "FB"
         }
       ],
       "source_url": "https://kuudeslinja.com/"
@@ -2751,6 +2802,19 @@
     },
     {
       "venue": "Tavastia",
+      "date": "2027-03-26",
+      "title": "Mouhous",
+      "details": "Liput\n35 € / 38 €\n20.00\nOvet",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2027-03-26/mouhous/122186/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
       "date": "2027-03-29",
       "title": "Saul Williams (USA)",
       "details": "Liput\n32,50 €\n19.00\nOvet",
@@ -2987,7 +3051,7 @@
       "venue": "Semifinal",
       "date": "2026-11-14",
       "title": "Tams, Saaga",
-      "details": "Liput\n14 € / 16 €\n19.30\nOvet",
+      "details": "Liput\n14 € / 16 €\n19.30\nOvet\n20.00\nTAMS\n21.00\nSAAGA",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-14/tams-saaga/121168/",
