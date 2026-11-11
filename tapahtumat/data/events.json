@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T21:50:20.718Z",
+  "updated_at": "2026-11-11T06:38:15.970Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -452,19 +452,6 @@
     },
     {
       "venue": "Lepakkomies",
-      "date": "2026-11-10",
-      "title": "Ei pöllömpi pubivisa by Pöllö & Ode",
-      "details": "Street Bar\novet klo 18:00\nVapaa pääsy!",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
       "date": "2026-11-11",
       "title": "Pepita Vanni + Ville Miettinen + Sanni Mäntyranta",
       "details": "Klubi\novet klo 20:00\nliput alakertaan 6€",
@@ -661,11 +648,11 @@
     {
       "venue": "Lepakkomies",
       "date": "2026-11-28",
-      "title": "LEPISKELMÄ",
+      "title": "LEPISKELMÄ-KLUBIN AVAJAISET",
       "details": "Klubi\novet klo 00:00\nliput alakertaan 3€ sis. eteispalvelumaksu",
       "links": [
         {
-          "url": "https://www.lepis.fi/tapahtumat/lepiskelma/",
+          "url": "https://www.lepis.fi/tapahtumat/lepiskelma-klubin-avajaiset/",
           "label": "Lisätiedot"
         }
       ],
@@ -683,6 +670,23 @@
         },
         {
           "url": "https://www.tiketti.fi/viola-vera-wall-lepakkomies-helsinki-lippuja/121199",
+          "label": "Liput"
+        }
+      ],
+      "source_url": "https://www.lepis.fi/tapahtumat/"
+    },
+    {
+      "venue": "Lepakkomies",
+      "date": "2026-12-04",
+      "title": "Rearviewmirror – A Tribute to Pearl Jam",
+      "details": "Klubi\novet klo 20:00\nliput alk. 12€/14€",
+      "links": [
+        {
+          "url": "https://www.lepis.fi/tapahtumat/rearviewmirror-a-tribute-to-pearl-jam/",
+          "label": "Lisätiedot"
+        },
+        {
+          "url": "https://www.tiketti.fi/rearviewmirror-a-tribute-to-pearl-jam-lepakkomies-helsinki-lippuja/121669",
           "label": "Liput"
         }
       ],
