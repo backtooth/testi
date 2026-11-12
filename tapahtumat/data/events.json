@@ -1,19 +1,6 @@
 {
-  "updated_at": "2026-11-12T07:20:28.022Z",
+  "updated_at": "2026-11-12T16:51:42.196Z",
   "events": [
-    {
-      "venue": "Kuudes Linja",
-      "date": "2026-11-11",
-      "title": "ALKUILLAN KONSERTTI: MAYOHK (JP)",
-      "details": "LIVE: MAYOHK (JP) (klo 19:30)\nEnnakot Tickettailor.comista alkaen 55 € + lippukaupan kulut\n+ security fee 3,90 €\nOvet 17:30 (VIP) / 19:00 (General)",
-      "links": [
-        {
-          "url": "https://www.tickettailor.com/events/asiarec/2363173",
-          "label": "Liput"
-        }
-      ],
-      "source_url": "https://kuudeslinja.com/"
-    },
     {
       "venue": "Kuudes Linja",
       "date": "2026-11-12",
@@ -1320,6 +1307,19 @@
     },
     {
       "venue": "Kulttuuritalo",
+      "date": "2027-01-16",
+      "title": "KULT: Anis Kiitu (levyjulkkarit) + Lätsä + Janne Westerlund",
+      "details": "Liput alkaen 20,00€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/kult-anis-kiitu-levyjulkkarit-latsa-janne-westerlund/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
       "date": "2027-01-18",
       "title": "Lords of the Sound – The Music of Hans Zimmer",
       "details": "Liput alkaen 59,00€",
@@ -1430,6 +1430,19 @@
       "links": [
         {
           "url": "https://kulttuuritalo.fi/tapahtuma/night-lovell/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2027-02-04",
+      "title": "KULT: Jussi Hakulisen laulut: Mikko Kangasjärvi, Markus Salo ja Jari Latomaa",
+      "details": "Liput alkaen 33,00€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/kult-jussi-hakulisen-laulut-mikko-kangasjarvi-markus-salo-ja-jari-latomaa/",
           "label": "Lisätiedot"
         }
       ],
@@ -2388,7 +2401,7 @@
       "venue": "Tavastia",
       "date": "2027-01-08",
       "title": "Vörjeans",
-      "details": "Liput\n38 € / 40 €\n20.00\nOvet",
+      "details": "20.00\nOvet\nLoppuunvarattu",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-01-08/vorjeans/120422/",
@@ -2531,7 +2544,7 @@
       "venue": "Tavastia",
       "date": "2027-02-06",
       "title": "louna0nline: starseed album tour",
-      "details": "Lipunmyynti käynnistyy 12.11. klo 12.00",
+      "details": "Liput\n29,99 € / 35 €",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-02-06/louna0nline-starseed-album-tour/122189/",
