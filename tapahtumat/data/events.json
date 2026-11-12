@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T22:50:28.251Z",
+  "updated_at": "2026-11-12T07:20:28.022Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -503,19 +503,6 @@
     },
     {
       "venue": "Lepakkomies",
-      "date": "2026-11-11",
-      "title": "Pepita Vanni + Ville Miettinen + Sanni Mäntyranta",
-      "details": "Klubi\novet klo 20:00\nliput alakertaan 6€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/pepita-vanni-ville-miettinen-sanni-mantyranta/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
       "date": "2026-11-12",
       "title": "Marrasvieraat: Absolute Key + Animal Sociale + Kuolema-duo",
       "details": "Klubi\novet klo 20:00\nliput alakertaan 8€",
@@ -573,7 +560,7 @@
       "details": "Street Bar\novet klo 18:00\nVapaa pääsy!",
       "links": [
         {
-          "url": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-2/",
+          "url": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode/",
           "label": "Lisätiedot"
         }
       ],
@@ -638,7 +625,7 @@
       "details": "Street Bar\novet klo 18:00\nVapaa pääsy!",
       "links": [
         {
-          "url": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-3/",
+          "url": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-2/",
           "label": "Lisätiedot"
         }
       ],
@@ -744,21 +731,17 @@
       "source_url": "https://www.lepis.fi/tapahtumat/"
     },
     {
-      "venue": "On the Rocks",
-      "date": "2026-11-11",
-      "title": "Saga Olsson (levyjulkkarit), Muovikukat",
-      "details": "Klubi\novet klo 19:00\nliput alk. 15 € / 18 €",
+      "venue": "Lepakkomies",
+      "date": "2026-12-05",
+      "title": "TOXIC CLUB VOL. 100: Kryptareflat + Refusal + Kantamus + Surya",
+      "details": "Klubi\novet klo 20:00\nliput alakertaan 10€",
       "links": [
         {
-          "url": "https://www.rocks.fi/tapahtumat/saga-olsson-levyjulkkarit-muovikukat/",
+          "url": "https://www.lepis.fi/tapahtumat/toxic-club-vol-100-kryptareflat-refusal-kantamus-surya/",
           "label": "Lisätiedot"
-        },
-        {
-          "url": "https://www.tiketti.fi/tapahtuma/120963",
-          "label": "Liput"
         }
       ],
-      "source_url": "https://www.rocks.fi/"
+      "source_url": "https://www.lepis.fi/tapahtumat/"
     },
     {
       "venue": "On the Rocks",
@@ -833,6 +816,23 @@
         {
           "url": "https://www.rocks.fi/tapahtumat/rockdisko-djs-mikke-the-flamer-sampsa/",
           "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://www.rocks.fi/"
+    },
+    {
+      "venue": "On the Rocks",
+      "date": "2026-11-15",
+      "title": "Afu-Ra (USA), Loasteeze",
+      "details": "Klubi\novet klo 19:00\nliput alk. 20 € / 23 €",
+      "links": [
+        {
+          "url": "https://www.rocks.fi/tapahtumat/afu-ra-usa-loasteeze/",
+          "label": "Lisätiedot"
+        },
+        {
+          "url": "https://www.tiketti.fi/tapahtuma/121592",
+          "label": "Liput"
         }
       ],
       "source_url": "https://www.rocks.fi/"
