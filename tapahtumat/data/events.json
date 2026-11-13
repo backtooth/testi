@@ -1,23 +1,6 @@
 {
-  "updated_at": "2026-11-13T01:09:59.690Z",
+  "updated_at": "2026-11-13T12:19:09.248Z",
   "events": [
-    {
-      "venue": "Kuudes Linja",
-      "date": "2026-11-12",
-      "title": "THE OBSESSED (US) + KLASTOS (SE)",
-      "details": "LIVE: The Obsessed (21:00)\nLIVE: Klastos (klo 19:30)\nEnnakot Tiketistä 37,50 €, liput ovelta 38 €\n+ security fee 3,90 €\nOvet klo 19",
-      "links": [
-        {
-          "url": "https://www.tiketti.fi/the-obsessed-us-klatos-swe-kuudes-linja-helsinki-lippuja/118318",
-          "label": "Liput"
-        },
-        {
-          "url": "https://www.facebook.com/events/1317641800464854",
-          "label": "FB"
-        }
-      ],
-      "source_url": "https://kuudeslinja.com/"
-    },
     {
       "venue": "Kuudes Linja",
       "date": "2026-11-13",
@@ -490,19 +473,6 @@
     },
     {
       "venue": "Lepakkomies",
-      "date": "2026-11-12",
-      "title": "Marrasvieraat: Absolute Key + Animal Sociale + Kuolema-duo",
-      "details": "Klubi\novet klo 20:00\nliput alakertaan 8€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/marrasvieraat-absolute-key-animal-sociale-kuolema-duo/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
       "date": "2026-11-13",
       "title": "Iron & Aether: Craneium + Green King + Danakil Heat",
       "details": "Klubi\novet klo 19:00\nliput alakertaan 10€",
@@ -731,21 +701,17 @@
       "source_url": "https://www.lepis.fi/tapahtumat/"
     },
     {
-      "venue": "On the Rocks",
-      "date": "2026-11-12",
-      "title": "John Corabi & Friends (USA)",
-      "details": "Klubi\novet klo 19:00\nliput alk. 36 € / 40 €",
+      "venue": "Lepakkomies",
+      "date": "2026-12-09",
+      "title": "Rebo + Rattleshake + Tiny Sequoia",
+      "details": "Klubi\novet klo 20:00\nliput alakertaan 5€",
       "links": [
         {
-          "url": "https://www.rocks.fi/tapahtumat/john-corabi-friends-usa/",
+          "url": "https://www.lepis.fi/tapahtumat/rebo-rattleshake-tiny-sequoia/",
           "label": "Lisätiedot"
-        },
-        {
-          "url": "https://www.tiketti.fi/tapahtuma/118674",
-          "label": "Liput"
         }
       ],
-      "source_url": "https://www.rocks.fi/"
+      "source_url": "https://www.lepis.fi/tapahtumat/"
     },
     {
       "venue": "On the Rocks",
@@ -825,30 +791,21 @@
       "source_url": "https://www.rocks.fi/"
     },
     {
-      "venue": "Kulttuuritalo",
-      "date": "2026-11-12",
-      "title": "Los Vivancos",
-      "details": "Liput alkaen 44,20€",
+      "venue": "On the Rocks",
+      "date": "2026-11-18",
+      "title": "Legion Of The Damned (NED), Torchia, Rebellix",
+      "details": "Klubi\novet klo 19:00\nliput alk. 27 € / 30 €",
       "links": [
         {
-          "url": "https://kulttuuritalo.fi/tapahtuma/los-vivancos/",
+          "url": "https://www.rocks.fi/tapahtumat/legion-of-the-damned-ned-torchia-rebellix/",
           "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Kulttuuritalo",
-      "date": "2026-11-12",
-      "title": "KULT: ridgeclub",
-      "details": "Liput alkaen 29,90€",
-      "links": [
+        },
         {
-          "url": "https://kulttuuritalo.fi/tapahtuma/kult-ridgeclub/",
-          "label": "Lisätiedot"
+          "url": "https://www.tiketti.fi/tapahtuma/121024",
+          "label": "Liput"
         }
       ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+      "source_url": "https://www.rocks.fi/"
     },
     {
       "venue": "Kulttuuritalo",
@@ -2011,7 +1968,7 @@
       "venue": "Tavastia",
       "date": "2026-11-20",
       "title": "The Flaming Sideburns, Us",
-      "details": "Liput\n30 € / 33 €\n20.00\nOvet",
+      "details": "Liput\n30 € / 33 €\n20.00\nOvet\n20.30\nUs\n21.45\nThe Flaming Sideburns",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-20/the-flaming-sideburns-us/120429/",
@@ -2037,7 +1994,7 @@
       "venue": "Tavastia",
       "date": "2026-11-21",
       "title": "Juha Tapio",
-      "details": "Liput\n45 € / 48 €\n20.00\nOvet",
+      "details": "Liput\n45 € / 48 €\n20.00\nOvet\n21.30",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-21/juha-tapio/120375/",
@@ -2115,7 +2072,7 @@
       "venue": "Tavastia",
       "date": "2026-11-29",
       "title": "Master Boot Record (ITA), Fulci (ITA), Arottenbit (ITA)",
-      "details": "Liput\n33 € / 35 €\n18.00\nOvet",
+      "details": "Liput\n33 € / 35 €\n18.00\nOvet\n18.30\nArottenbit\n19.30\nFulci\n21.00\nMaster Boot Record",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-29/master-boot-record-ita-fulci-ita-arottenbit-ita/116589/",
@@ -2388,7 +2345,7 @@
       "venue": "Tavastia",
       "date": "2027-01-08",
       "title": "Vörjeans",
-      "details": "Liput\n38 € / 40 €\n20.00\nOvet",
+      "details": "20.00\nOvet\nLoppuunvarattu",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-01-08/vorjeans/120422/",
@@ -3142,7 +3099,7 @@
       "venue": "Semifinal",
       "date": "2026-12-02",
       "title": "Joka v*tun keskiviikko: Laura Haimila",
-      "details": "Liput\n15 € / 20 €\n18.00\nOvet\n19.00\nSHOWTIME",
+      "details": "18.00\nOvet\n19.00\nSHOWTIME\nLoppuunvarattu",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-12-02/joka-vtun-keskiviikko-laura-haimila/121637/",
