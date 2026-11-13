@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T12:19:09.248Z",
+  "updated_at": "2026-11-13T22:00:14.824Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -1914,22 +1914,9 @@
     },
     {
       "venue": "Tavastia",
-      "date": "2026-11-13",
-      "title": "Costi, uu$er",
-      "details": "Liput\n28 € / 30 €\n20.00\nOvet\n20.45\nuu$er\n21.30\nCosti",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-11-13/costi-uuer/120053/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/"
-    },
-    {
-      "venue": "Tavastia",
       "date": "2026-11-14",
       "title": "Battle Beast",
-      "details": "Liput\n39,90 € / 42 €\n20.00\nOvet\n20.30\nCrimson Sun\n21.30",
+      "details": "20.00\nOvet\n20.30\nCrimson Sun\n21.30",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-14/battle-beast/119778/",
@@ -2977,19 +2964,6 @@
         }
       ],
       "source_url": "https://tavastiaklubi.fi/"
-    },
-    {
-      "venue": "Semifinal",
-      "date": "2026-11-13",
-      "title": "The Chiefs, Trashcan Dance, Escabroso",
-      "details": "Liput\n12 € / 14 €\n20.00\nOvet\n20.30\nEscabroso\n21.30\nTrashcan Dance\n22.30\nThe Chiefs",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-11-13/the-chiefs-trashcan-dance-escabroso/121822/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/semifinal/"
     },
     {
       "venue": "Semifinal",
