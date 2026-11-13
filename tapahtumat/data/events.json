@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T16:51:42.196Z",
+  "updated_at": "2026-11-13T01:09:59.690Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -1957,19 +1957,6 @@
     },
     {
       "venue": "Tavastia",
-      "date": "2026-11-12",
-      "title": "Viral Vegans: Juhlavuoden hyväntekeväisyyskonsertti",
-      "details": "Liput\n24,60 € / 27 €\n18.30\nOvet\n19.30\nShowtime",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-11-12/viral-vegans-juhlavuoden-hyvantekevaisyyskonsertti/121415/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/"
-    },
-    {
-      "venue": "Tavastia",
       "date": "2026-11-13",
       "title": "Costi, uu$er",
       "details": "Liput\n28 € / 30 €\n20.00\nOvet\n20.45\nuu$er\n21.30\nCosti",
@@ -2401,7 +2388,7 @@
       "venue": "Tavastia",
       "date": "2027-01-08",
       "title": "Vörjeans",
-      "details": "20.00\nOvet\nLoppuunvarattu",
+      "details": "Liput\n38 € / 40 €\n20.00\nOvet",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-01-08/vorjeans/120422/",
@@ -2544,7 +2531,7 @@
       "venue": "Tavastia",
       "date": "2027-02-06",
       "title": "louna0nline: starseed album tour",
-      "details": "Liput\n29,99 € / 35 €",
+      "details": "Loppuunvarattu",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-02-06/louna0nline-starseed-album-tour/122189/",
@@ -3033,19 +3020,6 @@
         }
       ],
       "source_url": "https://tavastiaklubi.fi/"
-    },
-    {
-      "venue": "Semifinal",
-      "date": "2026-11-12",
-      "title": "3:37",
-      "details": "19.00\nOvet\n19.15\nSECRET QUEST\n20.00\nLoppuunmyyty",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-11-12/337/121671/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/semifinal/"
     },
     {
       "venue": "Semifinal",
