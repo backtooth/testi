@@ -1,32 +1,6 @@
 {
-  "updated_at": "2026-11-14T06:37:29.479Z",
+  "updated_at": "2026-11-14T15:09:41.470Z",
   "events": [
-    {
-      "venue": "Kuudes Linja",
-      "date": "2026-11-13",
-      "title": "ALKUILLAN KONSERTTI: BÄMÄ – BÄMÄVERSUMI-LEVYJULKKARIT",
-      "details": "LIVE: BÄMÄ (klo 20)\nEnnakot Tiketistä ja Eventualista 20 €, liput ovelta 25 €\n+ security fee 3,90 €\nOvet klo 19",
-      "links": [
-        {
-          "url": "https://www.tiketti.fi/bama-kuudes-linja-helsinki-lippuja/119054",
-          "label": "Liput"
-        }
-      ],
-      "source_url": "https://kuudeslinja.com/"
-    },
-    {
-      "venue": "Kuudes Linja",
-      "date": "2026-11-13",
-      "title": "4WAY",
-      "details": "DJ:t Pixi, Elly, Gegel & Evin Nadine\nEnnakot Eventualista 8 €, liput ovelta 10 €. Ennakkolipulla jonon ohi klo 01:een asti.\n+ security fee 3,90 €\nOvet klo 23:15–04:30",
-      "links": [
-        {
-          "url": "https://www.eventu.al/en/event/10358/finland/helsinki/4way",
-          "label": "Liput"
-        }
-      ],
-      "source_url": "https://kuudeslinja.com/"
-    },
     {
       "venue": "Kuudes Linja",
       "date": "2026-11-14",
@@ -813,6 +787,58 @@
     },
     {
       "venue": "Kulttuuritalo",
+      "date": "2026-11-12",
+      "title": "Los Vivancos",
+      "details": "Liput alkaen 44,20€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/los-vivancos/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2026-11-12",
+      "title": "KULT: ridgeclub",
+      "details": "Liput alkaen 29,90€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/kult-ridgeclub/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2026-11-13",
+      "title": "Suomi Nauraa – Stand Up Show 13.11.",
+      "details": "Liput alkaen 48,00€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/suomi-nauraa-stand-up-show-13-11/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2026-11-13",
+      "title": "KULT: Stoned Statues + Somehow Jo",
+      "details": "Liput alkaen 22,60€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/kult-stoned-statues-somehow-jo/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
       "date": "2026-11-14",
       "title": "KULT: The Comedy Store (UK) 14.11.2026",
       "details": "Liput alkaen 32,00€",
@@ -1242,19 +1268,6 @@
     },
     {
       "venue": "Kulttuuritalo",
-      "date": "2027-01-16",
-      "title": "KULT: Anis Kiitu (levyjulkkarit) + Lätsä + Janne Westerlund",
-      "details": "Liput alkaen 20,00€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/kult-anis-kiitu-levyjulkkarit-latsa-janne-westerlund/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Kulttuuritalo",
       "date": "2027-01-18",
       "title": "Lords of the Sound – The Music of Hans Zimmer",
       "details": "Liput alkaen 59,00€",
@@ -1365,19 +1378,6 @@
       "links": [
         {
           "url": "https://kulttuuritalo.fi/tapahtuma/night-lovell/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Kulttuuritalo",
-      "date": "2027-02-04",
-      "title": "KULT: Jussi Hakulisen laulut: Mikko Kangasjärvi, Markus Salo ja Jari Latomaa",
-      "details": "Liput alkaen 33,00€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/kult-jussi-hakulisen-laulut-mikko-kangasjarvi-markus-salo-ja-jari-latomaa/",
           "label": "Lisätiedot"
         }
       ],
@@ -1894,7 +1894,7 @@
       "venue": "Tavastia",
       "date": "2026-11-14",
       "title": "Battle Beast",
-      "details": "20.00\nOvet\n20.30\nCrimson Sun\n21.30",
+      "details": "Liput\n39,90 € / 42 €\n20.00\nOvet\n20.30\nCrimson Sun\n21.30",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-14/battle-beast/119778/",
