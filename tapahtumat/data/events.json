@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T22:00:14.824Z",
+  "updated_at": "2026-11-14T06:37:29.479Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -473,32 +473,6 @@
     },
     {
       "venue": "Lepakkomies",
-      "date": "2026-11-13",
-      "title": "Iron & Aether: Craneium + Green King + Danakil Heat",
-      "details": "Klubi\novet klo 19:00\nliput alakertaan 10€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/iron-aether-craneium-green-king-danakil-heat/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
-      "date": "2026-11-13",
-      "title": "Back to the Future 80s Disco!",
-      "details": "Klubi\novet klo 00:00\nliput alakertaan 3€ sis. eteispalvelumaksu",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/back-to-the-future-80s-disco/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
       "date": "2026-11-14",
       "title": "DESCEND: Back to the Roots",
       "details": "Klubi\novet klo 21:00\nliput alakertaan 8€",
@@ -557,6 +531,19 @@
       "links": [
         {
           "url": "https://www.lepis.fi/tapahtumat/monsternaut-mount-palatine-astral-sleep/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://www.lepis.fi/tapahtumat/"
+    },
+    {
+      "venue": "Lepakkomies",
+      "date": "2026-11-20",
+      "title": "Obsidian: Magic of Bass",
+      "details": "Klubi\novet klo 00:00\nliput alakertaan 7€",
+      "links": [
+        {
+          "url": "https://www.lepis.fi/tapahtumat/obsidian-magic-of-bass/",
           "label": "Lisätiedot"
         }
       ],
@@ -714,34 +701,17 @@
       "source_url": "https://www.lepis.fi/tapahtumat/"
     },
     {
-      "venue": "On the Rocks",
-      "date": "2026-11-13",
-      "title": "K30 Live: The Pansies",
-      "details": "Klubi\novet klo 20:00\nliput alk. 29 € / 32 €",
+      "venue": "Lepakkomies",
+      "date": "2026-12-10",
+      "title": "Hulda Huima 15v. Juhlakeikka + Poni",
+      "details": "Klubi\novet klo 20:00\nliput alakertaan 10-20€",
       "links": [
         {
-          "url": "https://www.rocks.fi/tapahtumat/k30-live-the-pansies/",
-          "label": "Lisätiedot"
-        },
-        {
-          "url": "https://www.tiketti.fi/tapahtuma/121162",
-          "label": "Liput"
-        }
-      ],
-      "source_url": "https://www.rocks.fi/"
-    },
-    {
-      "venue": "On the Rocks",
-      "date": "2026-11-13",
-      "title": "K-30 Club: Britpop & 90s Disco",
-      "details": "Klubi\novet klo 22:00\nliput ovelta 10 €",
-      "links": [
-        {
-          "url": "https://www.rocks.fi/tapahtumat/k-30-club-britpop-90s-disco/",
+          "url": "https://www.lepis.fi/tapahtumat/hulda-huima-15v-juhlakeikka-poni/",
           "label": "Lisätiedot"
         }
       ],
-      "source_url": "https://www.rocks.fi/"
+      "source_url": "https://www.lepis.fi/tapahtumat/"
     },
     {
       "venue": "On the Rocks",
@@ -808,30 +778,38 @@
       "source_url": "https://www.rocks.fi/"
     },
     {
-      "venue": "Kulttuuritalo",
-      "date": "2026-11-13",
-      "title": "Suomi Nauraa – Stand Up Show 13.11.",
-      "details": "Liput alkaen 48,00€",
+      "venue": "On the Rocks",
+      "date": "2026-11-19",
+      "title": "Hellsinki Industrial Festival 2026 Pre-Club: Scheitan (SWE), Agent Side Grinder (SWE), Stuka, Akathartos, DJ Vade Retro (GBR)",
+      "details": "Klubi\novet klo 19:00\nliput alk. 27 € / 30 €",
       "links": [
         {
-          "url": "https://kulttuuritalo.fi/tapahtuma/suomi-nauraa-stand-up-show-13-11/",
+          "url": "https://www.rocks.fi/tapahtumat/hellsinki-industrial-festival-2026-pre-club-scheitan-swe-agent-side-grinder-swe-stuka-akathartos-dj-vade-retro-gbr/",
           "label": "Lisätiedot"
+        },
+        {
+          "url": "https://www.tiketti.fi/hif-2026-pre-club-on-the-rocks-helsinki-lippuja/120878",
+          "label": "Liput"
         }
       ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+      "source_url": "https://www.rocks.fi/"
     },
     {
-      "venue": "Kulttuuritalo",
-      "date": "2026-11-13",
-      "title": "KULT: Stoned Statues + Somehow Jo",
-      "details": "Liput alkaen 22,60€",
+      "venue": "On the Rocks",
+      "date": "2026-11-20",
+      "title": "Timo Pieni Huijaus (levyjulkkarit), Tiia Karoliina, KC4",
+      "details": "Klubi\novet klo 20:00\nliput alk. 24 € / 27 €",
       "links": [
         {
-          "url": "https://kulttuuritalo.fi/tapahtuma/kult-stoned-statues-somehow-jo/",
+          "url": "https://www.rocks.fi/tapahtumat/timo-pieni-huijaus-levyjulkkarit-tiia-karoliina-kc4/",
           "label": "Lisätiedot"
+        },
+        {
+          "url": "https://www.tiketti.fi/tapahtuma/119709",
+          "label": "Liput"
         }
       ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+      "source_url": "https://www.rocks.fi/"
     },
     {
       "venue": "Kulttuuritalo",
