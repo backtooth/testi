@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T20:46:10.569Z",
+  "updated_at": "2026-11-15T06:44:17.761Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -447,19 +447,6 @@
     },
     {
       "venue": "Lepakkomies",
-      "date": "2026-11-14",
-      "title": "DESCEND: Back to the Roots",
-      "details": "Klubi\novet klo 21:00\nliput alakertaan 8€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/descend-back-to-the-roots/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
       "date": "2026-11-17",
       "title": "Ei pöllömpi pubivisa by Pöllö & Ode",
       "details": "Street Bar\novet klo 18:00\nVapaa pääsy!",
@@ -526,11 +513,11 @@
     {
       "venue": "Lepakkomies",
       "date": "2026-11-21",
-      "title": "Ongelma + Katujen Äänet + Karanneet Käärmeet + Villit Nautinnot",
+      "title": "Ongelma + Katujen Äänet + Karanneet Käärmeet + Villit Nautinnot + DJ Paha Hakkaaja",
       "details": "Klubi\novet klo 20:00\nliput alakertaan 10€",
       "links": [
         {
-          "url": "https://www.lepis.fi/tapahtumat/ongelma-katujen-aanet-karanneet-kaarmeet-villit-nautinnot/",
+          "url": "https://www.lepis.fi/tapahtumat/ongelma-katujen-aanet-karanneet-kaarmeet-villit-nautinnot-dj-paha-hakkaaja/",
           "label": "Lisätiedot"
         }
       ],
@@ -688,34 +675,17 @@
       "source_url": "https://www.lepis.fi/tapahtumat/"
     },
     {
-      "venue": "On the Rocks",
-      "date": "2026-11-14",
-      "title": "45 Degree Woman, Surunaamio Acoustic",
-      "details": "Klubi\novet klo 20:00\nliput alk. 25 € / 28 €",
+      "venue": "Lepakkomies",
+      "date": "2026-12-11",
+      "title": "Piritori Debauchery: Hoc est Bellum + Aamutähti + Hautaveri + Earthly Form",
+      "details": "Klubi\novet klo 20:00\nliput alakertaan 10€",
       "links": [
         {
-          "url": "https://www.rocks.fi/tapahtumat/45-degree-woman-surunaamio-acoustic/",
-          "label": "Lisätiedot"
-        },
-        {
-          "url": "https://www.tiketti.fi/tapahtuma/121285",
-          "label": "Liput"
-        }
-      ],
-      "source_url": "https://www.rocks.fi/"
-    },
-    {
-      "venue": "On the Rocks",
-      "date": "2026-11-14",
-      "title": "Rockdisko! Djs MIkke The Flamer & Sampsa",
-      "details": "Klubi\novet klo 23:00\nliput ovelta 7 €",
-      "links": [
-        {
-          "url": "https://www.rocks.fi/tapahtumat/rockdisko-djs-mikke-the-flamer-sampsa/",
+          "url": "https://www.lepis.fi/tapahtumat/piritori-debauchery-hoc-est-bellum-aamutahti-hautaveri-earthly-form/",
           "label": "Lisätiedot"
         }
       ],
-      "source_url": "https://www.rocks.fi/"
+      "source_url": "https://www.lepis.fi/tapahtumat/"
     },
     {
       "venue": "On the Rocks",
@@ -786,30 +756,34 @@
       "source_url": "https://www.rocks.fi/"
     },
     {
-      "venue": "Kulttuuritalo",
-      "date": "2026-11-14",
-      "title": "KULT: The Comedy Store (UK) 14.11.2026",
-      "details": "Liput alkaen 32,00€",
+      "venue": "On the Rocks",
+      "date": "2026-11-20",
+      "title": "Discomania! Midnight City Club DJs Mikke The Flamer & John Curtain",
+      "details": "Klubi\novet klo 23:30\nliput ovelta 7 €",
       "links": [
         {
-          "url": "https://kulttuuritalo.fi/tapahtuma/the-comedy-store-14-11-2026-uk/",
+          "url": "https://www.rocks.fi/tapahtumat/discomania-midnight-city-club-djs-mikke-the-flamer-john-curtain/",
           "label": "Lisätiedot"
         }
       ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+      "source_url": "https://www.rocks.fi/"
     },
     {
-      "venue": "Kulttuuritalo",
-      "date": "2026-11-14",
-      "title": "Ursus Factory – Iso ilta Kultsalla",
-      "details": "Liput alkaen 38,50€",
+      "venue": "On the Rocks",
+      "date": "2026-11-21",
+      "title": "Paara (levyjulkkarit), Svarta Havet",
+      "details": "Klubi\novet klo 20:00\nliput alk. 17 € / 20 €",
       "links": [
         {
-          "url": "https://kulttuuritalo.fi/tapahtuma/ursus-factory-iso-ilta-kultsalla/",
+          "url": "https://www.rocks.fi/tapahtumat/paara-levyjulkkarit-svarta-havet/",
           "label": "Lisätiedot"
+        },
+        {
+          "url": "https://www.tiketti.fi/paara-on-the-rocks-helsinki-lippuja/120406",
+          "label": "Liput"
         }
       ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+      "source_url": "https://www.rocks.fi/"
     },
     {
       "venue": "Kulttuuritalo",
@@ -1866,19 +1840,6 @@
     },
     {
       "venue": "Tavastia",
-      "date": "2026-11-14",
-      "title": "Battle Beast",
-      "details": "Liput\n39,90 € / 42 €\n20.00\nOvet\n20.30\nCrimson Sun\n21.30",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-11-14/battle-beast/119778/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/"
-    },
-    {
-      "venue": "Tavastia",
       "date": "2026-11-16",
       "title": "The Browning, Within Destruction, Abbie Falls",
       "details": "19.00\nOvet\n19.30\nAbbie Falls\n20.15\nWithin Destruction\n21.15\nThe Browning\nLoppuunmyyty",
@@ -2856,10 +2817,10 @@
       "venue": "Tavastia",
       "date": "2027-09-17",
       "title": "REAPER FEST 2027",
-      "details": "pe 17.9.-\nLiput",
+      "details": "Liput\n49 €",
       "links": [
         {
-          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119662/",
+          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119664/",
           "label": "Lisätiedot"
         }
       ],
@@ -2869,10 +2830,10 @@
       "venue": "Tavastia",
       "date": "2027-09-17",
       "title": "REAPER FEST 2027",
-      "details": "Liput\n49 €",
+      "details": "pe 17.9.-\nLiput",
       "links": [
         {
-          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119664/",
+          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119662/",
           "label": "Lisätiedot"
         }
       ],
@@ -2916,19 +2877,6 @@
         }
       ],
       "source_url": "https://tavastiaklubi.fi/"
-    },
-    {
-      "venue": "Semifinal",
-      "date": "2026-11-14",
-      "title": "Tams, Saaga",
-      "details": "Liput\n14 € / 16 €\n19.30\nOvet\n20.00\nTAMS\n21.00\nSAAGA",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-11-14/tams-saaga/121168/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/semifinal/"
     },
     {
       "venue": "Semifinal",
