@@ -1,24 +1,11 @@
 {
-  "updated_at": "2026-11-16T06:42:32.991Z",
+  "updated_at": "2026-11-16T18:38:22.218Z",
   "events": [
     {
       "venue": "Kuudes Linja",
-      "date": "2026-11-15",
-      "title": "AFRO SUNDAY",
-      "details": "DJ Elly, Goodblood, Hermanni, MC Choco, DJ Nice\nEnnakot kide.appista 5/8 €, liput ovelta 10 €\n+ security fee 3,90 €\nOvet klo 23–04:30",
-      "links": [
-        {
-          "url": "https://kide.app/events/fcae6b9a-2e42-42fa-90ff-10a60e76fe2e",
-          "label": "Liput"
-        }
-      ],
-      "source_url": "https://kuudeslinja.com/"
-    },
-    {
-      "venue": "Kuudes Linja",
       "date": "2026-11-17",
-      "title": "DRUHA RIKA (UA) – I AM! 30 YEARS",
-      "details": "LIVE: Druha Rika\nEnnakot 39/45 €\n+ security fee 3,90 €\nOvet klo 19:00/19:30",
+      "title": "MOVED TO ÄÄNIWALLI: DRUHA RIKA (UA) – I AM! 30 YEARS",
+      "details": "VENUE CHANGE! This show will now take place at Ääniwalli! (Pälkäneentie 13 B, 00530 Helsinki)\nLIVE: Druha Rika\nEnnakot 39/45 €\n+ security fee 3,90 €\nOvet klo 19:00/19:30",
       "links": [
         {
           "url": "https://tickets.tikhonov-concert.com/checkout-service/schema?productId=94&l=ua",
@@ -364,6 +351,19 @@
         {
           "url": "https://www.facebook.com/events/2745619852506636/",
           "label": "FB"
+        }
+      ],
+      "source_url": "https://kuudeslinja.com/"
+    },
+    {
+      "venue": "Kuudes Linja",
+      "date": "2027-01-23",
+      "title": "ALKUILLAN KONSERTTI: SPIRITUS MORTIS 40 V & LEVYJULKKARIT + CARDINALS FOLLY + MOUNT PALATINE + CASKETS OPEN",
+      "details": "LIVE: Spiritus Mortis\nLIVE: Cardinals Folly\nLIVE: Mount Palatine\nLIVE: Caskets Open\nEnnakot Tiketistä 17 €, liput ovelta 19 €\n+ security fee 3,90 €\nOvet klo 18",
+      "links": [
+        {
+          "url": "https://www.tiketti.fi/spiritus-mortis-cardinals-folly-mount-palatine-caskets-open-lippuja/122442",
+          "label": "Liput"
         }
       ],
       "source_url": "https://kuudeslinja.com/"
@@ -1062,6 +1062,19 @@
       "links": [
         {
           "url": "https://kulttuuritalo.fi/tapahtuma/jag-ar-carola-en-musikalisk-unik-livsberattelse-swe/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2026-12-31",
+      "title": "Kultsan uudenvuoden disko 2026",
+      "details": "Liput alkaen 18,00€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/kultsan-uudenvuoden-disko-3/",
           "label": "Lisätiedot"
         }
       ],
@@ -1903,7 +1916,7 @@
       "venue": "Tavastia",
       "date": "2026-11-27",
       "title": "STAM1NA – DIRTY YEARS 2026",
-      "details": "20.00\nOvet\n21.30\nStam1na\nLoppuunmyyty",
+      "details": "20.00\nOvet\n20.30\nIt’s About Us\n21.30\nStam1na\nLoppuunmyyty",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-27/stam1na-dirty-years-2026/120340/",
@@ -2202,7 +2215,7 @@
       "venue": "Tavastia",
       "date": "2027-01-08",
       "title": "Vörjeans",
-      "details": "20.00\nOvet\nLoppuunvarattu",
+      "details": "20.00\nOvet\nLoppuunmyyty",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-01-08/vorjeans/120422/",
@@ -2245,6 +2258,19 @@
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-01-16/good-boys-veace-levyjulkkarit/122127/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
+      "date": "2027-01-19",
+      "title": "Kruna goes Tavastia",
+      "details": "Liput\n25 € / 25 €\n17.30\nOvet\n18.00\nShowtime",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2027-01-19/kruna-goes-tavastia/122518/",
           "label": "Lisätiedot"
         }
       ],
@@ -2344,8 +2370,21 @@
     {
       "venue": "Tavastia",
       "date": "2027-02-06",
+      "title": "louna0nline: starseed album tour (S)",
+      "details": "Lipunmyynti käynnistyy 17.11. klo 12.00",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2027-02-06/louna0nline-starseed-album-tour/122417/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
+      "date": "2027-02-06",
       "title": "louna0nline: starseed album tour",
-      "details": "Loppuunvarattu",
+      "details": "Loppuunmyyty",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-02-06/louna0nline-starseed-album-tour/122189/",
@@ -2852,7 +2891,7 @@
       "venue": "Semifinal",
       "date": "2026-11-19",
       "title": "Miika Leivo & Band, Honey Crisp",
-      "details": "Liput\n12 € / 14 €\n19.00\nOvet",
+      "details": "Liput\n12 € / 14 €\n19.00\nOvet\n19.30\nHoney Crisp\n20.30\nMiika Leivo",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-19/miika-leivo-band-honey-crisp/120354/",
@@ -2865,7 +2904,7 @@
       "venue": "Semifinal",
       "date": "2026-11-20",
       "title": "TINA (Levyjulkkarit)",
-      "details": "Liput\n16 € / 18 €\n20.00\nOvet",
+      "details": "Liput\n16 € / 18 €\n20.00\nOvet\n20.45\nTINA",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-20/tina-levyjulkkarit/121418/",
@@ -2878,7 +2917,7 @@
       "venue": "Semifinal",
       "date": "2026-11-25",
       "title": "Joka v*tun keskiviikko: Jukka Lindström",
-      "details": "18.00\nOvet\n19.00\nSHOWTIME\nLoppuunvarattu",
+      "details": "18.00\nOvet\n19.00\nSHOWTIME\nLoppuunmyyty",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-25/joka-vtun-keskiviikko-jukka-lindstrom/121635/",
