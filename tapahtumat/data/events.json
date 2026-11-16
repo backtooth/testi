@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T21:05:20.276Z",
+  "updated_at": "2026-11-16T06:42:32.991Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -663,23 +663,6 @@
     },
     {
       "venue": "On the Rocks",
-      "date": "2026-11-15",
-      "title": "Afu-Ra (USA), Loasteeze",
-      "details": "Klubi\novet klo 19:00\nliput alk. 20 € / 23 €",
-      "links": [
-        {
-          "url": "https://www.rocks.fi/tapahtumat/afu-ra-usa-loasteeze/",
-          "label": "Lisätiedot"
-        },
-        {
-          "url": "https://www.tiketti.fi/tapahtuma/121592",
-          "label": "Liput"
-        }
-      ],
-      "source_url": "https://www.rocks.fi/"
-    },
-    {
-      "venue": "On the Rocks",
       "date": "2026-11-18",
       "title": "Legion Of The Damned (NED), Torchia, Rebellix",
       "details": "Klubi\novet klo 19:00\nliput alk. 27 € / 30 €",
@@ -760,17 +743,17 @@
       "source_url": "https://www.rocks.fi/"
     },
     {
-      "venue": "Kulttuuritalo",
-      "date": "2026-11-15",
-      "title": "Herrasmiehet lavalla",
-      "details": "Liput alkaen 59,90€",
+      "venue": "On the Rocks",
+      "date": "2026-11-21",
+      "title": "Linkin Park Night! Jumpdafuckup DJs",
+      "details": "Klubi\novet klo 23:30\nliput ovelta 7 €",
       "links": [
         {
-          "url": "https://kulttuuritalo.fi/tapahtuma/herrasmiehet-lavalla/",
+          "url": "https://www.rocks.fi/tapahtumat/linkin-park-night-jumpdafuckup-djs/",
           "label": "Lisätiedot"
         }
       ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+      "source_url": "https://www.rocks.fi/"
     },
     {
       "venue": "Kulttuuritalo",
