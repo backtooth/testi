@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T02:58:14.984Z",
+  "updated_at": "2026-11-17T13:33:53.115Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -18,7 +18,7 @@
       "venue": "Kuudes Linja",
       "date": "2026-11-19",
       "title": "CHUCK STRANGERS (US) + TÄYDET",
-      "details": "LIVE: Chuck Strangers\nLIVE: TÄYDET\nEnnakot Tiketistä 24,50 €, liput ovelta 28 €\n+ security fee 3,90 €\nOvet klo 19",
+      "details": "LIVE: Chuck Strangers (klo 21)\nLIVE: TÄYDET (klo 20)\nEnnakot Tiketistä 24,50 €, liput ovelta 28 €\n+ security fee 3,90 €\nOvet klo 19",
       "links": [
         {
           "url": "https://www.tiketti.fi/chuck-strangers-us-taydet-kuudes-linja-helsinki-lippuja/119468",
@@ -35,7 +35,7 @@
       "venue": "Kuudes Linja",
       "date": "2026-11-20",
       "title": "ALKUILLAN KONSERTTI: GIGI MASIN (IT) + OTTO TAIMELA",
-      "details": "LIVE: Gigi Masin\nLIVE: Otto Taimela\nEnnakot Tiketistä 35 €, liput ovelta 38 €\n+ security fee 3,90 €\nOvet klo 19",
+      "details": "LIVE: Gigi Masin (klo 21)\nLIVE: Otto Taimela (klo 20)\nEnnakot Tiketistä 35 €, liput ovelta 38 €\n+ security fee 3,90 €\nOvet klo 19",
       "links": [
         {
           "url": "https://www.tiketti.fi/gigi-masin-ita-kuudes-linja-helsinki-lippuja/119752",
@@ -68,8 +68,8 @@
     {
       "venue": "Kuudes Linja",
       "date": "2026-11-21",
-      "title": "KINGFISH 10 V",
-      "details": "LIVE: Kingfish\nEnnakot Tiketistä 15 €, liput ovelta 18 €\n+ security fee 3,90 €\nOvet klo 19",
+      "title": "LOPPUUNMYYTY – ALKUILLAN KONSERTTI: KINGFISH 10 V",
+      "details": "LIVE: Kingfish (klo 20:30)\nEnnakot Tiketistä 15 €, liput ovelta 18 €\n+ security fee 3,90 €\nOvet klo 19",
       "links": [
         {
           "url": "https://www.tiketti.fi/kingfish-10v-kuudes-linja-helsinki-lippuja/121340",
@@ -499,6 +499,19 @@
     },
     {
       "venue": "Lepakkomies",
+      "date": "2026-11-21",
+      "title": "The Style is Death #8 – Cyberheartbreak",
+      "details": "Klubi\novet klo 00:00\nliput alakertaan 3€ sis. eteispalvelumaksu",
+      "links": [
+        {
+          "url": "https://www.lepis.fi/tapahtumat/the-style-is-death-8-cyberheartbreak/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://www.lepis.fi/tapahtumat/"
+    },
+    {
+      "venue": "Lepakkomies",
       "date": "2026-11-24",
       "title": "Ei pöllömpi pubivisa by Pöllö & Ode",
       "details": "Street Bar\novet klo 18:00\nVapaa pääsy!",
@@ -643,19 +656,6 @@
       "links": [
         {
           "url": "https://www.lepis.fi/tapahtumat/hulda-huima-15v-juhlakeikka-poni/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
-      "date": "2026-12-11",
-      "title": "Piritori Debauchery: Hoc est Bellum + Aamutähti + Hautaveri + Earthly Form",
-      "details": "Klubi\novet klo 20:00\nliput alakertaan 10€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/piritori-debauchery-hoc-est-bellum-aamutahti-hautaveri-earthly-form/",
           "label": "Lisätiedot"
         }
       ],
@@ -1890,7 +1890,7 @@
       "venue": "Tavastia",
       "date": "2026-11-25",
       "title": "Aliisa Syrjä",
-      "details": "Liput\n25 € / 28 €\n19.00\nOvet",
+      "details": "Liput\n25 € / 28 €\n19.00\nOvet\n20.30",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-25/aliisa-syrja/118917/",
@@ -1916,7 +1916,7 @@
       "venue": "Tavastia",
       "date": "2026-11-28",
       "title": "Kemmuru – Kehumatta paras 20 vuotta",
-      "details": "20.00\nOvet\nLoppuunmyyty",
+      "details": "20.00\nOvet\n21.30\nKemmuru\nLoppuunmyyty",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-28/kemmuru-kehumatta-paras-20-vuotta/120342/",
@@ -2358,7 +2358,7 @@
       "venue": "Tavastia",
       "date": "2027-02-06",
       "title": "louna0nline: starseed album tour (S)",
-      "details": "Lipunmyynti käynnistyy 17.11. klo 12.00",
+      "details": "Liput\n29,99 € / 35 €",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-02-06/louna0nline-starseed-album-tour/122417/",
