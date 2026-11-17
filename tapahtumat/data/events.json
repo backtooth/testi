@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T18:38:22.218Z",
+  "updated_at": "2026-11-17T02:58:14.984Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -1807,19 +1807,6 @@
         }
       ],
       "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Tavastia",
-      "date": "2026-11-16",
-      "title": "The Browning, Within Destruction, Abbie Falls",
-      "details": "19.00\nOvet\n19.30\nAbbie Falls\n20.15\nWithin Destruction\n21.15\nThe Browning\nLoppuunmyyty",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-11-16/the-browning-within-destruction-abbie-falls/119003/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/"
     },
     {
       "venue": "Tavastia",
