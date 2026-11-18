@@ -1,19 +1,6 @@
 {
-  "updated_at": "2026-11-18T07:38:50.123Z",
+  "updated_at": "2026-11-18T17:19:08.381Z",
   "events": [
-    {
-      "venue": "Kuudes Linja",
-      "date": "2026-11-17",
-      "title": "MOVED TO ÄÄNIWALLI: DRUHA RIKA (UA) – I AM! 30 YEARS",
-      "details": "VENUE CHANGE! This show will now take place at Ääniwalli! (Pälkäneentie 13 B, 00530 Helsinki)\nLIVE: Druha Rika\nEnnakot 39/45 €\n+ security fee 3,90 €\nOvet klo 19:00/19:30",
-      "links": [
-        {
-          "url": "https://tickets.tikhonov-concert.com/checkout-service/schema?productId=94&l=ua",
-          "label": "Liput"
-        }
-      ],
-      "source_url": "https://kuudeslinja.com/"
-    },
     {
       "venue": "Kuudes Linja",
       "date": "2026-11-19",
@@ -1238,6 +1225,19 @@
     },
     {
       "venue": "Kulttuuritalo",
+      "date": "2027-01-29",
+      "title": "KULT: Salaliitto + Markus Perttula",
+      "details": "Liput alkaen 25,00€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/2027-01-29/kult-salaliitto-markus-perttula/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
       "date": "2027-01-30",
       "title": "Rakkaudella Rauli – Tähtiin kirjoitettu tarina 30.1.2026",
       "details": "Liput alkaen 45,40€",
@@ -1413,6 +1413,19 @@
       "links": [
         {
           "url": "https://kulttuuritalo.fi/tapahtuma/2027-02-27/whitechapel-burn-forever-tour/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2027-02-27",
+      "title": "KULT: MUSAMUSA-klubi: JATAO + Mansion + Pääkallo",
+      "details": "Liput alkaen 25,00€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/2027-02-27/kult-musamusa-klubi-jatao-mansion-paakallo/",
           "label": "Lisätiedot"
         }
       ],
@@ -3072,7 +3085,7 @@
     {
       "venue": "Semifinal",
       "date": "2027-01-08",
-      "title": "Einvigi, The Mist from the Mountains, Venunum Dei",
+      "title": "Einvigi, The Mist from the Mountains, Venenum Dei + DJ Melkor",
       "details": "Liput\n16 € / 18 €\n20.00\nOvet",
       "links": [
         {
