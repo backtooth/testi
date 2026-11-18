@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T23:32:48.746Z",
+  "updated_at": "2026-11-18T07:38:50.123Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -421,19 +421,6 @@
     },
     {
       "venue": "Lepakkomies",
-      "date": "2026-11-17",
-      "title": "Ei pöllömpi pubivisa by Pöllö & Ode",
-      "details": "Street Bar\novet klo 18:00\nVapaa pääsy!",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
       "date": "2026-11-18",
       "title": "The Heartjackers (UK/FI) + Get In",
       "details": "Klubi\novet klo 20:00\nliput alakertaan 5€",
@@ -662,6 +649,19 @@
       "source_url": "https://www.lepis.fi/tapahtumat/"
     },
     {
+      "venue": "Lepakkomies",
+      "date": "2026-12-11",
+      "title": "Piritori Debauchery: Hoc est Bellum + Aamutähti + Hautaveri + Earthly Form",
+      "details": "Klubi\novet klo 20:00\nliput alakertaan 10€",
+      "links": [
+        {
+          "url": "https://www.lepis.fi/tapahtumat/piritori-debauchery-hoc-est-bellum-aamutahti-hautaveri-earthly-form/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://www.lepis.fi/tapahtumat/"
+    },
+    {
       "venue": "On the Rocks",
       "date": "2026-11-18",
       "title": "Legion Of The Damned (NED), Torchia, Rebellix",
@@ -754,19 +754,6 @@
         }
       ],
       "source_url": "https://www.rocks.fi/"
-    },
-    {
-      "venue": "Kulttuuritalo",
-      "date": "2026-11-17",
-      "title": "KULT: Graham Bonnet Band (UK/USA) + Wishing Well",
-      "details": "Liput alkaen 49,90€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/2026-11-17/kult-live-graham-bonnet-band-uk-usa-wishing-well/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
     },
     {
       "venue": "Kulttuuritalo",
@@ -1890,7 +1877,7 @@
       "venue": "Tavastia",
       "date": "2026-11-22",
       "title": "Michael Monroe plays Hanoi Rocks (Ikärajaton)",
-      "details": "14.00\nOvet\nLoppuunmyyty",
+      "details": "14.00\nOvet\n15.30\nMichael Monroe\nLoppuunmyyty",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-22/michael-monroe-plays-hanoi-rocks/120875/",
@@ -1903,7 +1890,7 @@
       "venue": "Tavastia",
       "date": "2026-11-22",
       "title": "Michael Monroe plays Hanoi Rocks (K-18)",
-      "details": "18.30\nOvet\nLoppuunmyyty",
+      "details": "18.30\nOvet\n20.00\nMichael Monroe\nLoppuunmyyty",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-22/michael-monroe-plays-hanoi-rocks/120874/",
@@ -2733,6 +2720,19 @@
     },
     {
       "venue": "Tavastia",
+      "date": "2027-04-10",
+      "title": "Mariska",
+      "details": "Lipunmyynti käynnistyy 20.11. klo 09.00\n20.00\nOvet",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2027-04-10/mariska/122476/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
       "date": "2027-04-24",
       "title": "Nelli Matula",
       "details": "Liput\n35 € / 38 €",
@@ -2826,10 +2826,10 @@
       "venue": "Tavastia",
       "date": "2027-09-17",
       "title": "REAPER FEST 2027",
-      "details": "Liput\n49 €",
+      "details": "pe 17.9.-\nLiput",
       "links": [
         {
-          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119664/",
+          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119662/",
           "label": "Lisätiedot"
         }
       ],
@@ -2839,10 +2839,10 @@
       "venue": "Tavastia",
       "date": "2027-09-17",
       "title": "REAPER FEST 2027",
-      "details": "pe 17.9.-\nLiput",
+      "details": "Liput\n49 €",
       "links": [
         {
-          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119662/",
+          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119664/",
           "label": "Lisätiedot"
         }
       ],
@@ -2891,7 +2891,7 @@
       "venue": "Semifinal",
       "date": "2026-11-18",
       "title": "Joka v*tun keskiviikko: Saana Peltola",
-      "details": "18.00\nOvet\n19.00\nSHOWTIME",
+      "details": "Liput\n15 € / 20 €\n18.00\nOvet\n19.00\nSHOWTIME",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-18/joka-vtun-keskiviikko-saana-peltola/121632/",
