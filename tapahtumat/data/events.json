@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T01:53:53.826Z",
+  "updated_at": "2026-11-19T13:23:38.927Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -408,19 +408,6 @@
     },
     {
       "venue": "Lepakkomies",
-      "date": "2026-11-18",
-      "title": "The Heartjackers (UK/FI) + Get In",
-      "details": "Klubi\novet klo 20:00\nliput alakertaan 5€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/the-heartjackers-uk-fi-get-in/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
       "date": "2026-11-19",
       "title": "Forward Folks + The Horribly Ones",
       "details": "Klubi\novet klo 20:00\nliput alakertaan 10€",
@@ -491,7 +478,7 @@
       "details": "Street Bar\novet klo 18:00\nVapaa pääsy!",
       "links": [
         {
-          "url": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-2/",
+          "url": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode/",
           "label": "Lisätiedot"
         }
       ],
@@ -649,21 +636,17 @@
       "source_url": "https://www.lepis.fi/tapahtumat/"
     },
     {
-      "venue": "On the Rocks",
-      "date": "2026-11-18",
-      "title": "Legion Of The Damned (NED), Torchia, Rebellix",
-      "details": "Klubi\novet klo 19:00\nliput alk. 27 € / 30 €",
+      "venue": "Lepakkomies",
+      "date": "2026-12-12",
+      "title": "FI/LV METAL MADNESS: Iron Wings (LV) + Barrel + Ratbreed",
+      "details": "Klubi\novet klo 20:00\nliput alakertaan 10€",
       "links": [
         {
-          "url": "https://www.rocks.fi/tapahtumat/legion-of-the-damned-ned-torchia-rebellix/",
+          "url": "https://www.lepis.fi/tapahtumat/fi-lv-metal-madness-iron-wings-lv-barrel-ratbreed/",
           "label": "Lisätiedot"
-        },
-        {
-          "url": "https://www.tiketti.fi/tapahtuma/121024",
-          "label": "Liput"
         }
       ],
-      "source_url": "https://www.rocks.fi/"
+      "source_url": "https://www.lepis.fi/tapahtumat/"
     },
     {
       "venue": "On the Rocks",
@@ -738,6 +721,23 @@
         {
           "url": "https://www.rocks.fi/tapahtumat/linkin-park-night-jumpdafuckup-djs/",
           "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://www.rocks.fi/"
+    },
+    {
+      "venue": "On the Rocks",
+      "date": "2026-11-25",
+      "title": "Hulda Huima, Ani Harmi",
+      "details": "Klubi\novet klo 19:00\nliput alk. 15 € / 18 €",
+      "links": [
+        {
+          "url": "https://www.rocks.fi/tapahtumat/hulda-huima-ani-harmi/",
+          "label": "Lisätiedot"
+        },
+        {
+          "url": "https://www.tiketti.fi/tapahtuma/121596",
+          "label": "Liput"
         }
       ],
       "source_url": "https://www.rocks.fi/"
@@ -2245,6 +2245,19 @@
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-01-09/tiisu-paatoskeikka/121453/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
+      "date": "2027-01-13",
+      "title": "Heikki Puska - Muistokonsertti",
+      "details": "Liput\n22,50 €\n19.00\nOvet",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2027-01-13/heikki-puska-muistokonsertti/122609/",
           "label": "Lisätiedot"
         }
       ],
