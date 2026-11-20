@@ -1,23 +1,6 @@
 {
-  "updated_at": "2026-11-20T07:25:41.391Z",
+  "updated_at": "2026-11-20T16:59:57.730Z",
   "events": [
-    {
-      "venue": "Kuudes Linja",
-      "date": "2026-11-19",
-      "title": "CHUCK STRANGERS (US) + TÄYDET",
-      "details": "LIVE: Chuck Strangers (klo 21)\nLIVE: TÄYDET (klo 20)\nEnnakot Tiketistä 24,50 €, liput ovelta 28 €\n+ security fee 3,90 €\nOvet klo 19",
-      "links": [
-        {
-          "url": "https://www.tiketti.fi/chuck-strangers-us-taydet-kuudes-linja-helsinki-lippuja/119468",
-          "label": "Liput"
-        },
-        {
-          "url": "https://www.facebook.com/events/1293337379541613",
-          "label": "FB"
-        }
-      ],
-      "source_url": "https://kuudeslinja.com/"
-    },
     {
       "venue": "Kuudes Linja",
       "date": "2026-11-20",
@@ -744,19 +727,6 @@
     },
     {
       "venue": "Kulttuuritalo",
-      "date": "2026-11-19",
-      "title": "KULT: A.W. Yrjänä Eidolon -kiertue + Rami Helin Presents (trio)",
-      "details": "Liput alkaen 32,00€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/2026-11-19/kult-a-w-yrjana-rami-helin-presents-trio/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Kulttuuritalo",
       "date": "2026-11-20",
       "title": "Suomi Nauraa – Stand Up Show 20.11.",
       "details": "Liput alkaen 48,00€",
@@ -836,7 +806,7 @@
     {
       "venue": "Kulttuuritalo",
       "date": "2026-11-28",
-      "title": "Disco Night",
+      "title": "PERUTTU: Disco Night",
       "details": "Liput alkaen 34,70€",
       "links": [
         {
@@ -1023,6 +993,19 @@
       "links": [
         {
           "url": "https://kulttuuritalo.fi/tapahtuma/2026-12-19/antti-autio-haahuillen/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2026-12-19",
+      "title": "KULT: Under the Mistle Tease 2026",
+      "details": "Liput alkaen 36,00€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/2026-12-19/kult-under-the-mistle-tease-2026/",
           "label": "Lisätiedot"
         }
       ],
@@ -1595,6 +1578,19 @@
       "links": [
         {
           "url": "https://kulttuuritalo.fi/tapahtuma/2027-03-20/kaj-med-liveband/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2027-03-20",
+      "title": "KULT: DJ Kridlokk + Eevil Stöö",
+      "details": "Liput alkaen 25,00€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/2027-03-20/kult-dj-kridlokk-eevil-stoo/",
           "label": "Lisätiedot"
         }
       ],
@@ -2696,10 +2692,23 @@
       "venue": "Tavastia",
       "date": "2027-03-26",
       "title": "Mouhous",
-      "details": "Liput\n35 € / 38 €\n20.00\nOvet",
+      "details": "20.00\nOvet\nLoppuunmyyty",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-03-26/mouhous/122186/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
+      "date": "2027-03-26",
+      "title": "Mouhous (klo 23:30)",
+      "details": "Liput\n35 € / 38 €\n23.30\nOvet",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2027-03-26/mouhous/122533/",
           "label": "Lisätiedot"
         }
       ],
@@ -2982,7 +2991,7 @@
       "venue": "Semifinal",
       "date": "2026-12-02",
       "title": "Joka v*tun keskiviikko: Laura Haimila",
-      "details": "18.00\nOvet\n19.00\nSHOWTIME\nLoppuunvarattu",
+      "details": "Liput\n15 € / 20 €\n18.00\nOvet\n19.00\nSHOWTIME",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-12-02/joka-vtun-keskiviikko-laura-haimila/121637/",
@@ -3021,7 +3030,7 @@
       "venue": "Semifinal",
       "date": "2026-12-09",
       "title": "Joka v*tun keskiviikko: Teemu Vesterinen",
-      "details": "Liput\n15 € / 20 €\n18.00\nOvet\n19.00\nSHOWTIME",
+      "details": "18.00\nOvet\n19.00\nSHOWTIME\nLoppuunvarattu",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-12-09/joka-vtun-keskiviikko-teemu-vesterinen/121640/",
