@@ -1,40 +1,6 @@
 {
-  "updated_at": "2026-11-21T01:34:50.881Z",
+  "updated_at": "2026-11-21T12:45:22.930Z",
   "events": [
-    {
-      "venue": "Kuudes Linja",
-      "date": "2026-11-20",
-      "title": "ALKUILLAN KONSERTTI: GIGI MASIN (IT) + OTTO TAIMELA",
-      "details": "LIVE: Gigi Masin (klo 21)\nLIVE: Otto Taimela (klo 20)\nEnnakot Tiketistä 35 €, liput ovelta 38 €\n+ security fee 3,90 €\nOvet klo 19",
-      "links": [
-        {
-          "url": "https://www.tiketti.fi/gigi-masin-ita-kuudes-linja-helsinki-lippuja/119752",
-          "label": "Liput"
-        },
-        {
-          "url": "https://www.facebook.com/events/1649750993392212/",
-          "label": "FB"
-        }
-      ],
-      "source_url": "https://kuudeslinja.com/"
-    },
-    {
-      "venue": "Kuudes Linja",
-      "date": "2026-11-20",
-      "title": "BASHMENT YARD (SPECIAL SHOWCASE NIGHT – LION HEAD SOUND MEETS KOMPOSTI SOUND)",
-      "details": "DJ:t VG+, Chargie, Rumpunch & Fadda Francis\nEnnakot Eventualista 10 €, liput ovelta 12 € (vapaa pääsy ennen klo 23:45). Ennakkolipulla jonon ohi klo 01:een asti.\n+ security fee 3,90 €\nOvet klo 23:15–04:30",
-      "links": [
-        {
-          "url": "https://www.eventu.al/en/event/9343/finland/helsinki/bashment-yard-special-showcase-night",
-          "label": "Liput"
-        },
-        {
-          "url": "https://www.facebook.com/events/1097896556482744/",
-          "label": "FB"
-        }
-      ],
-      "source_url": "https://kuudeslinja.com/"
-    },
     {
       "venue": "Kuudes Linja",
       "date": "2026-11-21",
@@ -391,32 +357,6 @@
     },
     {
       "venue": "Lepakkomies",
-      "date": "2026-11-20",
-      "title": "Monsternaut + Mount Palatine + Astral Sleep",
-      "details": "Klubi\novet klo 20:00\nliput alakertaan 12€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/monsternaut-mount-palatine-astral-sleep/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
-      "date": "2026-11-20",
-      "title": "Obsidian: Magic of Bass",
-      "details": "Klubi\novet klo 00:00\nliput alakertaan 7€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/obsidian-magic-of-bass/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
       "date": "2026-11-21",
       "title": "Ongelma + Katujen Äänet + Karanneet Käärmeet + Villit Nautinnot + DJ Paha Hakkaaja",
       "details": "Klubi\novet klo 20:00\nliput alakertaan 10€",
@@ -538,6 +478,19 @@
     },
     {
       "venue": "Lepakkomies",
+      "date": "2026-12-03",
+      "title": "Sir Liselot Band + Levoton Elämä + Stinkbird",
+      "details": "Klubi\novet klo 20:00\nliput alakertaan 6-10€",
+      "links": [
+        {
+          "url": "https://www.lepis.fi/tapahtumat/sir-liselot-band-levoton-elama-stinkbird/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://www.lepis.fi/tapahtumat/"
+    },
+    {
+      "venue": "Lepakkomies",
       "date": "2026-12-04",
       "title": "Rearviewmirror – A Tribute to Pearl Jam",
       "details": "Klubi\novet klo 20:00\nliput alk. 12€/14€",
@@ -561,6 +514,19 @@
       "links": [
         {
           "url": "https://www.lepis.fi/tapahtumat/toxic-club-vol-100-kryptareflat-refusal-kantamus-surya/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://www.lepis.fi/tapahtumat/"
+    },
+    {
+      "venue": "Lepakkomies",
+      "date": "2026-12-05",
+      "title": "Saturnus Events Presents: Raver May Cry",
+      "details": "Klubi\novet klo 00:00\nliput alakertaan 5€",
+      "links": [
+        {
+          "url": "https://www.lepis.fi/tapahtumat/saturnus-events-presents-raver-may-cry/",
           "label": "Lisätiedot"
         }
       ],
@@ -607,6 +573,19 @@
     },
     {
       "venue": "Lepakkomies",
+      "date": "2026-12-11",
+      "title": "Destination Hardcore: Derailment",
+      "details": "Klubi\novet klo 00:00\nliput alakertaan 10€",
+      "links": [
+        {
+          "url": "https://www.lepis.fi/tapahtumat/destination-hardcore-derailment/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://www.lepis.fi/tapahtumat/"
+    },
+    {
+      "venue": "Lepakkomies",
       "date": "2026-12-12",
       "title": "FI/LV METAL MADNESS: Iron Wings (LV) + Barrel + Ratbreed",
       "details": "Klubi\novet klo 20:00\nliput alakertaan 10€",
@@ -617,49 +596,6 @@
         }
       ],
       "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
-      "date": "2026-12-19",
-      "title": "L’Appel du Vide Presents: MNGLXMPLR + Der Bürokrat + Lola Kumtus + L’Appel du Vide DJ’s",
-      "details": "Klubi\novet klo 20:00\nliput alakertaan 15-20€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/lappel-du-vide-presents-mnglxmplr-der-burokrat-lola-kumtus-lappel-du-vide-djs/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "On the Rocks",
-      "date": "2026-11-20",
-      "title": "Timo Pieni Huijaus (levyjulkkarit), Tiia Karoliina, KC4",
-      "details": "Klubi\novet klo 20:00\nliput alk. 24 € / 27 €",
-      "links": [
-        {
-          "url": "https://www.rocks.fi/tapahtumat/timo-pieni-huijaus-levyjulkkarit-tiia-karoliina-kc4/",
-          "label": "Lisätiedot"
-        },
-        {
-          "url": "https://www.tiketti.fi/tapahtuma/119709",
-          "label": "Liput"
-        }
-      ],
-      "source_url": "https://www.rocks.fi/"
-    },
-    {
-      "venue": "On the Rocks",
-      "date": "2026-11-20",
-      "title": "Discomania! Midnight City Club DJs Mikke The Flamer & John Curtain",
-      "details": "Klubi\novet klo 23:30\nliput ovelta 7 €",
-      "links": [
-        {
-          "url": "https://www.rocks.fi/tapahtumat/discomania-midnight-city-club-djs-mikke-the-flamer-john-curtain/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.rocks.fi/"
     },
     {
       "venue": "On the Rocks",
@@ -726,17 +662,34 @@
       "source_url": "https://www.rocks.fi/"
     },
     {
-      "venue": "Kulttuuritalo",
-      "date": "2026-11-20",
-      "title": "Suomi Nauraa – Stand Up Show 20.11.",
-      "details": "Liput alkaen 48,00€",
+      "venue": "On the Rocks",
+      "date": "2026-11-27",
+      "title": "Death Hawks, Idän Voima",
+      "details": "Klubi\novet klo 20:00\nliput alk. 21 € / 24 €",
       "links": [
         {
-          "url": "https://kulttuuritalo.fi/tapahtuma/2026-11-20/suomi-nauraa-stand-up-show-20-11/",
+          "url": "https://www.rocks.fi/tapahtumat/death-hawks-idan-voima/",
+          "label": "Lisätiedot"
+        },
+        {
+          "url": "https://www.tiketti.fi/tapahtuma/120781",
+          "label": "Liput"
+        }
+      ],
+      "source_url": "https://www.rocks.fi/"
+    },
+    {
+      "venue": "On the Rocks",
+      "date": "2026-11-27",
+      "title": "Club Anvil – November Edition",
+      "details": "Klubi\novet klo 23:00\nliput ovelta 7 €",
+      "links": [
+        {
+          "url": "https://www.rocks.fi/tapahtumat/club-anvil-november-edition/",
           "label": "Lisätiedot"
         }
       ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+      "source_url": "https://www.rocks.fi/"
     },
     {
       "venue": "Kulttuuritalo",
@@ -1292,6 +1245,19 @@
       "links": [
         {
           "url": "https://kulttuuritalo.fi/tapahtuma/2027-02-06/10cc/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2027-02-06",
+      "title": "KULT: Us",
+      "details": "Liput alkaen 22,00€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/2027-02-06/kult-us/",
           "label": "Lisätiedot"
         }
       ],
@@ -1977,7 +1943,7 @@
       "venue": "Tavastia",
       "date": "2026-12-05",
       "title": "Blues Pills & Graveyard Tour 2026",
-      "details": "19.00\nOvet\nLoppuunvarattu",
+      "details": "Liput\n55 € / 58 €\n19.00\nOvet",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-12-05/blues-pills-graveyard-tour-2026/118975/",
