@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T16:59:57.730Z",
+  "updated_at": "2026-11-21T01:34:50.881Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -1832,19 +1832,6 @@
     },
     {
       "venue": "Tavastia",
-      "date": "2026-11-20",
-      "title": "The Flaming Sideburns, Us",
-      "details": "Liput\n30 € / 33 €\n20.00\nOvet\n20.30\nUs\n21.45\nThe Flaming Sideburns",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-11-20/the-flaming-sideburns-us/120429/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/"
-    },
-    {
-      "venue": "Tavastia",
       "date": "2026-11-21",
       "title": "Levymessut",
       "details": "Liput ovelta 3 €\n11.00\nOvet",
@@ -1990,7 +1977,7 @@
       "venue": "Tavastia",
       "date": "2026-12-05",
       "title": "Blues Pills & Graveyard Tour 2026",
-      "details": "Liput\n55 € / 58 €\n19.00\nOvet",
+      "details": "19.00\nOvet\nLoppuunvarattu",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-12-05/blues-pills-graveyard-tour-2026/118975/",
@@ -2921,19 +2908,6 @@
         }
       ],
       "source_url": "https://tavastiaklubi.fi/"
-    },
-    {
-      "venue": "Semifinal",
-      "date": "2026-11-20",
-      "title": "TINA (Levyjulkkarit)",
-      "details": "Liput\n16 € / 18 €\n20.00\nOvet\n20.45\nTINA",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-11-20/tina-levyjulkkarit/121418/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/semifinal/"
     },
     {
       "venue": "Semifinal",
