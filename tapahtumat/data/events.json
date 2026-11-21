@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T12:45:22.930Z",
+  "updated_at": "2026-11-21T21:41:38.104Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -1798,32 +1798,6 @@
     },
     {
       "venue": "Tavastia",
-      "date": "2026-11-21",
-      "title": "Levymessut",
-      "details": "Liput ovelta 3 €\n11.00\nOvet",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-11-21/levymessut/121706/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/"
-    },
-    {
-      "venue": "Tavastia",
-      "date": "2026-11-21",
-      "title": "Juha Tapio",
-      "details": "Liput\n45 € / 48 €\n20.00\nOvet\n21.30",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-11-21/juha-tapio/120375/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/"
-    },
-    {
-      "venue": "Tavastia",
       "date": "2026-11-22",
       "title": "Michael Monroe plays Hanoi Rocks (Ikärajaton)",
       "details": "14.00\nOvet\n15.30\nMichael Monroe\nLoppuunmyyty",
@@ -1943,7 +1917,7 @@
       "venue": "Tavastia",
       "date": "2026-12-05",
       "title": "Blues Pills & Graveyard Tour 2026",
-      "details": "Liput\n55 € / 58 €\n19.00\nOvet",
+      "details": "19.00\nOvet\nLoppuunvarattu",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-12-05/blues-pills-graveyard-tour-2026/118975/",
