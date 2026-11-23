@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T00:56:23.630Z",
+  "updated_at": "2026-11-23T14:49:42.018Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -53,7 +53,12 @@
       "date": "2026-11-28",
       "title": "LADI",
       "details": "Lauantaidisko DJs\nLiput 12 € (vapaa pääsy ennen klo 23:30)\n+ security fee 3,90 €\nOvet klo 23:15–04:30",
-      "links": [],
+      "links": [
+        {
+          "url": "https://www.facebook.com/events/s/ladi/1535350688415830/",
+          "label": "FB"
+        }
+      ],
       "source_url": "https://kuudeslinja.com/"
     },
     {
@@ -1685,12 +1690,51 @@
     },
     {
       "venue": "Kulttuuritalo",
+      "date": "2027-05-18",
+      "title": "Pikku Papun Orkesteri & UMO Helsinki Jazz Orchestra",
+      "details": "Liput alkaen 16,00€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/2027-05-18/pikku-papun-orkesteri-umo-helsinki-jazz-orchestra/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
       "date": "2027-05-21",
       "title": "Helsinki Lit 2027 – käännöskirjallisuusfestivaali 21.-22.5. 2027",
       "details": "Liput alkaen 57,50€",
       "links": [
         {
           "url": "https://kulttuuritalo.fi/tapahtuma/2027-05-21/helsinki-lit-2027/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2027-05-22",
+      "title": "KULT: Room Full Of Hendrix – 60 Years of Jimi Hendrix",
+      "details": "Liput alkaen 34,90€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/2027-05-22/kult-room-full-of-hendrix-60-years-of-jimi-hendrix/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2027-09-29",
+      "title": "Steve Hackett – Best of Genesis & Solo Gems",
+      "details": "Liput alkaen 69,90€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/2027-09-29/steve-hackett-best-of-genesis-solo-gems/",
           "label": "Lisätiedot"
         }
       ],
@@ -2400,6 +2444,32 @@
     },
     {
       "venue": "Tavastia",
+      "date": "2027-03-04",
+      "title": "Vesala",
+      "details": "Liput\n49,50 € / 55 €\n19.00\nOvet",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2027-03-04/vesala/122708/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
+      "date": "2027-03-05",
+      "title": "Vesala",
+      "details": "Liput\n49,50 € / 55 €\n20.00\nOvet",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2027-03-05/vesala/122361/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
       "date": "2027-03-06",
       "title": "Vesterinen Yhtyeineen: Paluu Tavastialle",
       "details": "19.00\nOvet\n21.00\nVesterinen Yhtyeineen\nLoppuunmyyty",
@@ -2454,7 +2524,7 @@
       "venue": "Tavastia",
       "date": "2027-03-12",
       "title": "Markus Krunegård (SWE)",
-      "details": "Lipunmyynti käynnistyy 23.11. klo 09.00\n20.00\nOvet",
+      "details": "Liput\n32,50 € / 35 €\n20.00\nOvet",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-03-12/markus-krunegard-swe/122489/",
@@ -2779,7 +2849,7 @@
       "venue": "Semifinal",
       "date": "2026-11-26",
       "title": "Röge",
-      "details": "Liput\n16 € / 18 €\n19.00\nOvet",
+      "details": "Liput\n16 € / 18 €\n19.00\nOvet\n19.45\nRÖGE",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-26/roge/121193/",
@@ -2868,12 +2938,38 @@
     },
     {
       "venue": "Semifinal",
+      "date": "2026-12-22",
+      "title": "ANI - Akustinen Ilta",
+      "details": "Liput\n22 € / 24 €\n19.00\nOvet",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2026-12-22/ani-akustinen-ilta/122634/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/semifinal/"
+    },
+    {
+      "venue": "Semifinal",
       "date": "2026-12-26",
       "title": "Kosto (EP-julkkarit), Arseeni",
       "details": "Liput\n14 € / 16 €\n20.00\nOvet",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-12-26/kosto-ep-julkkarit-arseeni/121117/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/semifinal/"
+    },
+    {
+      "venue": "Semifinal",
+      "date": "2026-12-30",
+      "title": "Hauta Wizard, E. Sydänpuu & Veren Vangit",
+      "details": "Liput\n14 € / 16 €\n19.00\nOvet",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2026-12-30/hauta-wizard-e-sydanpuu-veren-vangit/122680/",
           "label": "Lisätiedot"
         }
       ],
@@ -2913,6 +3009,19 @@
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-01-08/einvigi-the-mist-from-the-mountains-venunum-dei/120784/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/semifinal/"
+    },
+    {
+      "venue": "Semifinal",
+      "date": "2027-01-09",
+      "title": "Satu Lii, Hanhani",
+      "details": "Liput\n15 € / 17 €\n20.00\nOvet",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2027-01-09/satu-lii-hanhani/122681/",
           "label": "Lisätiedot"
         }
       ],
