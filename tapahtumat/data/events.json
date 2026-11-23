@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T16:21:05.905Z",
+  "updated_at": "2026-11-23T00:56:23.630Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -671,45 +671,6 @@
     },
     {
       "venue": "Kulttuuritalo",
-      "date": "2026-11-21",
-      "title": "Ho, Ho, Ho – It’s Divet Show!",
-      "details": "Liput alkaen 43,00€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/2026-11-21/ho-ho-ho-its-divet-show/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Kulttuuritalo",
-      "date": "2026-11-21",
-      "title": "KULT: Wasted 30 V., Abduktio + Manifesto Jukebox",
-      "details": "Liput alkaen 29,10€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/2026-11-21/kult-wasted/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Kulttuuritalo",
-      "date": "2026-11-22",
-      "title": "ARTMS World Tour – Art of BLUE BLOOD",
-      "details": "Liput alkaen 61,60€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/2026-11-22/artms-world-tour-art-of-blue-blood/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Kulttuuritalo",
       "date": "2026-11-25",
       "title": "Europe – The Final Countdown 40th Anniversary Tour (SOLD OUT!)",
       "details": "Liput alkaen 65,30€",
@@ -1223,6 +1184,19 @@
       "links": [
         {
           "url": "https://kulttuuritalo.fi/tapahtuma/2027-02-06/10cc/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2027-02-06",
+      "title": "KULT: Us",
+      "details": "Liput alkaen 22,00€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/2027-02-06/kult-us/",
           "label": "Lisätiedot"
         }
       ],
@@ -1760,19 +1734,6 @@
         }
       ],
       "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Tavastia",
-      "date": "2026-11-22",
-      "title": "Michael Monroe plays Hanoi Rocks (K-18)",
-      "details": "18.30\nOvet\n20.00\nMichael Monroe\nLoppuunmyyty",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-11-22/michael-monroe-plays-hanoi-rocks/120874/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/"
     },
     {
       "venue": "Tavastia",
@@ -2740,10 +2701,10 @@
       "venue": "Tavastia",
       "date": "2027-09-17",
       "title": "REAPER FEST 2027",
-      "details": "Liput\n49 €",
+      "details": "pe 17.9.-\nLiput",
       "links": [
         {
-          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119664/",
+          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119662/",
           "label": "Lisätiedot"
         }
       ],
@@ -2753,10 +2714,10 @@
       "venue": "Tavastia",
       "date": "2027-09-17",
       "title": "REAPER FEST 2027",
-      "details": "pe 17.9.-\nLiput",
+      "details": "Liput\n49 €",
       "links": [
         {
-          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119662/",
+          "url": "https://tavastiaklubi.fi/events/2027-09-17/reaper-fest-2027/119664/",
           "label": "Lisätiedot"
         }
       ],
