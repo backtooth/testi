@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-24T02:56:40.125Z",
+  "updated_at": "2026-11-24T14:56:46.670Z",
   "events": [
     {
       "venue": "Kuudes Linja",
       "date": "2026-11-27",
       "title": "ALKULLAN KONSERTTI: DIE OBERHERREN (SE) + DHARMA GUNS + ROB COFFINSHAKER (SE)",
-      "details": "LIVE: Die Oberherren\nLIVE: Dharma Guns\nLIVE: Rob Coffinshaker\nEnnakot Tiketistä ja Eventualista 16 €, liput ovelta 19 €\n+ security fee 3,90 €\nOvet klo 19",
+      "details": "LIVE: Die Oberherren (klo 21:30)\nLIVE: Dharma Guns (klo 20:30)\nLIVE: Rob Coffinshaker (klo 19:30)\nEnnakot Tiketistä ja Eventualista 16 €, liput ovelta 19 €\n+ security fee 3,90 €\nOvet klo 19",
       "links": [
         {
           "url": "https://www.tiketti.fi/die-oberherren-swe-dharma-guns-kuudes-linja-helsinki-lippuja/119403",
@@ -22,7 +22,7 @@
       "venue": "Kuudes Linja",
       "date": "2026-11-27",
       "title": "CONCRETE CLUB VOL. 4",
-      "details": "LIVE: Baby Blu\nLIVE: Trebla\nDJ:t Kasspian x Brian, Pixi, Suolakeksi, M-Baby & Krenn\nEnnakot Eventualista 6/8 €, liput ovelta 10 €\n+ security fee 3,90 €\nOvet klo 23:15–04:30",
+      "details": "LIVE: Baby Blu\nLIVE: Trebla\nDJ:t Kasspian x Brian, Pixi, Suolakeksi, M-Baby & Krenn\nEnnakot Eventualista 6/8 €, liput ovelta 10 €\n+ security fee 3,90 €\nOvet klo 23:15–04:30\nK-18",
       "links": [
         {
           "url": "https://www.eventu.al/en/event/9342/finland/helsinki/concrete-club-vol4",
@@ -35,7 +35,7 @@
       "venue": "Kuudes Linja",
       "date": "2026-11-28",
       "title": "ALKUILLAN KONSERTTI: LALA SALAMA + HITES",
-      "details": "LIVE: Lala Salama\nLIVE: Hites\nEnnakot Tiketistä 16 €, liput ovelta 18 €\n+ security fee 3,90 €\nOvet klo 19",
+      "details": "LIVE: Lala Salama (klo 21)\nLIVE: Hites (klo 20)\nEnnakot Tiketistä 16 €, liput ovelta 18 €\n+ security fee 3,90 €\nOvet klo 19",
       "links": [
         {
           "url": "https://www.tiketti.fi/tapahtuma/120892",
@@ -129,7 +129,7 @@
       "venue": "Kuudes Linja",
       "date": "2026-12-06",
       "title": "HELSINKI ILMAN NATSEJA 10 V -JATKOT",
-      "details": "LIVE: good boys\nLIVE: F\nLIVE: Malla\nLIVE: Laineen Kasperi\nLIVE: Nikke & The Whiskars\n+ DJ:t Laura Vartio & Skenikswee\nEnnakot Tiketistä 15 € / 25 € (tukihinta), liput ovelta 17 € / 25 € (tukihinta)\n+ security fee 3,90 €\nOvet klo 20",
+      "details": "LIVE: good boys\nLIVE: F\nLIVE: Malla\nLIVE: Laineen Kasperi\nLIVE: Nicce & The Whiskars\n+ DJ:t Laura Vartio & Skenikswee\nEnnakot Tiketistä 15 € / 25 € (tukihinta), liput ovelta 17 € / 25 € (tukihinta)\n+ security fee 3,90 €\nOvet klo 20",
       "links": [
         {
           "url": "https://www.tiketti.fi/helsinki-ilman-natseja-10v-kuudes-linja-helsinki-lippuja/122348",
@@ -140,6 +140,22 @@
           "label": "FB"
         }
       ],
+      "source_url": "https://kuudeslinja.com/"
+    },
+    {
+      "venue": "Kuudes Linja",
+      "date": "2026-12-07",
+      "title": "KAMELIDISCO ESITTÄÄ: PITBULL SPECIAL CLUB NIGHT",
+      "details": "DJ:t Bremer, No-Skool & Hamm\nLiput 10 € (vapaa pääsy ennen klo 22:30)\n+ security fee 3,90 €\nOvet klo 22:00–04:30\nK-18",
+      "links": [],
+      "source_url": "https://kuudeslinja.com/"
+    },
+    {
+      "venue": "Kuudes Linja",
+      "date": "2026-12-08",
+      "title": "KAMELIDISCO ESITTÄÄ: PITBULL SPECIAL CLUB NIGHT",
+      "details": "DJ:t Bremer, No-Skool & Hamm\nLiput 10 € (vapaa pääsy ennen klo 22:30)\n+ security fee 3,90 €\nOvet klo 22:00–04:30\nK-18",
+      "links": [],
       "source_url": "https://kuudeslinja.com/"
     },
     {
@@ -204,6 +220,14 @@
           "label": "FB"
         }
       ],
+      "source_url": "https://kuudeslinja.com/"
+    },
+    {
+      "venue": "Kuudes Linja",
+      "date": "2026-12-19",
+      "title": "LADI",
+      "details": "Lauantaidisko DJs\nLiput 12 € (vapaa pääsy ennen klo 23:30)\n+ security fee 3,90 €\nOvet klo 23:15–04:30",
+      "links": [],
       "source_url": "https://kuudeslinja.com/"
     },
     {
@@ -335,6 +359,36 @@
       "source_url": "https://kuudeslinja.com/"
     },
     {
+      "venue": "Kuudes Linja",
+      "date": "2027-02-06",
+      "title": "ALKUILLAN KONSERTTI: JOSÉN PIMEÄ PUOLI",
+      "details": "LIVE: Josén Pimeä Puoli\nEnnakot Tiketistä 30 €, liput ovelta 33 €\n+ security fee 3,90 €\nOvet klo 19",
+      "links": [
+        {
+          "url": "https://www.tiketti.fi/josen-pimea-puoli-kuudes-linja-helsinki-lippuja/122621",
+          "label": "Liput"
+        }
+      ],
+      "source_url": "https://kuudeslinja.com/"
+    },
+    {
+      "venue": "Kuudes Linja",
+      "date": "2027-05-11",
+      "title": "WINDHAND (US)",
+      "details": "LIVE: Windhand\nEnnakot Tiketistä 30,50 €, liput ovelta 32 €\n+ security fee 3,90 €\nOvet klo 18",
+      "links": [
+        {
+          "url": "https://www.tiketti.fi/windhand-us-kuudes-linja-helsinki-lippuja/122689",
+          "label": "Liput"
+        },
+        {
+          "url": "https://www.facebook.com/events/1498366895472703/",
+          "label": "FB"
+        }
+      ],
+      "source_url": "https://kuudeslinja.com/"
+    },
+    {
       "venue": "Lepakkomies",
       "date": "2026-11-24",
       "title": "Ei pöllömpi pubivisa by Pöllö & Ode",
@@ -407,6 +461,19 @@
       "links": [
         {
           "url": "https://www.lepis.fi/tapahtumat/lepiskelma-klubin-avajaiset/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://www.lepis.fi/tapahtumat/"
+    },
+    {
+      "venue": "Lepakkomies",
+      "date": "2026-12-01",
+      "title": "Ei pöllömpi pubivisa by Pöllö & Ode",
+      "details": "Street Bar\novet klo 18:00\nVapaa pääsy!",
+      "links": [
+        {
+          "url": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-2/",
           "label": "Lisätiedot"
         }
       ],
@@ -487,6 +554,19 @@
     },
     {
       "venue": "Lepakkomies",
+      "date": "2026-12-08",
+      "title": "Ei pöllömpi pubivisa by Pöllö & Ode",
+      "details": "Street Bar\novet klo 18:00\nVapaa pääsy!",
+      "links": [
+        {
+          "url": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-3/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://www.lepis.fi/tapahtumat/"
+    },
+    {
+      "venue": "Lepakkomies",
       "date": "2026-12-09",
       "title": "Rebo + Rattleshake + Tiny Sequoia",
       "details": "Klubi\novet klo 20:00\nliput alakertaan 5€",
@@ -546,36 +626,6 @@
         {
           "url": "https://www.lepis.fi/tapahtumat/fi-lv-metal-madness-iron-wings-lv-barrel-ratbreed/",
           "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
-      "date": "2026-12-18",
-      "title": "Pelko + Pepita Vanni + Akseli Hiltunen & Kanssaloisaktivistit",
-      "details": "Klubi\novet klo 20:00\nliput alakertaan TBA",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/pelko-pepita-vanni-akseli-hiltunen-kanssaloisaktivistit/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
-      "date": "2026-12-18",
-      "title": "Neonya!! Party",
-      "details": "Klubi\novet klo 00:00\nliput alk. 15€/17€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/neonya-party/",
-          "label": "Lisätiedot"
-        },
-        {
-          "url": "https://www.tiketti.fi/neonya-party-lepakkomies-helsinki-lippuja/122553",
-          "label": "Liput"
         }
       ],
       "source_url": "https://www.lepis.fi/tapahtumat/"
@@ -665,7 +715,7 @@
       "venue": "On the Rocks",
       "date": "2026-11-28",
       "title": "Neon Nights 80s Disco! DJ Anaheim",
-      "details": "Klubi\novet klo 23:30\nliput ovelta 7 €",
+      "details": "Klubi\novet klo 23:00\nliput ovelta 7 €",
       "links": [
         {
           "url": "https://www.rocks.fi/tapahtumat/neon-nights-80s-disco-dj-anaheim/",
@@ -673,6 +723,19 @@
         }
       ],
       "source_url": "https://www.rocks.fi/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2026-11-22",
+      "title": "ARTMS World Tour – Art of BLUE BLOOD",
+      "details": "Liput alkaen 61,60€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/2026-11-22/artms-world-tour-art-of-blue-blood/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
     },
     {
       "venue": "Kulttuuritalo",
@@ -1690,51 +1753,12 @@
     },
     {
       "venue": "Kulttuuritalo",
-      "date": "2027-05-18",
-      "title": "Pikku Papun Orkesteri & UMO Helsinki Jazz Orchestra",
-      "details": "Liput alkaen 16,00€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/2027-05-18/pikku-papun-orkesteri-umo-helsinki-jazz-orchestra/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Kulttuuritalo",
       "date": "2027-05-21",
       "title": "Helsinki Lit 2027 – käännöskirjallisuusfestivaali 21.-22.5. 2027",
       "details": "Liput alkaen 57,50€",
       "links": [
         {
           "url": "https://kulttuuritalo.fi/tapahtuma/2027-05-21/helsinki-lit-2027/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Kulttuuritalo",
-      "date": "2027-05-22",
-      "title": "KULT: Room Full Of Hendrix – 60 Years of Jimi Hendrix",
-      "details": "Liput alkaen 34,90€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/2027-05-22/kult-room-full-of-hendrix-60-years-of-jimi-hendrix/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Kulttuuritalo",
-      "date": "2027-09-29",
-      "title": "Steve Hackett – Best of Genesis & Solo Gems",
-      "details": "Liput alkaen 69,90€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/2027-09-29/steve-hackett-best-of-genesis-solo-gems/",
           "label": "Lisätiedot"
         }
       ],
@@ -2288,6 +2312,19 @@
     },
     {
       "venue": "Tavastia",
+      "date": "2027-02-06",
+      "title": "jambo",
+      "details": "Lipunmyynti käynnistyy 25.11. klo 10.00\n23.30\nOvet",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2027-02-06/jambo/122539/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
       "date": "2027-02-10",
       "title": "Kiitos Katri Helena",
       "details": "Liput\n42 € / 45 €\n19.00\nOvet",
@@ -2671,6 +2708,32 @@
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-04-10/mariska/122476/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
+      "date": "2027-04-17",
+      "title": "DJ Ibusal - Kaikki koirat pääsee taivaaseen -levyjulkkarit",
+      "details": "Lipunmyynti käynnistyy 26.11. klo 09.00\n20.00\nOvet",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2027-04-17/dj-ibusal/122391/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://tavastiaklubi.fi/"
+    },
+    {
+      "venue": "Tavastia",
+      "date": "2027-04-23",
+      "title": "Ellinoora: Kotiinpaluu",
+      "details": "Lipunmyynti käynnistyy 25.11. klo 09.00\n20.00\nOvet",
+      "links": [
+        {
+          "url": "https://tavastiaklubi.fi/events/2027-04-23/ellinoora-kotiinpaluu/122701/",
           "label": "Lisätiedot"
         }
       ],
