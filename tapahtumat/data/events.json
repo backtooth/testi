@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T14:31:33.817Z",
+  "updated_at": "2026-11-26T00:29:30.723Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -373,6 +373,23 @@
     },
     {
       "venue": "Kuudes Linja",
+      "date": "2027-02-19",
+      "title": "VOID PRESENTS: SIMULA (UK)",
+      "details": "DJ:t Simula (UK), Tens, Forestmind, Telm & Wilson, Warehouse Kids\nMC Cypha\nVJ KV\nEnnakot Eventualista 17 €, liput ovelta 19 €\n+ security fee 3,90 €\nOvet klo 23:15–04:30",
+      "links": [
+        {
+          "url": "https://www.eventu.al/en/event/11200/finland/helsinki/void-presents-simula-uk",
+          "label": "Liput"
+        },
+        {
+          "url": "https://www.facebook.com/events/2576027816136126/",
+          "label": "FB"
+        }
+      ],
+      "source_url": "https://kuudeslinja.com/"
+    },
+    {
+      "venue": "Kuudes Linja",
       "date": "2027-05-11",
       "title": "WINDHAND (US)",
       "details": "LIVE: Windhand\nEnnakot Tiketistä 30,50 €, liput ovelta 32 €\n+ security fee 3,90 €\nOvet klo 18",
@@ -650,11 +667,11 @@
     {
       "venue": "On the Rocks",
       "date": "2026-11-26",
-      "title": "Krypta, Petri Kautto (soolo)",
+      "title": "Krypta (soolo), Petri Kautto (soolo)",
       "details": "Klubi\novet klo 19:00\nliput alk. 16 € / 19 €",
       "links": [
         {
-          "url": "https://www.rocks.fi/tapahtumat/krypta-petri-kautto-soolo/",
+          "url": "https://www.rocks.fi/tapahtumat/krypta-soolo-petri-kautto-soolo/",
           "label": "Lisätiedot"
         },
         {
@@ -726,84 +743,6 @@
     },
     {
       "venue": "Kulttuuritalo",
-      "date": "2026-11-19",
-      "title": "KULT: A.W. Yrjänä Eidolon -kiertue + Rami Helin Presents (trio)",
-      "details": "Liput alkaen 32,00€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/2026-11-19/kult-a-w-yrjana-rami-helin-presents-trio/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Kulttuuritalo",
-      "date": "2026-11-20",
-      "title": "Suomi Nauraa – Stand Up Show 20.11.",
-      "details": "Liput alkaen 48,00€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/2026-11-20/suomi-nauraa-stand-up-show-20-11/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Kulttuuritalo",
-      "date": "2026-11-21",
-      "title": "Ho, Ho, Ho – It’s Divet Show!",
-      "details": "Liput alkaen 43,00€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/2026-11-21/ho-ho-ho-its-divet-show/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Kulttuuritalo",
-      "date": "2026-11-21",
-      "title": "KULT: Wasted 30 V., Abduktio + Manifesto Jukebox",
-      "details": "Liput alkaen 29,10€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/2026-11-21/kult-wasted/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Kulttuuritalo",
-      "date": "2026-11-22",
-      "title": "ARTMS World Tour – Art of BLUE BLOOD",
-      "details": "Liput alkaen 61,60€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/2026-11-22/artms-world-tour-art-of-blue-blood/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Kulttuuritalo",
-      "date": "2026-11-25",
-      "title": "Europe – The Final Countdown 40th Anniversary Tour (SOLD OUT!)",
-      "details": "Liput alkaen 65,30€",
-      "links": [
-        {
-          "url": "https://kulttuuritalo.fi/tapahtuma/2026-11-25/europe-the-final-countdown-40th-anniversary-tour/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Kulttuuritalo",
       "date": "2026-11-28",
       "title": "KULT: Mimmien pikkujoulut -stand up show",
       "details": "Liput alkaen 26,00€",
@@ -818,7 +757,7 @@
     {
       "venue": "Kulttuuritalo",
       "date": "2026-11-28",
-      "title": "Disco Night",
+      "title": "PERUTTU: Disco Night",
       "details": "Liput alkaen 34,70€",
       "links": [
         {
@@ -1013,7 +952,7 @@
     {
       "venue": "Kulttuuritalo",
       "date": "2026-12-19",
-      "title": "KULT: Under the Mistle Tease 2026",
+      "title": "KULT: Under the Mistle Tease 2026 – Burleskikabaree",
       "details": "Liput alkaen 36,00€",
       "links": [
         {
@@ -1304,6 +1243,19 @@
       "links": [
         {
           "url": "https://kulttuuritalo.fi/tapahtuma/2027-02-06/10cc/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2027-02-06",
+      "title": "KULT: Us",
+      "details": "Liput alkaen 22,00€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/2027-02-06/kult-us/",
           "label": "Lisätiedot"
         }
       ],
@@ -1779,6 +1731,19 @@
     },
     {
       "venue": "Kulttuuritalo",
+      "date": "2027-05-06",
+      "title": "KULT: Antti Paalanen",
+      "details": "Liput alkaen 32,00€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/2027-05-06/kult-antti-paalanen/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
       "date": "2027-05-10",
       "title": "Bianca del Rio – It Gets Bitter",
       "details": "Liput alkaen 48,24€",
@@ -1792,12 +1757,64 @@
     },
     {
       "venue": "Kulttuuritalo",
+      "date": "2027-05-18",
+      "title": "Pikku Papun Orkesteri & UMO Helsinki Jazz Orchestra",
+      "details": "Liput alkaen 16,00€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/2027-05-18/pikku-papun-orkesteri-umo-helsinki-jazz-orchestra/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
       "date": "2027-05-21",
       "title": "Helsinki Lit 2027 – käännöskirjallisuusfestivaali 21.-22.5. 2027",
       "details": "Liput alkaen 57,50€",
       "links": [
         {
           "url": "https://kulttuuritalo.fi/tapahtuma/2027-05-21/helsinki-lit-2027/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2027-05-22",
+      "title": "KULT: Room Full Of Hendrix – 60 Years of Jimi Hendrix",
+      "details": "Liput alkaen 34,90€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/2027-05-22/kult-room-full-of-hendrix-60-years-of-jimi-hendrix/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2027-06-13",
+      "title": "Kansas (US)",
+      "details": "Liput alkaen 89,00€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/2027-06-13/kansas-us/",
+          "label": "Lisätiedot"
+        }
+      ],
+      "source_url": "https://kulttuuritalo.fi/tapahtumat/"
+    },
+    {
+      "venue": "Kulttuuritalo",
+      "date": "2027-09-29",
+      "title": "Steve Hackett – Best of Genesis & Solo Gems",
+      "details": "Liput alkaen 69,90€",
+      "links": [
+        {
+          "url": "https://kulttuuritalo.fi/tapahtuma/2027-09-29/steve-hackett-best-of-genesis-solo-gems/",
           "label": "Lisätiedot"
         }
       ],
@@ -1841,19 +1858,6 @@
         }
       ],
       "source_url": "https://kulttuuritalo.fi/tapahtumat/"
-    },
-    {
-      "venue": "Tavastia",
-      "date": "2026-11-25",
-      "title": "Aliisa Syrjä",
-      "details": "Liput\n25 € / 28 €\n19.00\nOvet\n20.30",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-11-25/aliisa-syrja/118917/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/"
     },
     {
       "venue": "Tavastia",
@@ -2933,19 +2937,6 @@
         }
       ],
       "source_url": "https://tavastiaklubi.fi/"
-    },
-    {
-      "venue": "Semifinal",
-      "date": "2026-11-25",
-      "title": "Joka v*tun keskiviikko: Jukka Lindström",
-      "details": "18.00\nOvet\n19.00\nSHOWTIME\nLoppuunmyyty",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-11-25/joka-vtun-keskiviikko-jukka-lindstrom/121635/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/semifinal/"
     },
     {
       "venue": "Semifinal",
