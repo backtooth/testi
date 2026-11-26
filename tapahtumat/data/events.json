@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T00:29:30.723Z",
+  "updated_at": "2026-11-26T13:58:35.890Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -146,7 +146,7 @@
       "venue": "Kuudes Linja",
       "date": "2026-12-07",
       "title": "KAMELIDISCO ESITTÄÄ: PITBULL SPECIAL CLUB NIGHT",
-      "details": "DJ:t Bremer, No-Skool & Hamm\nLiput 10 € (vapaa pääsy ennen klo 22:30)\n+ security fee 3,90 €\nOvet klo 22:00–04:30\nK-18",
+      "details": "DJ:t Bremer, No-Skool & Hamm\nLiput 10 € (vapaa pääsy ennen klo 22:30)\n+ security fee 3,90 €\nOvet klo 22:00–03:00\nK-18",
       "links": [],
       "source_url": "https://kuudeslinja.com/"
     },
@@ -154,7 +154,7 @@
       "venue": "Kuudes Linja",
       "date": "2026-12-08",
       "title": "KAMELIDISCO ESITTÄÄ: PITBULL SPECIAL CLUB NIGHT",
-      "details": "DJ:t Bremer, No-Skool & Hamm\nLiput 10 € (vapaa pääsy ennen klo 22:30)\n+ security fee 3,90 €\nOvet klo 22:00–04:30\nK-18",
+      "details": "DJ:t Bremer, No-Skool & Hamm\nLiput 10 € (vapaa pääsy ennen klo 22:30)\n+ security fee 3,90 €\nOvet klo 22:00–03:00\nK-18",
       "links": [],
       "source_url": "https://kuudeslinja.com/"
     },
@@ -404,342 +404,6 @@
         }
       ],
       "source_url": "https://kuudeslinja.com/"
-    },
-    {
-      "venue": "Lepakkomies",
-      "date": "2026-11-25",
-      "title": "Nättinassut + Nick Cavea suomeksi",
-      "details": "Klubi\novet klo 20:00\nliput alakertaan 10€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/nattinassut-nick-cavea-suomeksi/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
-      "date": "2026-11-26",
-      "title": "NISKAFLIPPI-TORSTAI: Kokoomus + Myrkytys + Odottaa + Harhaoppi",
-      "details": "Klubi\novet klo 20:00\nliput alakertaan 5€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/niskaflippi-torstai-kokoomus-myrkytys-odottaa-harhaoppi/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
-      "date": "2026-11-27",
-      "title": "Ceaseless Torment + Mutant Blast + Jewel Throne",
-      "details": "Klubi\novet klo 20:00\nliput alakertaan 10€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/ceaseless-torment-mutant-blast-jewel-throne/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
-      "date": "2026-11-28",
-      "title": "Yölentoklubi: Jaakko Kulta + Aaro630 + Pihalla",
-      "details": "Klubi\novet klo 20:00\nliput alakertaan LOPPUUNMYYTY",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/yolentoklubi-jaakko-kulta-aaro630-pihalla/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
-      "date": "2026-11-28",
-      "title": "LEPISKELMÄ-KLUBIN AVAJAISET",
-      "details": "Klubi\novet klo 00:00\nliput alakertaan 3€ sis. eteispalvelumaksu",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/lepiskelma-klubin-avajaiset/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
-      "date": "2026-12-01",
-      "title": "Ei pöllömpi pubivisa by Pöllö & Ode",
-      "details": "Street Bar\novet klo 18:00\nVapaa pääsy!",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-2/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
-      "date": "2026-12-02",
-      "title": "viola + Vera Wall",
-      "details": "Klubi\novet klo 20:00\nliput alk. 12€/15€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/viola-vera-wall/",
-          "label": "Lisätiedot"
-        },
-        {
-          "url": "https://www.tiketti.fi/viola-vera-wall-lepakkomies-helsinki-lippuja/121199",
-          "label": "Liput"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
-      "date": "2026-12-03",
-      "title": "Sir Liselot Band + Levoton Elämä + Stinkbird",
-      "details": "Klubi\novet klo 20:00\nliput alakertaan 6-10€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/sir-liselot-band-levoton-elama-stinkbird/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
-      "date": "2026-12-04",
-      "title": "Rearviewmirror – A Tribute to Pearl Jam",
-      "details": "Klubi\novet klo 20:00\nliput alk. 12€/14€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/rearviewmirror-a-tribute-to-pearl-jam/",
-          "label": "Lisätiedot"
-        },
-        {
-          "url": "https://www.tiketti.fi/rearviewmirror-a-tribute-to-pearl-jam-lepakkomies-helsinki-lippuja/121669",
-          "label": "Liput"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
-      "date": "2026-12-05",
-      "title": "TOXIC CLUB VOL. 100: Kryptareflat + Refusal + Kantamus + Surya",
-      "details": "Klubi\novet klo 20:00\nliput alakertaan 10€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/toxic-club-vol-100-kryptareflat-refusal-kantamus-surya/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
-      "date": "2026-12-05",
-      "title": "Saturnus Events Presents: Raver May Cry",
-      "details": "Klubi\novet klo 00:00\nliput alakertaan 5€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/saturnus-events-presents-raver-may-cry/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
-      "date": "2026-12-08",
-      "title": "Ei pöllömpi pubivisa by Pöllö & Ode",
-      "details": "Street Bar\novet klo 18:00\nVapaa pääsy!",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-3/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
-      "date": "2026-12-09",
-      "title": "Rebo + Rattleshake + Tiny Sequoia",
-      "details": "Klubi\novet klo 20:00\nliput alakertaan 5€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/rebo-rattleshake-tiny-sequoia/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
-      "date": "2026-12-10",
-      "title": "Hulda Huima 15v. Juhlakeikka + Poni",
-      "details": "Klubi\novet klo 20:00\nliput alakertaan 10-20€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/hulda-huima-15v-juhlakeikka-poni/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
-      "date": "2026-12-11",
-      "title": "Piritori Debauchery: Hoc est Bellum + Aamutähti + Hautaveri + Earthly Form",
-      "details": "Klubi\novet klo 20:00\nliput alakertaan 10€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/piritori-debauchery-hoc-est-bellum-aamutahti-hautaveri-earthly-form/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
-      "date": "2026-12-11",
-      "title": "Destination Hardcore: Derailment",
-      "details": "Klubi\novet klo 00:00\nliput alakertaan 10€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/destination-hardcore-derailment/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
-      "date": "2026-12-12",
-      "title": "FI/LV METAL MADNESS: Iron Wings (LV) + Barrel + Ratbreed",
-      "details": "Klubi\novet klo 20:00\nliput alakertaan 10€",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/fi-lv-metal-madness-iron-wings-lv-barrel-ratbreed/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "Lepakkomies",
-      "date": "2026-12-15",
-      "title": "Ei pöllömpi pubivisa by Pöllö & Ode",
-      "details": "Street Bar\novet klo 18:00\nVapaa pääsy!",
-      "links": [
-        {
-          "url": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-4/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.lepis.fi/tapahtumat/"
-    },
-    {
-      "venue": "On the Rocks",
-      "date": "2026-11-25",
-      "title": "Hulda Huima, Ani Harmi",
-      "details": "Klubi\novet klo 19:00\nliput alk. 15 € / 18 €",
-      "links": [
-        {
-          "url": "https://www.rocks.fi/tapahtumat/hulda-huima-ani-harmi/",
-          "label": "Lisätiedot"
-        },
-        {
-          "url": "https://www.tiketti.fi/tapahtuma/121596",
-          "label": "Liput"
-        }
-      ],
-      "source_url": "https://www.rocks.fi/"
-    },
-    {
-      "venue": "On the Rocks",
-      "date": "2026-11-26",
-      "title": "Krypta (soolo), Petri Kautto (soolo)",
-      "details": "Klubi\novet klo 19:00\nliput alk. 16 € / 19 €",
-      "links": [
-        {
-          "url": "https://www.rocks.fi/tapahtumat/krypta-soolo-petri-kautto-soolo/",
-          "label": "Lisätiedot"
-        },
-        {
-          "url": "https://www.tiketti.fi/tapahtuma/119847",
-          "label": "Liput"
-        }
-      ],
-      "source_url": "https://www.rocks.fi/"
-    },
-    {
-      "venue": "On the Rocks",
-      "date": "2026-11-27",
-      "title": "Death Hawks, Idän Voima",
-      "details": "Klubi\novet klo 20:00\nliput alk. 21 € / 24 €",
-      "links": [
-        {
-          "url": "https://www.rocks.fi/tapahtumat/death-hawks-idan-voima/",
-          "label": "Lisätiedot"
-        },
-        {
-          "url": "https://www.tiketti.fi/tapahtuma/120781",
-          "label": "Liput"
-        }
-      ],
-      "source_url": "https://www.rocks.fi/"
-    },
-    {
-      "venue": "On the Rocks",
-      "date": "2026-11-27",
-      "title": "Club Anvil – November Edition",
-      "details": "Klubi\novet klo 23:00\nliput ovelta 7 €",
-      "links": [
-        {
-          "url": "https://www.rocks.fi/tapahtumat/club-anvil-november-edition/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.rocks.fi/"
-    },
-    {
-      "venue": "On the Rocks",
-      "date": "2026-11-28",
-      "title": "Stepa & Heimo Ilman Menneisyyttä, AB",
-      "details": "Klubi\novet klo 20:00\nliput alk. 23 € / 26 €",
-      "links": [
-        {
-          "url": "https://www.rocks.fi/tapahtumat/stepa-heimo-ilman-menneisyytta-ab/",
-          "label": "Lisätiedot"
-        },
-        {
-          "url": "https://www.tiketti.fi/tapahtuma/120792",
-          "label": "Liput"
-        }
-      ],
-      "source_url": "https://www.rocks.fi/"
-    },
-    {
-      "venue": "On the Rocks",
-      "date": "2026-11-28",
-      "title": "Neon Nights 80s Disco! DJ Anaheim",
-      "details": "Klubi\novet klo 23:00\nliput ovelta 7 €",
-      "links": [
-        {
-          "url": "https://www.rocks.fi/tapahtumat/neon-nights-80s-disco-dj-anaheim/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://www.rocks.fi/"
     },
     {
       "venue": "Kulttuuritalo",
@@ -1771,8 +1435,8 @@
     {
       "venue": "Kulttuuritalo",
       "date": "2027-05-21",
-      "title": "Helsinki Lit 2027 – käännöskirjallisuusfestivaali 21.-22.5. 2027",
-      "details": "Liput alkaen 57,50€",
+      "title": "Helsinki Lit 2027 – käännöskirjallisuusfestivaali 21.–22.5. 2027",
+      "details": "Liput alkaen 66,00€",
       "links": [
         {
           "url": "https://kulttuuritalo.fi/tapahtuma/2027-05-21/helsinki-lit-2027/",
@@ -1928,7 +1592,7 @@
       "venue": "Tavastia",
       "date": "2026-12-04",
       "title": "Neljä Ruusua",
-      "details": "19.00\nOvet\nLoppuunmyyty",
+      "details": "20.00\nOvet\n21.30\nLoppuunmyyty",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-12-04/nelja-ruusua/119854/",
@@ -1941,7 +1605,7 @@
       "venue": "Tavastia",
       "date": "2026-12-05",
       "title": "Blues Pills & Graveyard Tour 2026",
-      "details": "Liput\n55 € / 58 €\n19.00\nOvet",
+      "details": "Liput\n55 € / 58 €\n19.00\nOvet\n20.00\nBlues Pills\n21.30\nGraveyard",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-12-05/blues-pills-graveyard-tour-2026/118975/",
@@ -2019,7 +1683,7 @@
       "venue": "Tavastia",
       "date": "2026-12-17",
       "title": "Dumari & Spuget & Blosarit",
-      "details": "Liput\n35 € / 36 €\n19.00\nOvet",
+      "details": "Liput\n35 € / 36 €\n19.00\nOvet\n20.30",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-12-17/dumari-spuget-blosarit/121302/",
@@ -2760,7 +2424,7 @@
       "venue": "Tavastia",
       "date": "2027-04-17",
       "title": "DJ Ibusal - Kaikki koirat pääsee taivaaseen -levyjulkkarit",
-      "details": "Lipunmyynti käynnistyy 26.11. klo 09.00\n20.00\nOvet",
+      "details": "Liput\n28,50 € / 30 €\n20.00\nOvet",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2027-04-17/dj-ibusal/122391/",
@@ -2955,7 +2619,7 @@
       "venue": "Semifinal",
       "date": "2026-11-28",
       "title": "What Awaits Us, Traitors Among Us, Ashes of Perishing",
-      "details": "Liput\n13 € / 15 €\n20.00\nOvet",
+      "details": "Liput\n13 € / 15 €\n20.00\nOvet\n20.30\nTraitors among us\n21.30\nAshes of perishing\n22.30\nWhat Awaits Us",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-11-28/what-awaits-us-traitors-among-us-ashes-of-perishing/122061/",
@@ -3020,7 +2684,7 @@
       "venue": "Semifinal",
       "date": "2026-12-09",
       "title": "Joka v*tun keskiviikko: Teemu Vesterinen",
-      "details": "18.00\nOvet\n19.00\nSHOWTIME\nLoppuunvarattu",
+      "details": "Liput\n15 € / 20 €\n18.00\nOvet\n19.00\nSHOWTIME",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-12-09/joka-vtun-keskiviikko-teemu-vesterinen/121640/",
