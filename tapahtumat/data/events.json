@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T13:58:35.890Z",
+  "updated_at": "2026-11-27T00:38:56.256Z",
   "events": [
     {
       "venue": "Kuudes Linja",
@@ -362,7 +362,7 @@
       "venue": "Kuudes Linja",
       "date": "2027-02-06",
       "title": "ALKUILLAN KONSERTTI: JOSÉN PIMEÄ PUOLI",
-      "details": "LIVE: Josén Pimeä Puoli\nEnnakot Tiketistä 30 €, liput ovelta 33 €\n+ security fee 3,90 €\nOvet klo 19",
+      "details": "LIVE: Josén Pimeä Puoli\nEnnakot Tiketistä ja Eventualista 30 €, liput ovelta 33 €\n+ security fee 3,90 €\nOvet klo 19",
       "links": [
         {
           "url": "https://www.tiketti.fi/josen-pimea-puoli-kuudes-linja-helsinki-lippuja/122621",
@@ -1605,7 +1605,7 @@
       "venue": "Tavastia",
       "date": "2026-12-05",
       "title": "Blues Pills & Graveyard Tour 2026",
-      "details": "Liput\n55 € / 58 €\n19.00\nOvet\n20.00\nBlues Pills\n21.30\nGraveyard",
+      "details": "19.00\nOvet\n20.00\nBlues Pills\n21.30\nGraveyard\nLoppuunvarattu",
       "links": [
         {
           "url": "https://tavastiaklubi.fi/events/2026-12-05/blues-pills-graveyard-tour-2026/118975/",
@@ -2601,19 +2601,6 @@
         }
       ],
       "source_url": "https://tavastiaklubi.fi/"
-    },
-    {
-      "venue": "Semifinal",
-      "date": "2026-11-26",
-      "title": "Röge",
-      "details": "Liput\n16 € / 18 €\n19.00\nOvet\n19.45\nRÖGE",
-      "links": [
-        {
-          "url": "https://tavastiaklubi.fi/events/2026-11-26/roge/121193/",
-          "label": "Lisätiedot"
-        }
-      ],
-      "source_url": "https://tavastiaklubi.fi/semifinal/"
     },
     {
       "venue": "Semifinal",
